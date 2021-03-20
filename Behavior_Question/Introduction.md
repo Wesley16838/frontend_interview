@@ -8,8 +8,12 @@
     - Responsable for main gaming product - keyboard
     - Collaberate with UI Designer and backend engineer
     - What I learned ?
-        - Solving issue
-        - Teamwork with teammate
+        - How to solving issue with efficient way!
+        - How to work with people who are not good at teamwork!
 - Advantech - Frontend Intern
-    - 
+    - Optimized water treatment management dashboard to improve data visualization and analysis
+    - Collaberated with Backend team and UI design team to create user-friendly panel
+    - Led team to Win Summer Intern award and show our project in international industrial automation exhibition
+    - What I learned ?
+        - 
 ## Project
