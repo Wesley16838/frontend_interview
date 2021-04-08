@@ -1,10 +1,12 @@
 # Introduce yourself
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Wei-Hsuan Wong and nice to meet you! I am currently a Junior Frontend Developer at ASUS with over one year of experience on React, Redux and over two years of experience on Frontend development. During my time at ASUS, I not only optimized a million-user application performance by redeveloping the component’s architecture but also solving existing issues such as the compatibility of multiple language Keyboards. I also have experience on Data Visualization when I was a frontend intern at Advantech, where I collaberated with Backend team from Beijing to create user-friendly data a'nalysis and visualization tools to improve user experience.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Wei-Hsuan Wong and nice to meet you! I am currently a Junior Frontend Developer at ASUS with over one year of experience in React, Redux and over two years of experience in Frontend development. During my time at ASUS, I not only optimized a million-user application by redesign the component’s architecture but also solving lots of existing issues such as the compatibility of multiple language Keyboards.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During my academic years, I collaborated with my classmates to build a website to visualize price comparison. I was responsible for visualizing real-time products data using React.js and d3.js and mining data from Amazon and eBay using Python.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I also have experience in Data Visualization when I was a frontend intern at Advantech, where I collaberated with Backend team from Beijing to create user-friendly water treatment management dashboard to improve data analysis and maximize the benefit for Sewage treatment plant. Besides, Interns presented the dashboard to potential customer in the international industrial automation exhibition and my team won the summer intern award at the end of the internship.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Most important of all, I am a highly-proactive person and willing to learn unfamiliar technologies. I took the initiative to participate in Global Hackathon which encourages participants to provide solutions to improve issues related to Covid-19. Therefore, I worked with a 3-people team to build a daily supplies exchange website using React Hooks and Context API to deal with the shortage of supplies. Furthermore, I work with a UI designer to create a mobile platform using React Native and AWS Cloud Services to assist overseas students build networks with Taiwanese referrals who work in America easily.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During my academic years, I collaborated with my classmates to build a website to visualize price comparison to save time on online shopping. I was responsible for visualizing real-time products data using React.js and d3.js and mining data from Amazon, Bestbuy and eBay using Python.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Most important of all, I am a highly-proactive person and willing to learn unfamiliar technologies. I took the initiative to participate in Global Hackathon which encourages participants to provide solutions to improve issues related to Covid-19. Therefore, I worked with a 3-people team to build a daily supplies exchange website using React Hooks and Context API to deal with the shortage of supplies.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since I have lots of experience in collaborating with various teams, I am capable of working well with people from different disciplines. In addition, I am highly knowledgeable in Frontend development with proven experience above. I believe that my experience and characteristics will make me a competitive candidate.
 
@@ -25,6 +27,7 @@
 - Advantech - Frontend Intern
   - Optimized water treatment management dashboard to improve data visualization and analysis
   - Collaberated with Backend team and UI design team to create user-friendly panel
+  - Present project in the internation automation industial exhibtion
   - Led team to Win Summer Intern award and show our project in international industrial automation exhibition
   - What I learned ?
     - How to collaberate with full-time engineer as an intern
