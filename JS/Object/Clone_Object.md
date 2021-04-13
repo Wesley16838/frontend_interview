@@ -33,18 +33,18 @@
 ## Deep clone using Recursive
 
 ```javascript
-function deepClone(source) {
-  const targetObj = source.constructor === Array ? [] : {}; // copy the goal is to determine an array or an object
-  for (let keys in source) {
-    // Traverse goal
-    if (source.hasOwnProperty(keys)) {
-      if (source[keys] && typeof source[keys] === "object") {
-        // If the value is an object, it recursively
-        targetObj[keys] = source[keys].constructor === Array ? [] : {};
-        targetObj[keys] = deepClone(source[keys]);
+function clone(obj) {
+  if (obj.constructor !== Array && obj.constructor !== object) {
+    return obj;
+  } else {
+    let targetObj = obj.constructor === Array ? [] : {};
+    for (let i in obj) {
+      if (typeof obj[i] === "object") {
+        targetObj[i] = obj[i].constructor === Array ? [] : {};
+        targetObj[i] = clone(obj[i]);
       } else {
-        // If not, the direct assignment
-        targetObj[keys] = source[keys];
+        console.log(obj[i]);
+        targetObj[i] = obj[i];
       }
     }
   }
