@@ -29,3 +29,25 @@
 ## Deep copy vs Shallow copy
 
 > A deep copy means that all of the values of the new variable are copied and disconnected from the original variable. A shallow copy means that certain (sub-)values are still connected to the original variable.
+
+## Deep clone using Recursive
+
+```javascript
+function deepClone(source) {
+  const targetObj = source.constructor === Array ? [] : {}; // copy the goal is to determine an array or an object
+  for (let keys in source) {
+    // Traverse goal
+    if (source.hasOwnProperty(keys)) {
+      if (source[keys] && typeof source[keys] === "object") {
+        // If the value is an object, it recursively
+        targetObj[keys] = source[keys].constructor === Array ? [] : {};
+        targetObj[keys] = deepClone(source[keys]);
+      } else {
+        // If not, the direct assignment
+        targetObj[keys] = source[keys];
+      }
+    }
+  }
+  return targetObj;
+}
+```
