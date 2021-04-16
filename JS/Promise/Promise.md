@@ -31,6 +31,23 @@ const checkIfItsDone = () => {
       console.error(err);
     });
 };
+
+// or
+const somethingWasSuccesful = true;
+
+function someAsynFunction() {
+   return new Promise((resolve, reject){
+      if (somethingWasSuccesful) {
+         resolve();
+      } else {
+         reject()
+      }
+   });
+}
+
+someAsyncFunction
+   .then(runAFunctionIfItResolved(withTheResolvedValue))
+   .catch(orARunAfunctionIfItRejected(withTheRejectedValue));
 ```
 
 ## Chaining promises
