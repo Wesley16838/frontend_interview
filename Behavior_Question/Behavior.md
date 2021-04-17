@@ -1,10 +1,13 @@
 # Behavior Question
 
 > The STAR format stands for Situation, Task, Action, Result:
-> Situation: An event, project, or challenge faced
-> Task: Your responsibilities and assignments for the situation
-> Action: Steps or procedure taken to relieve or rectify situation
-> Result: Results of actions taken.
+
+- Situation: An event, project, or challenge faced
+- Task: Your responsibilities and assignments for the situation
+- Action: Steps or procedure taken to relieve or rectify situation
+- Result: Results of actions taken.
+
+> 14 Leadership Principles
 
 - Customer Obsession
 - Ownership
