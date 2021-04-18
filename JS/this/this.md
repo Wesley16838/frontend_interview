@@ -27,6 +27,20 @@ person.full();
 // logs => 'John Smith'
 person.personTwo.full();
 // logs => 'Allison Jones'
+
+var x = 10;
+let foo = {
+  x: 90,
+  getX: function () {
+    return this.x;
+  },
+};
+
+foo.getX(); // prints 90
+
+let xGetter = foo.getX;
+
+xGetter(); // prints 10;
 ```
 
 ## The New Keyword
