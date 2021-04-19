@@ -64,7 +64,9 @@
       - The most difficult part is using unfamiliar tech stack becasue we needed to finish this project in several days, but it was still a good opportunity to improve unfamilir technologies. After considering the project scope and following trends, I decided to choose React Hooks and Context API because Hooks was getting popular in the job market. The first thing we did was list all features and prioritize features base on the purpose of the website so that we focused on necessary features. Eventually, we successfully upload and deploy to Heroku! 
 
    - Advantech
-      - When I interned at Advantech, I collaberated with Front-End Team to create a water treatment management dashboard to visualize real-time data from sewage treatment plants to improve data analysis and maximun the benefit! I was resonsible for creating new panels for specific wastewater equipments using AngularJS and Svg. We had sprint planning meeting once a week to create tasks and sprint task backlog and had Review and Retrospect meeting with Backend team from Beijing once two weeks to 
+      - When I interned at Advantech, I collaberated with Front-End Team to create a water treatment management dashboard to visualize real-time data from sewage treatment plants to improve data analysis and maximun the benefit! I was resonsible for creating new panels for specific wastewater equipments using AngularJS and Svg. As an agile team, we had sprint planning meeting once a week to create tasks and sprint task backlog and had Review and Retrospect meeting with Backend team from Beijing once two weeks to review what we had already accomplished and discuss how to improvce development process. During the time at Advantech, Intern presented the dashboard to potential customer in the international exhibition and reviewed feedback after exhibition. At the end of the internship, my team won the intern award for excellence in teamwork.
+      - The difficult part is communicate with customer. 
+
    
 
 7. #### Tell me about a time when you had a group conflict, and how did you overcome this conflict?
