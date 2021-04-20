@@ -1,6 +1,11 @@
 # this
 
-> The value of this is usually determined by a functions execution context. Execution context simply means how a function is called
+> The JavaScript this keyword refers to the object it belongs to. It has different values depending on where it is used
+
+- In an object method, this refers to the owner object.
+- In a function, this refers to the global object.
+- In a function, in strict mode, this is undefined.
+- Methods like call(), and apply() can refer this to any object.
 
 ## Global
 

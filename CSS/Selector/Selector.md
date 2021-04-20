@@ -18,3 +18,4 @@
 
 1. Class selector is a name started by full dot, and ID selector is a name started by hash charactor(#)
 2. ID can be used to identify one element, whereas a class can be used to identify more than one.
+   ID > CLASS > TYPE

@@ -86,9 +86,70 @@ display(); // TypeError: this is undefined
 > The value of the this keyword doesn’t get rebound, but it’s inherited from the parent’s scope (this is called lexical scoping). In the case of the public class fields syntax example, the arrow function is enclosed inside the Foo class — or constructor function — so the context is the component instance, which is what we want.
 
 # What does useEffect do?
-> useEffect lets you perform side effects in function components. Side effects are all the operations that affect your component and can’t be done during rendering,  things like fetching data, subscriptions or manually changing the DOM .
-useEffect() hook accepts 2 arguments
+
+> useEffect lets you perform(implement) side effects in function components. Side effects are all the operations that affect your component and can’t be done during rendering, things like fetching data, subscriptions or manually changing the DOM. useEffect conbines three component lifecycle includes
+
+1. ComponentDidMount
+
+```javascript
+useEffect(() => {
+  /* ComponentDidMount code */
+}, []);
+```
+
+2. ComponentDidUpdate
+
+```javascript
+useEffect(() => {
+  /* componentDidUpdate code */
+}, [var1, var2]);
+```
+
+3. ComponentWillUnmout
+
+```javascript
+useEffect(() => {
+  return () => {
+    /* componentWillUnmount code */
+  };
+}, []);
+```
+
+## Second argument to useEffect
+
+> It is an array of dependencies and if you want to control when useeffect is to be executed after mounting, then pass the array as second argument. (Dependecies are value defined outside useeffect but are being used inside useeffect) React compares the current value of dependency and the value on previous render. If they are not the same, effect is invoked. If you ignore it, effect will be executed after every render. If you want effect to be executed only on first render, you can pass an empty array.
+
+### Passing a function as a dependency
+
+> It is not recommended to define a function outside and invoke it inside effect. Bellow case leads to fetchData being invoked on every render because the dependency passed is a function and functions are objects. React will compare fetchData for previous and current render and the two will not be the same hence triggering a call to effect.
+
+```javascript
+function App(props) {
+  const [data, setData] = useState(null);
+  const fetchData = () => {
+    //fetch some data
+  };
+  useEffect(() => {
+    fetchData(); //Invoked inside useEffect
+  }, [fetchData]);
+}
+```
+
 # What is Redux AND how does it work?
+
+> Redux is a state management container and it follows one-way binding data flow. The main concepts of Redux are Store, Action and Reducer
+
+- Create an Action with Type and Data which are payload
+- An action is dispatched when the user interact with app
+- The reducer take the current state and an action as arguemens and return new state to store into store
+- View will be re-render if the view use updated state in the store
+
+```javascript
+connect;
+mapStateToProps;
+mapDispatchToProps;
+View;
+```
 
 # What are controlled components?
 
@@ -98,11 +159,13 @@ useEffect() hook accepts 2 arguments
 
 # What is a higher order component?
 
-# What is Redux? (Explain the components of Redux.)
+> A higher-order component is a function that takes a component and returns a new component.
 
 # What is Redux Thunk used for?
 
 # How Virtual-DOM is more efficient than Dirty checking?
+
+> By using virtual DOM, we can find out what is changed and with that, we can apply only those changes to real DOM instead of replacing entire DOM
 
 # What are controlled and uncontrolled components in React?
 
