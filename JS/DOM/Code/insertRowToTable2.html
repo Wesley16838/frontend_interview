@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>table</title>
+</head>
+<body>
+    <table id='myTable'>
+        <thead>
+            <tr>
+                <th>
+                    title1
+                </th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    item1
+                </td>
+               
+            </tr>
+            <tr>
+                <td>
+                    item2
+                </td>
+               
+            </tr>
+        </tbody>
+    </table>
+    <script>
+       var tableRef = document.getElementById('myTable').getElementsByTagName('tbody')[0];
+        console.log(tableRef.rows.length)
+        // Insert a row in the table at row index 0
+        var newRow   = tableRef.insertRow(tableRef.rows.length);
+
+        // Insert a cell in the row at index 0
+        var newCell  = newRow.insertCell(0);
+
+        // Append a text node to the cell
+        var newText  = document.createTextNode('New row')
+        newCell.appendChild(newText);
+    </script>
+</body>
+</html>

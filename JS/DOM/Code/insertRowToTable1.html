@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>table</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>title1</th>
+          <th>title2</th>
+          <th>title3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+        </tr>
+      </tbody>
+    </table>
+    <script>
+      let body = document.querySelector("tbody"); ///////queryselector
+      let tr = body.insertRow(body.rows.length);
+      let len = document.getElementsByTagName("td").length;
+      console.log(len);
+      for (let i = 0; i < len; i++) {
+        let td = tr.insertCell();
+        let text = document.createTextNode("item2" + i);
+        td.appendChild(text);
+      }
+
+      // let fragment = document.createDocumentFragment()
+      // let parent = document.createElement('tr')
+      // let arr = document.getElementsByTagName('td')
+      // for(let i=0;i<arr.length;i++){
+      //     let child = document.createElement('td')
+      //     let text = document.createTextNode('item2'+i)
+      //     child.appendChild(text)
+      //     parent.appendChild(child)
+      // }
+      // fragment.appendChild(parent)
+      // body.appendChild(fragment)
+    </script>
+  </body>
+</html>

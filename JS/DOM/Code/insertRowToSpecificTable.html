@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>table</title>
+  </head>
+  <body>
+    <form name="myForm">
+      Cell: <input type="text" name="tablecell" id="tablecell" />
+      <input type="submit" value="Submit" />
+    </form>
+    <table id="myTable">
+      <thead>
+        <tr>
+          <th>title1</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>item1</td>
+        </tr>
+        <tr>
+          <td>item3</td>
+        </tr>
+      </tbody>
+    </table>
+    <script>
+      const element = document.querySelector("form");
+      element.addEventListener("submit", (event) => {
+        event.preventDefault();
+        var input = document.getElementById("tablecell").value;
+        var tableRef = document
+          .getElementById("myTable")
+          .getElementsByTagName("tbody")[0];
+
+        // Insert a row in the table at row index at the end
+        var newRow = tableRef.insertRow(tableRef.rows.length);
+
+        // Insert a cell in the row at index 0
+        var newCell = newRow.insertCell(0);
+
+        // Append a text node to the cell
+        var newText = document.createTextNode(input);
+        newCell.appendChild(newText);
+        console.log(input);
+      });
+      var tableRef = document
+        .getElementById("myTable")
+        .getElementsByTagName("tbody")[0];
+
+      // Insert a row in the table at row index 0
+      var newRow = tableRef.insertRow(1);
+
+      // Insert a cell in the row at index 0
+      var newCell = newRow.insertCell(0);
+
+      // Append a text node to the cell
+      var newText = document.createTextNode("item2");
+      newCell.appendChild(newText);
+    </script>
+  </body>
+</html>

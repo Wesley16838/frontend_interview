@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script>
+    let items = {
+      item1: { description: "Potatoes", price: 3.89, quantity: 2 },
+      item2: { description: "Tomatoes", price: 2.84, quantity: 3 },
+      item3: { description: "Butter", price: 1.93, quantity: 1 },
+      item4: { description: "Bread", price: 2.45, quantity: 2 },
+    };
+    let root = document.getElementById("root");
+    let table = document.createElement("table");
+    let thead = table.createTHead();
+    let hrow = thead.insertRow();
+    for (let key of Object.keys(items.item1)) {
+      let th = document.createElement("th");
+      let text = document.createTextNode(key);
+      th.appendChild(text);
+      hrow.appendChild(th);
+    }
+
+    let tbody = table.createTBody();
+    for (let [key, val] of Object.entries(items)) {
+      let trow = tbody.insertRow();
+      for (let value of Object.values(val)) {
+        let cell = trow.insertCell();
+        let text = document.createTextNode(value);
+        cell.appendChild(text);
+      }
+    }
+    root.appendChild(table);
+  </script>
+</html>
