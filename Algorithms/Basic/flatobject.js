@@ -3,7 +3,7 @@ function flatten(arr) {
     if (Array.isArray(item)) {
       acc = acc.concat(flatten(item));
     } else {
-     acc.push(item);
+      acc.push(item);
     }
 
     return acc;
@@ -13,20 +13,27 @@ function flatten(arr) {
 }
 
 function flatten(arr) {
-  return arr.flat(Infinity)
+  return arr.flat(Infinity);
 }
 
 function flatten(ary, ret = []) {
-    for (const entry of ary) {
-        if (Array.isArray(entry)) {
-            flatten(entry, ret);
-        } else {
-            ret.push(entry);
-        }
+  for (const entry of ary) {
+    if (Array.isArray(entry)) {
+      flatten(entry, ret);
+    } else {
+      ret.push(entry);
     }
-    return ret;
+  }
+  return ret;
+}
+
+function flattenMultiArray(arr) {
+  const flattened = [].concat(...arr);
+  return flattened.some((item) => Array.isArray(item))
+    ? flattenMultiArray(flattened)
+    : flattened;
 }
 
 const numArr = [1, [2, [3], 4, [5, 6, [7]]]];
 
-flatten(numArr) // [1, 2, 3, 4, 5, 6, 7]
+flatten(numArr); // [1, 2, 3, 4, 5, 6, 7]
