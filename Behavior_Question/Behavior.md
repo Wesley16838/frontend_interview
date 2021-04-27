@@ -1,5 +1,6 @@
 # Behavior Question
 
+> Think of experience to meet the scenario
 > The STAR format stands for Situation, Task, Action, Result:
 
 - Situation: An event, project, or challenge faced
@@ -35,14 +36,11 @@ There are several reasons why?
 
 ## Why Front-End Developer? ## direct connection & interact to the customer
 
-    There are several reasons why I choose Front-End Developer.
-    First of all, I am a problem-solver and be willing to provide solution to improve any issues(solve the real world problem)! For example, I participated global hachathon and worked with 3 people to create a platform to deal with the shortage of daily supplies during Coronavirus Pandemic.
-    Secondly, I am eager to learn new technology and there are always lots of chances to learn new tech as a front-end developer. For example, I worked with a team to visualize real-time data using React.js and D3.js which are unfamiliar tech stack for me and which means it was a good opportunity for me to learn.
-    Last but not least, presenting the application makes me feel a sense of achievement and (encourage to engage)give me more energy for learning. For instantce, I present the dashboard to customer in Interntional exhibitoin when I was intern at Advantech and I was so proud of my team.
-
-    Thats why I choose Front-End Developer!
-
-     ### a time make decisions without data! ###
+- There are several reasons why I choose Front-End Developer.
+- First of all, I am a problem-solver and be willing to provide solution to improve any issues(solve the real world problem)! For example, I participated global hachathon and worked with 3 people to create a platform to deal with the shortage of daily supplies during Coronavirus Pandemic.
+- Secondly, I am eager to learn new technology and there are always lots of chances to learn new tech as a front-end developer. For example, I worked with a team to visualize real-time data using React.js and D3.js which are unfamiliar tech stack for me and which means it was a good opportunity for me to learn.
+- Last but not least, presenting the application makes me feel a sense of achievement and (encourage to engage)give me more energy for learning. For instantce, I present the dashboard to customer in Interntional exhibitoin when I was intern at Advantech and I was so proud of my team.
+  Thats why I choose Front-End Developer!
 
 1. #### How to Choose the Right Technology Stack for Your Project?
    In my last role, when I collaberated with 3-people team in Global Hackathon and needed to create a website in three 3 days, I knew that choosing the right technology stack plays an important role because we didn't have lots of time on it. Therefore, there are 4 things to consider when I choose a tech stack!
@@ -51,8 +49,8 @@ There are several reasons why?
 - Secondly, experience, resource and time: Although I have experience in AngularJS and Vue.js, I am more familiar with React.js, Redux and it's ecosystem. Besides, we needed to complete it in three days becasue it was a Hackathon. Moreover, there are lots of resouce I could search on Google and Using React could save time in completing it.
 - Last, follow trends: I am willing to learn unfamiliar technologies but I will research its ecosystem and make sure whether its popular or not in the job market in advance. Since I picked React.js and knew Hooks and Context API was popular at that time, so my final choices are Hooks/ Context API
 
-experience to meet the scenario 2. #### (Follow-Up) What did I do if there are not lots of document and resource to search?
-If I have already chose there tech stack, then I will do three things if I do not have lots of time!
+2. #### (Follow-Up) What did I do if there are not lots of document and resource to search?
+   If I have already chose there tech stack, then I will do three things if I do not have lots of time!
 
 - First of all, read: Document and technical article are always the best partner for me. I would take time on reading document first and choose the right article based on the feature I am going to develop.
 - Secondly, Search: After beginning to develop, Stack Overflow could be a perfect partner for me. Although there are not lots of resource to search, I could still find a little useful information and then complete the jigsaw puzzle eventually!
