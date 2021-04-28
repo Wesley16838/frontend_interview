@@ -34,7 +34,7 @@
 
 ```javascript
 function clone(obj) {
-  if (obj.constructor !== Array && obj.constructor !== object) {
+  if (obj.constructor !== Array && obj.constructor !== Object) {
     return obj;
   } else {
     let targetObj = obj.constructor === Array ? [] : {};
