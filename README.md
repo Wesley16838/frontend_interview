@@ -45,6 +45,9 @@
 | 37         | [What is the CSS display property](#what-is-the-CSS-display-property)                                                                                       |
 | 38         | [Block element & inline element](#block-element-&-inline-element)                                                                                           |
 | 39         | [pseudo class & pseudo element](#pseudo-class-&-pseudo-element)                                                                                             |
+| Basic      |
+|            | [Way to improve web performance](#way-to-improve-performance)                                                                                             |
+
 
 | Slice                                        | Splice                                          |
 | -------------------------------------------- | ----------------------------------------------- |
