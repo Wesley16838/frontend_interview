@@ -41,7 +41,7 @@
 - [Give me an example of something you tried to accomplish but failed](#Give-me-an-example-of-something-you-tried-to-accomplish-but-failed)
 - [What is the impact of a front-end engineer](#What-is-the-impact-of-a-front-end-engineer)
 - [Tell me about a time when you innovated on something and it went wrong](#Tell-me-about-a-time-when-you-innovated-on-something-and-it-went-wrong)
-- [Tell me about a time when a team member didn’t meet your expectations on a project](#Tell-me-about-a-time-when-a-team-member-didn’t-meet-your-expectations-on-a-project)
+- [Tell me about a time when a team member didnt meet your expectations on a project](#Tell-me-about-a-time-when-a-team-member-didnt-meet-your-expectations-on-a-project)
 - [Tell me a time when you disagree your manager](#Tell-me-a-time-when-you-disagree-your-manager)
 - [Tell me about a time when you have to say no](#Tell-me-about-a-time-when-you-have-to-say-no)
 - [Think back on a project that you worked on, what steps did you take to make sure that it targets the needs of your customers?](#Think-back-on-a-project-that-you-worked-on,-what-steps-did-you-take-to-make-sure-that-it-targets-the-needs-of-your-customers?)
@@ -161,7 +161,7 @@ If I have already chose there tech stack, then I will do three things if I do no
 - Succeed: During my academic year, I worked with my classmated to build a website for final project. Professor asked us couldn't build a bookstore or social media which are common topic. Since I usually took lots of time on comparing the product's price between different websites, I came up with an idea that building a price comparison visualization website to save time on finding the best price on an item becasue our brain process images much faster than text! After conducting a market survey, we decided to mine real-time data from Amazon, Bestbuy and Ebay which are top e-commerce websites in the America. As a result, we successsfult deploy it to the cloud and got positive feedback from professor!
   **[⬆ Back to Top](#question)**
 
-### Tell me about a time when a team member didn’t meet your expectations on a project
+### Tell me about a time when a team member didnt meet your expectations on a project
 
 - During my academic year, I collaberated with my classmates to build a price comparison visualization website. Since I had more experience on web development, I was responsible for assigning tasks to my teammate. However, one of my teammates didn't meet the requirement of RWD which was one of bonus Criteria for final project. Therefore, I took the iniative to mentor teammate how to implement responsive web design using SCSS becasue I would like to make project more responsive and could be present on small size screen. As a result, my team got A+ and positive feedback which was perfect UI Design from professor! Ownership and Insist on the Highest Standards play important roles in making a good outcome because both of them could make project better!
   **[⬆ Back to Top](#question)**
