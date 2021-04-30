@@ -130,7 +130,7 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Give me an example of something you tried to accomplish but failed
 
-- What I learn is keeping customer trust is important than anything. If I couldn’t finish task before deadline, I will admit fault first and do my best to minimize the cost of this mistake by communicating with customers for possible solution to earn trust back from customer.
+- During the time at Advantech, I was responsibe for developing mobile app on both front-end and back-end. There was one time that manager asked us to present demo to customer in two days and it was not in our original plan. Thus, I immediately hold a meeting with teammate and customer to tell cusonter why we could finish all features by the deadline but we could prioritize the features and make sure which features are more important for customer. As a result, we successfully presented demo to customer in two days but only high priority features. What I learn is keeping customer trust is important than anything even I fail on something. If I couldn’t finish task before deadline, I will admit my fault first and do my best to minimize the cost of this mistake by communicating with customers for possible solution to earn trust back from customer.
 
 ### What is the impact of a front-end engineer
 
@@ -148,11 +148,11 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Tell me about a time when a team member didn’t meet your expectations on a project
 
-- During my academic year, I collaberated with my classmates to build a price comparison visualization website.Since I had more experience on web development, I was responsible for assigning tasks to my teammate. However, one of my teammates didn't meet the requirement of RWD which was one of Criteria for final project. Since I was the leader in the team, so I mentor teammate how to implement responsive web design using SCSS.
+- During my academic year, I collaberated with my classmates to build a price comparison visualization website. Since I had more experience on web development, I was responsible for assigning tasks to my teammate. However, one of my teammates didn't meet the requirement of RWD which was one of bonus Criteria for final project. Therefore, I took the iniative to mentor teammate how to implement responsive web design using SCSS becasue I would like to make project more responsive and could be present on small size screen. As a result, my team got A+ and positive feedback which was perfect UI Design from professor! Ownership and Insist on the Highest Standards play important roles in making a good outcome because both of them could make project better!
 
 ### Tell me a time when you disagree your manager
 
-- When I interned at Brilltek, I was responsible for developing the interface for mobile app as a team leader. Thus, we had meeting once a week with backend developer and project manager. There was one time when we discuss about the priority features about mobile app, the manager thought we should add anime to the interface in the step one!
+- When I interned at Brilltek, I was responsible for developing the interface for mobile app as a team leader. Thus, we had meeting once a week with backend developer and project manager. There was one time that the manager thought we should add anime to the interface in the step one! However, I always like to provide the best quality to the customer, so I communicate with manager to talk about whether we could put the anime to the second stage because we did not have enough time on optimize the anime in the stage one and promise customer that we could present a better anime in Stage two. In the end, I learned a few thing from this experience which was even I disagree with mananger, I still provide possible solution to manager in order to minimize the cost of the disagreeing!
 
 ### Tell me about a time when you have to say no
 
