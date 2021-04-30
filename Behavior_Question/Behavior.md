@@ -11,6 +11,7 @@
 > 14 Leadership Principles
 
 - Customer Obsession：Customer Feedback
+
 - Ownership：ASUS Product
 - Invent and Simplify
 - Are Right, A Lot
@@ -25,11 +26,13 @@
 - Have Backbone; Disagree and Commit
 - Deliver Results
 
-## Why AWS QuickSight and position?
+[Why AWS QuickSight and position?](#Why-AWS-QuickSight-and-position)
+
+### Why AWS QuickSight and position?
 
 There are several reasons why?
 
-- I highly resonate with the value of product
+- I highly resonate with the value of the product
   Amazon QuickSignt let customer could create an user-friendly interactive Business Intellegence Dashboard to not only perform accuate forecasting for business metrics but also easily customize dashboard to match application's requirement!
 - I am passionate about analyzing and visualizing data based on users' requirements to maximize the benefit for outcomes! For example, I have experience in Data Visualization when I interned at Advantech. I was responsible for creating world-class water treatment management dashboard for the sewage treatment plant. During the time at Advantech, my team had a chance to present the dashboard to customer in International exhibition and interacted with them directly. I felt a sense of achievement not only because present our project to the customer but we also actually provided a solution to enhance decision making.( With this experience and passion)
   This is why I choose Amazon QuickSignt and this position because I have a passion for improving the user experience for customers by visualizing data based on their requirements and Amazon also always (focuses on how to improve customer experience!)
@@ -164,7 +167,7 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 - During the time at Advantech, I was responsible for collaberating with UI designer to develop the panel interface. At first, I took lots of time on learning how to operate the panel becasue the interface was to complicated and made me confused sometime. Thus, I told to the designer what I thought and she said we should think like a customer not like a developer. In other words, we should understand who the target audience is and what their needs are. To develop a panel, I should think ok I am a Factory manager and how would I feel while operating the panel and how would I think when I monitor data by a panel! After all, if we care for people, people would care for our product! As a result, I try to implement design thinking to think big! understand more about the user ! and put myself in my customer's shoes! As a result, we successfully deliver high quality of dashboard to customer in the international exhibition and most of customers said it was easy to use and understand! (understand users, challenge assumptions, redefine problems and create innovative solutions to prototype and test.)
 
-## make decision without enough data
+### make decision without enough data
 
 - During my academic year, I took the iniative to participate global hackathon which encourate people to prove solution to improve issue related to covid-19. Decision about topic is always the most diffcult part in the hackathon because we do not have enough data about customer! Thus, to save time on making decision what topic we should choose, we conducted a market survey to understand more about what customers actually need by conducting a user interview. As a result, rather than choose Data Visualization, we choose to create daily supplies exchanging platform to deal with the shortage of supplies because we found that lots of people did not have enough daily supplies such as face mask during coronavirus pandemic. Although we did not win the award, I still learned a lesson about how to make decisions without enough data. We did not have enough data initially, but we still find the data by conducting a user interview! After all, taking action is better than doing nothing!
 
