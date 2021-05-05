@@ -1,63 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
-    .checklist{
-        display: flex;
-        flex-direction: column;
+  </head>
+  <style>
+    .checklist {
+      display: flex;
+      flex-direction: column;
     }
-</style>
-<body>
+  </style>
+  <body>
     <div id="root"></div>
-</body>
-<script>
+  </body>
+  <script>
+    let root = document.getElementById("root");
 
-        let root = document.getElementById('root')
-
-        let submit = document.createElement('button')
-        submit.innerHTML = "CLICK ME"; 
-        let inputbox = document.createElement('input')
-        inputbox.setAttribute('type', 'text')
-        inputbox.setAttribute('id', 'addinput')
-        submit.addEventListener('click', (e)=>{
-            
-            let value = document.getElementById('addinput').value;
-            if(value === "") {
-                return false; // return immediately
-            }
-            let arr = document.querySelectorAll('input[type=checkbox]')
-            for(let i = 0; i<arr.length; i++) {
-                if(arr[i].id === value) {
-                    alert(value + " is duplicated");
-                    return false;
-                }
-            }
-            let label = document.createElement('label');
-            label.setAttribute('for', value)
-            label.innerText = value
-            let checkBox = document.createElement('input');
-            checkBox.setAttribute('type','checkbox')
-            checkBox.setAttribute('id', value)
-            checkBox.addEventListener('click', () => {
-                let text = null;
-                if(checkBox.checked){
-                    label.innerText = "~" + checkBox.id + "~"
-                }else{
-                    label.innerText = checkBox.id
-                }
-
-            })
-            let div = document.createElement('div')
-            div.appendChild(label)
-            div.appendChild(checkBox)
-            root.appendChild(div)
-        })
-        root .appendChild(inputbox)
-        root .appendChild(submit)
-</script>
+    let submit = document.createElement("button");
+    submit.innerHTML = "CLICK ME";
+    let inputbox = document.createElement("input");
+    inputbox.setAttribute("type", "text");
+    inputbox.setAttribute("id", "addinput");
+    submit.addEventListener("click", (e) => {
+      let value = document.getElementById("addinput").value;
+      if (value === "") {
+        return false; // return immediately
+      }
+      let arr = document.querySelectorAll("input[type=checkbox]");
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i].id === value) {
+          alert(value + " is duplicated");
+          return false;
+        }
+      }
+      let label = document.createElement("label");
+      label.setAttribute("for", value);
+      label.innerText = value;
+      let checkBox = document.createElement("input");
+      checkBox.setAttribute("type", "checkbox");
+      checkBox.setAttribute("id", value);
+      checkBox.addEventListener("click", () => {
+        let text = null;
+        if (checkBox.checked) {
+          label.innerText = "~" + checkBox.id + "~";
+        } else {
+          label.innerText = checkBox.id;
+        }
+      });
+      let div = document.createElement("div");
+      div.appendChild(label);
+      div.appendChild(checkBox);
+      root.appendChild(div);
+    });
+    root.appendChild(inputbox);
+    root.appendChild(submit);
+  </script>
 </html>

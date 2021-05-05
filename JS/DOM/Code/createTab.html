@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    .tab {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+    }
+    .tabButton {
+      width: 33.3%;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+    }
+    .innercontent {
+      display: none;
+      width: 100%;
+      height: calc(100% - 60px);
+    }
+  </style>
+  <body>
+    <div id="root">
+      <div class="tab"></div>
+      <div class="content"></div>
+    </div>
+  </body>
+  <script>
+    let obj = [
+      {
+        tabName: "tab1",
+        content: "content1",
+      },
+      {
+        tabName: "tab2",
+        content: "content2",
+      },
+      {
+        tabName: "tab3",
+        content: "content3",
+      },
+    ];
+    let tab = document.getElementsByClassName("tab")[0];
+    let content = document.getElementsByClassName("content")[0];
+    for (let i = 0; i < obj.length; i++) {
+      let btn = document.createElement("button");
+      btn.classList.add("tabButton");
+      btn.innerText = obj[i].tabName;
+      btn.addEventListener("click", (e) => {
+        let open = document.getElementById(i);
+        open.style.display = "block";
+      });
+      tab.appendChild(btn);
+
+      let ctn = document.createElement("div");
+      ctn.classList.add("innercontent");
+      ctn.innerText = obj[i].content;
+      ctn.id = i;
+      content.appendChild(ctn);
+    }
+
+    function opentab(e, name) {}
+  </script>
+</html>

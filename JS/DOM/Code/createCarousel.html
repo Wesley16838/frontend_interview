@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <img src="./image/he.png" />
+      <button id="next">Next</button>
+      <button id="prev">Prev</button>
+    </div>
+  </body>
+  <script>
+    let images = ["./image/he.png", "./image/she.png", "./image/me.png"];
+    let currentIndex = 0;
+    let nextbtn = document.getElementById("next");
+    let prevbtn = document.getElementById("prev");
+    nextbtn.addEventListener("click", () => {
+      let image = document.getElementsByTagName("img")[0];
+      currentIndex++;
+      if (currentIndex > images.length - 1) {
+        currentIndex = currentIndex - images.length;
+        image.setAttribute("src", images[currentIndex]);
+      } else {
+        image.setAttribute("src", images[currentIndex]);
+      }
+    });
+    prevbtn.addEventListener("click", () => {
+      let image = document.getElementsByTagName("img")[0];
+      currentIndex--;
+      if (currentIndex < 0) {
+        currentIndex = currentIndex + images.length;
+        image.setAttribute("src", images[currentIndex]);
+      } else {
+        image.setAttribute("src", images[currentIndex]);
+      }
+    });
+  </script>
+</html>
