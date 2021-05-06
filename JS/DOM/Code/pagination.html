@@ -65,12 +65,10 @@
 
     let totalpage = 20;
     function render(total, page) {
-      // if page === 1, no before
       let before = page - 1;
       let next = page + 1;
       let existList = document.getElementsByTagName("ul");
       let frag = document.createDocumentFragment();
-      console.log(existList);
       if (existList.length === 1) {
         let len = existList[0].childNodes.length;
         for (let i = 0; i < len; i++) {
@@ -86,20 +84,52 @@
           render(total, page - 1);
         });
         frag.appendChild(li);
+
+        let li1 = document.createElement("li");
+        li1.classList.add("page");
+        let text = document.createTextNode(1);
+        li1.appendChild(text);
+        li1.addEventListener("click", () => {
+          render(total, 1);
+        });
+        frag.appendChild(li1);
+
+        if (page !== 1) {
+          let text = document.createElement("p");
+          text.innerText = "...";
+          frag.appendChild(text);
+        }
       }
 
       for (let i = before; i < next + 1; i++) {
-        let li = document.createElement("li");
-        li.classList.add("page");
-        let text = document.createTextNode(i);
-        if (page === i) li.classList.add("active");
-        li.appendChild(text);
-        li.addEventListener("click", () => {
-          render(total, i);
-        });
-        frag.appendChild(li);
+        if (i !== 0 && i <= total) {
+          let li = document.createElement("li");
+          li.classList.add("page");
+          let text = document.createTextNode(i);
+          if (page === i) li.classList.add("active");
+          li.appendChild(text);
+          li.addEventListener("click", () => {
+            render(total, i);
+          });
+          frag.appendChild(li);
+        }
       }
       if (next < total) {
+        if (page !== 20) {
+          let text = document.createElement("p");
+          text.innerText = "...";
+          frag.appendChild(text);
+        }
+
+        let li1 = document.createElement("li");
+        li1.classList.add("page");
+        let text = document.createTextNode(20);
+        li1.appendChild(text);
+        li1.addEventListener("click", () => {
+          render(total, 20);
+        });
+        frag.appendChild(li1);
+
         let li = document.createElement("li");
         li.classList.add("btn");
         li.classList.add("next");

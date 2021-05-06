@@ -48,11 +48,18 @@
     ];
     let tab = document.getElementsByClassName("tab")[0];
     let content = document.getElementsByClassName("content")[0];
+    let currentIndex = 0;
     for (let i = 0; i < obj.length; i++) {
       let btn = document.createElement("button");
       btn.classList.add("tabButton");
       btn.innerText = obj[i].tabName;
       btn.addEventListener("click", (e) => {
+        let rm = document.getElementsByClassName("content")[0];
+        let len = rm.childNodes.length;
+        for (let j = 0; j < len; j++) {
+          if (j === currentIndex) rm.childNodes[j].style.display = "none";
+        }
+        currentIndex = i;
         let open = document.getElementById(i);
         open.style.display = "block";
       });
@@ -62,9 +69,10 @@
       ctn.classList.add("innercontent");
       ctn.innerText = obj[i].content;
       ctn.id = i;
+      if (i === currentIndex) {
+        ctn.style.display = "block";
+      }
       content.appendChild(ctn);
     }
-
-    function opentab(e, name) {}
   </script>
 </html>
