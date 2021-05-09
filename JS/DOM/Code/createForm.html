@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="root"></div>
+  </body>
+  <script>
+    let root = document.getElementsByClassName("root")[0];
+    let form = document.createElement("form");
+
+    let labelEmail = document.createElement("label");
+    var textEmail = document.createTextNode("Email");
+    labelEmail.setAttribute("for", "email");
+    labelEmail.appendChild(textEmail);
+    form.appendChild(labelEmail);
+
+    let email = document.createElement("input");
+    email.setAttribute("type", "text");
+    email.setAttribute("name", "email");
+    email.setAttribute("id", "email");
+    form.appendChild(email);
+
+    let labelPassword = document.createElement("label");
+    var textPassword = document.createTextNode("Password");
+    labelPassword.setAttribute("for", "password");
+    labelPassword.appendChild(textPassword);
+    form.appendChild(labelPassword);
+
+    let password = document.createElement("input");
+    password.setAttribute("type", "password");
+    password.setAttribute("name", "password");
+    password.setAttribute("id", "password");
+    form.appendChild(password);
+
+    let submit = document.createElement("input");
+    submit.setAttribute("type", "submit");
+    form.appendChild(submit);
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      let emailVal = document.getElementById("email").value;
+      let passVal = document.getElementById("password").value;
+      console.log(emailVal, passVal);
+    });
+    root.appendChild(form);
+  </script>
+</html>

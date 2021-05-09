@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    #root {
+      display: flex;
+      flex-direction: row;
+    }
+    .star {
+      width: 30px;
+      height: 30px;
+      background-color: gray;
+      margin: 0px 5px;
+    }
+  </style>
+  <body>
+    <div id="root"></div>
+    <p></p>
+  </body>
+  <script>
+    function renderRating(n) {
+      let root = document.getElementById("root");
+      for (let i = 0; i < n; i++) {
+        let star = document.createElement("span");
+        star.classList.add("star");
+        star.id = i;
+        star.addEventListener("click", () => {
+          let target = document.getElementsByTagName("span");
+          let text = document.getElementsByTagName("p")[0];
+          for (let k = target.length - 1; k > i; k--) {
+            target[k].style.backgroundColor = "gray";
+          }
+          for (let j = 0; j <= i; j++) {
+            target[j].style.backgroundColor = "yellow";
+          }
+          text.innerText = i + 1;
+        });
+        root.appendChild(star);
+      }
+    }
+    renderRating(5);
+  </script>
+</html>

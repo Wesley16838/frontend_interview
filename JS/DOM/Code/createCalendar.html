@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    .calendar {
+      height: max-content;
+      width: max-content;
+      background-color: aliceblue;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .calendar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 10px;
+    }
+    .calendar-body {
+      padding: 10px;
+    }
+    .calendar-week-day {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+    }
+    .calendar-week-day div {
+      display: grid;
+      place-items: center;
+    }
+    .calendar-days {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 2px;
+    }
+    .calendar-days div {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      position: relative;
+      cursor: pointer;
+    }
+    .month-picker:hover {
+      background-color: azure;
+    }
+    .year-picker {
+      display: flex;
+      align-items: center;
+    }
+    .year-change {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      margin: 0px 10px;
+      cursor: pointer;
+    }
+    .curr-date {
+      border-radius: 50%;
+      background-color: aquamarine;
+    }
+    .month-list {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      background-color: wheat;
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      gap: 5px;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .month-list.show {
+      visibility: visible;
+      pointer-events: visible;
+    }
+    .month-list > div {
+      display: grid;
+      place-items: center;
+    }
+    .month-list > div > div {
+      width: 100%;
+      padding: 5px 20px;
+      border-radius: 10px;
+      text-align: center;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div class="calendar">
+      <div class="calendar-header">
+        <span class="month-picker" id="month-picker"></span>
+        <span class="year-change" id="prev-year"> < </span>
+        <span id="year"></span>
+        <span class="year-change" id="next-year"> > </span>
+      </div>
+
+      <div class="calendar-body">
+        <div class="calendar-week-day">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tues</div>
+          <div>Wed</div>
+          <div>Thurs</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="calendar-days"></div>
+      </div>
+      <div class="month-list"></div>
+    </div>
+  </body>
+  <script>
+    // Check leap year
+    function isLeapYear(year) {
+      return (
+        (year % 4 === 0 && year % 100 !== 0 && year % 400 !== 0) ||
+        (year % 100 === 0 && year % 400 === 0)
+      );
+    }
+    function getFebDays(year) {
+      return isLeapYear(year) ? 29 : 28;
+    }
+
+    let calendar = document.querySelector(".calendar");
+    const month_names = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "June",
+      "July",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+    let month_picker = document.querySelector("#month-picker");
+    month_picker.onclick = () => {
+      month_list.classList.add("show");
+    };
+    function generateCalendar(month, year) {
+      let calendar_days = document.querySelector(".calendar-days");
+      calendar_days.innerHTML = "";
+      let calendar_header_year = document.querySelector("#year");
+
+      let days_of_month = [
+        31,
+        getFebDays(year),
+        31,
+        30,
+        31,
+        30,
+        31,
+        31,
+        30,
+        31,
+        30,
+        31,
+      ];
+      let currDate = new Date();
+      month_picker.innerHTML = month_names[month];
+      calendar_header_year.innerHTML = year;
+
+      let first_day = new Date(year, month, 1);
+
+      for (let i = 0; i <= days_of_month[month] + first_day.getDay() - 1; i++) {
+        //////
+        let day = document.createElement("div");
+        if (i >= first_day.getDay()) {
+          day.classList.add("calendar-day-hover");
+          day.innerHTML = i - first_day.getDay() + 1;
+        }
+        if (
+          i - first_day.getDay() + 1 === currDate.getDate() &&
+          year === currDate.getFullYear() &&
+          month === currDate.getMonth()
+        ) {
+          day.classList.add("curr-date");
+        }
+        calendar_days.appendChild(day);
+      }
+    }
+
+    let month_list = document.querySelector(".month-list");
+    month_names.forEach((e, index) => {
+      let month = document.createElement("div");
+      month.innerHTML = `<div>${e}</div>`;
+      month.onclick = () => {
+        month_list.classList.remove("show");
+        curr_month.value = index;
+        generateCalendar(curr_month.value, curr_year.value);
+      };
+      month_list.appendChild(month);
+    });
+    document.querySelector("#prev-year").onclick = () => {
+      --curr_year.value;
+      generateCalendar(curr_month.value, curr_year.value);
+    };
+    document.querySelector("#next-year").onclick = () => {
+      ++curr_year.value;
+      generateCalendar(curr_month.value, curr_year.value);
+    };
+    let currDate = new Date();
+    let curr_month = { value: currDate.getMonth() };
+    let curr_year = { value: currDate.getFullYear() };
+    generateCalendar(curr_month.value, curr_year.value);
+  </script>
+</html>

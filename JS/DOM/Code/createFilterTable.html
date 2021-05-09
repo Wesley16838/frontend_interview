@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="root"></div>
+  </body>
+  <script>
+    let arr = [
+      "wesley",
+      "sharon",
+      "abbie",
+      "bonnie",
+      "cindy",
+      "danie",
+      "emmy",
+      "formosa",
+    ];
+    let root = document.getElementsByClassName("root")[0];
+    let input = document.createElement("input");
+    input.setAttribute("type", "text");
+    root.appendChild(input);
+    let button = document.createElement("button");
+    button.innerHTML = "Click Add";
+    button.onclick = () => {
+      let val = document.getElementsByTagName("input")[0].value;
+      let tag = document.createElement("button");
+      tag.innerHTML = val;
+      tag.onclick = () => {
+        let list = document.getElementsByTagName("li");
+        for (let i = 0; i < list.length; i++) {
+          if (list[i].innerText.indexOf(val) !== 0) {
+            list[i].style.display = "none";
+          } else {
+            list[i].style.display = "";
+          }
+        }
+      };
+      root.appendChild(tag);
+    };
+    root.appendChild(button);
+    let list = document.createElement("ul");
+    for (let i = 0; i < arr.length; i++) {
+      let cell = document.createElement("li");
+      let text = document.createTextNode(arr[i]);
+      cell.appendChild(text);
+      list.appendChild(cell);
+    }
+    root.appendChild(list);
+  </script>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    .calendar {
+      height: max-content;
+      width: max-content;
+      background-color: rgb(36, 36, 36);
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+    }
+    .calendar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 10px;
+    }
+    .calendar-body {
+      padding: 10px;
+    }
+    .calendar-week-day {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+    }
+    .calendar-week-day div {
+      display: grid;
+      place-items: center;
+    }
+    .calendar-days {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 2px;
+    }
+    .calendar-days .in_month {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      position: relative;
+      cursor: pointer;
+      border-radius: 50%;
+      transition: 0.2s ease-in;
+    }
+    .calendar-days .in_month:not(.curr-date):hover {
+      border-radius: 50%;
+      background-color: rgb(157, 157, 157);
+    }
+    .month-picker {
+      cursor: pointer;
+      transition: 0.1s ease-in;
+      overflow: auto;
+    }
+    .month-picker:hover {
+      transform: scale(1.1);
+    }
+    .year-picker {
+      display: flex;
+      align-items: center;
+    }
+    .year-change {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      margin: 0px 10px;
+      cursor: pointer;
+    }
+    .curr-date {
+      border-radius: 50%;
+      background-color: rgb(91, 91, 91);
+    }
+    .month-list {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      background-color: rgb(36, 36, 36);
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      gap: 5px;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .month-list.show {
+      visibility: visible;
+      pointer-events: visible;
+    }
+    .month-list > div {
+      display: grid;
+      place-items: center;
+    }
+    .month-list > div > div {
+      padding: 5px 20px;
+      border-radius: 10px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .month-list > div > div:hover {
+      transform: scale(1.1);
+    }
+    .date_picker {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0px 10px;
+      width: 150px;
+      border: 1px solid #000000;
+      height: 25px;
+      line-height: 25px;
+    }
+    .date_picker .date_button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    .date_container {
+      display: flex;
+      flex-direction: row;
+    }
+  </style>
+  <body>
+    <div class="date_picker">
+      <div class="date_container">
+        <span id="date_year"> </span>
+        <span>/</span>
+        <span id="date_month"> </span>
+        <span>/</span>
+        <span id="date_day"> </span>
+      </div>
+      <button class="date_button">☰</button>
+    </div>
+    <div class="calendar">
+      <div class="calendar-header">
+        <span class="month-picker" id="month-picker"></span>
+        <span class="year-change" id="prev-year"> < </span>
+        <span id="year"></span>
+        <span class="year-change" id="next-year"> > </span>
+      </div>
+
+      <div class="calendar-body">
+        <div class="calendar-week-day">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tues</div>
+          <div>Wed</div>
+          <div>Thurs</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="calendar-days"></div>
+      </div>
+      <div class="month-list"></div>
+    </div>
+  </body>
+  <script>
+    // Check leap year
+    function isLeapYear(year) {
+      return (
+        (year % 4 === 0 && year % 100 !== 0 && year % 400 !== 0) ||
+        (year % 100 === 0 && year % 400 === 0)
+      );
+    }
+    function getFebDays(year) {
+      return isLeapYear(year) ? 29 : 28;
+    }
+    let currDate = new Date();
+    let selected = {
+      selected_day: currDate.getDate(),
+      selected_month: currDate.getMonth(),
+      selected_year: currDate.getFullYear(),
+    };
+    let tmpSelect = {
+      selected_day: currDate.getDate(),
+      selected_month: currDate.getMonth(),
+      selected_year: currDate.getFullYear(),
+    };
+    let calendar = document.querySelector(".calendar");
+    const month_names = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "June",
+      "July",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+    let month_picker = document.querySelector("#month-picker");
+    month_picker.onclick = () => {
+      month_list.classList.add("show");
+    };
+    function generateCalendar(month, year, day) {
+      let calendar_days = document.querySelector(".calendar-days");
+      calendar_days.innerHTML = "";
+
+      let calendar_header_year = document.querySelector("#year");
+
+      let days_of_month = [
+        31,
+        getFebDays(year),
+        31,
+        30,
+        31,
+        30,
+        31,
+        31,
+        30,
+        31,
+        30,
+        31,
+      ];
+      let currDate = new Date();
+      month_picker.innerHTML = month_names[month];
+      calendar_header_year.innerHTML = year;
+
+      let first_day = new Date(year, month, 1);
+      for (let i = 0; i <= days_of_month[month] + first_day.getDay() - 1; i++) {
+        let day = document.createElement("div");
+        if (i >= first_day.getDay()) {
+          day.innerHTML = i - first_day.getDay() + 1;
+          day.classList.add("in_month");
+        }
+        if (
+          i - first_day.getDay() + 1 === parseInt(selected.selected_day) &&
+          selected.selected_month === tmpSelect.selected_month &&
+          selected.selected_year === tmpSelect.selected_year
+        ) {
+          day.classList.add("curr-date");
+        }
+        calendar_days.appendChild(day);
+        day.onclick = () => {
+          tmpSelect.selected_day = day.innerHTML;
+          selected.selected_day = day.innerHTML;
+          selected.selected_month = tmpSelect.selected_month;
+          selected.selected_year = tmpSelect.selected_year;
+
+          document.getElementById("date_year").innerHTML =
+            selected.selected_year;
+          document.getElementById("date_month").innerHTML =
+            selected.selected_month + 1;
+          document.getElementById("date_day").innerHTML = selected.selected_day;
+          generateCalendar(
+            selected.selected_month,
+            selected.selected_year,
+            selected.selected_day
+          );
+        };
+      }
+    }
+
+    let month_list = document.querySelector(".month-list");
+    month_names.forEach((e, index) => {
+      let month = document.createElement("div");
+      month.innerHTML = `<div>${e}</div>`;
+      month.onclick = () => {
+        month_list.classList.remove("show");
+        tmpSelect.selected_month = index;
+        generateCalendar(tmpSelect.selected_month, tmpSelect.selected_year);
+      };
+      month_list.appendChild(month);
+    });
+    document.querySelector("#prev-year").onclick = () => {
+      --tmpSelect.selected_year;
+      generateCalendar(tmpSelect.selected_month, tmpSelect.selected_year);
+    };
+    document.querySelector("#next-year").onclick = () => {
+      ++tmpSelect.selected_year;
+      generateCalendar(tmpSelect.selected_month, tmpSelect.selected_year);
+    };
+
+    generateCalendar(selected.selected_month, selected.selected_year);
+    document.getElementById("date_year").innerHTML = selected.selected_year;
+    document.getElementById("date_month").innerHTML =
+      selected.selected_month + 1;
+    document.getElementById("date_day").innerHTML = selected.selected_day;
+  </script>
+</html>

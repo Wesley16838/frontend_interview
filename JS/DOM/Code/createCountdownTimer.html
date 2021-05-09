@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <span id="day"></span>
+      <span id="hour"></span>
+      <span id="min"></span>
+      <span id="sec"></span>
+    </div>
+  </body>
+  <script>
+    const now = new Date("May 7, 2021 13:30:00");
+    const time = now.getTime();
+    var myfunc = setInterval(function () {
+      // code goes here
+      let newnow = new Date().getTime();
+      let timeleft = now - newnow;
+      //days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+
+      //hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+
+      //minutes: Math.floor((difference / 1000 / 60) % 60),
+
+      //seconds: Math.floor((difference / 1000) % 60),
+
+      var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+      var hours = Math.floor(
+        (timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+      let day = document.getElementById("day");
+      day.innerHTML = days + "D";
+      let hour = document.getElementById("hour");
+      hour.innerText = hours + "H";
+      let min = document.getElementById("min");
+      min.innerText = minutes + "M";
+      let sec = document.getElementById("sec");
+      sec.innerText = seconds + "S";
+      if (timeleft < 0) {
+        clearInterval(myfunc);
+      }
+    }, 1000);
+  </script>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    #root {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+    }
+    .modal {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: darkgray;
+      visibility: hidden;
+    }
+    .modal > button {
+      background-color: aqua;
+    }
+  </style>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script>
+    let root = document.getElementById("root");
+    let button = document.createElement("button");
+    let modal = document.createElement("div");
+    let nextbtn = document.createElement("button");
+    nextbtn.innerText = "click me";
+    modal.classList.add("modal");
+    modal.appendChild(nextbtn);
+    button.onclick = () => {
+      let modal = document.getElementsByClassName("modal")[0];
+      modal.style.visibility = "visible";
+    };
+    nextbtn.onclick = () => {
+      let modal = document.getElementsByClassName("modal")[0];
+      modal.style.visibility = "hidden";
+    };
+    button.innerText = "Click me";
+    root.appendChild(button);
+    root.appendChild(modal);
+    window.onclick = function (event) {
+      if (event.target !== modal && event.target !== button) {
+        let modal = document.getElementsByClassName("modal")[0];
+        modal.style.visibility = "hidden";
+      }
+    };
+  </script>
+</html>

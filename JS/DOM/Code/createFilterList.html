@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="root"></div>
+  </body>
+  <script>
+    let root = document.getElementsByClassName("root")[0];
+    let arr = [
+      "wesley",
+      "sharon",
+      "abbie",
+      "bonnie",
+      "cindy",
+      "danie",
+      "emmy",
+      "formosa",
+    ];
+    let list = document.createElement("ul");
+    for (let i = 0; i < arr.length; i++) {
+      let cell = document.createElement("li");
+      let text = document.createTextNode(arr[i]);
+      cell.appendChild(text);
+      list.appendChild(cell);
+    }
+    root.appendChild(list);
+
+    let input = document.createElement("input");
+    input.setAttribute("type", "text");
+    input.oninput = function (text) {
+      let list = document.getElementsByTagName("ul")[0].childNodes;
+      let value = document.getElementsByTagName("input")[0].value;
+      console.log(value);
+      for (let j = 0; j < list.length; j++) {
+        if (list[j].innerText.indexOf(value) !== 0) {
+          list[j].style.display = "none";
+        } else {
+          list[j].style.display = "";
+        }
+      }
+    };
+    root.appendChild(input);
+  </script>
+</html>
