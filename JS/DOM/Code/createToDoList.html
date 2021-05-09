@@ -50,8 +50,15 @@
         }
       });
       let div = document.createElement("div");
+      let clear = document.createElement("button");
+      clear.innerText = "Remove";
+      clear.onclick = () => {
+        div.remove();
+      };
       div.appendChild(label);
       div.appendChild(checkBox);
+      // add remove button
+      div.appendChild(clear);
       root.appendChild(div);
     });
     root.appendChild(inputbox);
