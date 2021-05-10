@@ -89,10 +89,16 @@
       left: 0px;
       background-color: rgb(36, 36, 36);
       display: grid;
-      grid-template-columns: repeat(3, auto);
+      
+      grid-template-rows: 100px auto;
       gap: 5px;
       visibility: hidden;
       pointer-events: none;
+    }
+    .month-list .month_list_container{
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      place-items: normal;
     }
     .month-list.show {
       visibility: visible;
@@ -152,17 +158,18 @@
 
       <div class="calendar-body">
         <div class="calendar-week-day">
-          <div>Sun</div>
-          <div>Mon</div>
-          <div>Tues</div>
-          <div>Wed</div>
-          <div>Thurs</div>
-          <div>Fri</div>
-          <div>Sat</div>
+          <div>Su</div>
+          <div>Mo</div>
+          <div>Tu</div>
+          <div>We</div>
+          <div>Th</div>
+          <div>Fr</div>
+          <div>Sa</div>
         </div>
         <div class="calendar-days"></div>
       </div>
       <div class="month-list"></div>
+      <div class="year-list"></div>
     </div>
   </body>
   <script>
@@ -266,6 +273,11 @@
     }
 
     let month_list = document.querySelector(".month-list");
+    let curr_year = document.createElement("div");
+    curr_year.innerHTML = tmpSelect.selected_year
+    month_list.appendChild(curr_year);
+    let pick_month = document.createElement("div");
+    pick_month.classList.add('month_list_container')
     month_names.forEach((e, index) => {
       let month = document.createElement("div");
       month.innerHTML = `<div>${e}</div>`;
@@ -274,8 +286,9 @@
         tmpSelect.selected_month = index;
         generateCalendar(tmpSelect.selected_month, tmpSelect.selected_year);
       };
-      month_list.appendChild(month);
+      pick_month.appendChild(month);
     });
+    month_list.appendChild(pick_month);
     document.querySelector("#prev-year").onclick = () => {
       --tmpSelect.selected_year;
       generateCalendar(tmpSelect.selected_month, tmpSelect.selected_year);
