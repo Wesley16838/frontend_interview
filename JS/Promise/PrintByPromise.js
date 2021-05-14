@@ -1,4 +1,3 @@
-```javascript
 // print a,b,c in the order
 // callback
 function printString(string, callback) {
@@ -51,9 +50,7 @@ async function printAll() {
 }
 
 printAll();
-```
 
-```javascript
 // print [a,b,c] in the order
 function printString(string, callback) {
   setTimeout(
@@ -77,4 +74,3 @@ function printAll() {
 }
 
 printAll();
-```

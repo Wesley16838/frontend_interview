@@ -47,6 +47,7 @@
 | 39         | [Block element & inline element](#block-element-&-inline-element)                                                                                           |
 | 40         | [pseudo class & pseudo element](#pseudo-class-&-pseudo-element)                                                                                             |
 | 41         | [Comparison Angular vs. React vs. Vue](#comparison-angular-vs-react-vs-vue)                                                                                 |
+| 42         | [?? vs                                                                                                                                                      |  | ](#??_vs_ |  | ) |
 
 1.  ### What is scope
 
@@ -426,8 +427,9 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
 **[⬆ Back to Top](#table-of-contents)**
 
 34. ### What is CSS selector specificity?
-    Specificity means decide which CSS property are the most relevant to the element and then applied
+    Specificity means decide which CSS property are the most relevant to the element and then applied (決定你的元素優先吃哪一個樣式)
 
+- Inline Style
 - ID Selector
 - Class Selector
 - Type Selector
@@ -485,9 +487,16 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
   **[⬆ Back to Top](#table-of-contents)**
 
 41. ### Comparison Angular vs. React vs. Vue
+
     |           | Angular    | React               | Vue                          |
     | --------- | ---------- | ------------------- | ---------------------------- |
     | Language  | TypeScript | JavaScript XML(JSX) | HTML template and JavaScript |
     | Model     | MVC        | Virtial DOM         | Virtial DOM                  |
     | Data Flow | Two-Way    | One-Way             | Both                         |
+
         **[⬆ Back to Top](#table-of-contents)**
+
+42. ### ?? vs ||
+    > logical OR (||) operator, which returns the right-hand side operand if the left operand is any falsy value, not only null or undefined.
+    > The nullish coalescing operator (??) is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+    > In other words, if you use || to provide some default value to another variable foo, you may encounter unexpected behaviors if you consider some falsy values as usable (e.g., '' or 0).

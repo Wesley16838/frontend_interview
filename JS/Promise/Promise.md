@@ -81,3 +81,64 @@ Promise.race([promiseOne, promiseTwo]).then((result) => {
   console.log(result); // 'two'
 });
 ```
+
+```javascript
+// Create a promise from scratch
+class PromiseSimple {
+  constructor(executionFunction) {
+    this.promiseChain = [];
+    this.handleError = () => {};
+
+    this.onResolve = this.onResolve.bind(this);
+    this.onReject = this.onReject.bind(this);
+
+    executionFunction(this.onResolve, this.onReject);
+  }
+
+  then(handleSuccess) {
+    this.promiseChain.push(handleSuccess);
+
+    return this;
+  }
+
+  catch(handleError) {
+    this.handleError = handleError;
+
+    return this;
+  }
+
+  resolve(value) {
+    let storedValue = value;
+
+    try {
+      this.promiseChain.forEach((nextFunction) => {
+        storedValue = nextFunction(storedValue);
+      });
+    } catch (error) {
+      this.promiseChain = [];
+
+      this.onReject(error);
+    }
+  }
+
+  reject(error) {
+    this.handleError(error);
+  }
+}
+
+let promise = new PromiseSimple((resolver, reject) => {
+  if (true) {
+    resolver("Success");
+  } else {
+    reject("Error");
+  }
+});
+
+promise
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+```
