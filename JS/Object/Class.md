@@ -23,7 +23,7 @@ const frog = new Animal("frog", "George", "ribbit");
 
 ### static methods
 
-> A static method is a function that is bound to the class, not an object. Static methods are methods that can be called without creating an object from the class using the new keyword A static method cannot be called from an instance of the class
+> A static method is a function that is bound to the class, not an object; Static methods are methods that can be called without creating an object from the class using the new keyword; A static method cannot be called from an instance of the class; Static methods are designed to live only on the constructor in which they are created, and cannot be passed down to any children.
 
 ### prototype methods
 

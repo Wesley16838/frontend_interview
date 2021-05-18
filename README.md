@@ -26,7 +26,7 @@
 | 19         | [What is JSON](#what-is-json)                                                                                                                               |
 | 20         | [What are primitive/Non-primituve data types](#what-are-primitive-non-primitive--data-types)                                                                |
 | 21         | [What is the difference between reflow and repaint](#what-is-the-difference-between-reflow-and-repaint)                                                     |
-| 22         | [What is an event flow](#what-is-event-flow)                                                                                                                |
+| 22         | [What is an Event Propagation](#what-is-event-propagation)                                                                                                  |
 | 23         | [What is AJAX](#what-is-ajax)                                                                                                                               |
 | 24         | [What are Debouncing and Throttling](#what-are-Debouncing-and-throttling)                                                                                   |
 | 25         | [What is MVC](#what-is-mvc)                                                                                                                                 |
@@ -47,49 +47,85 @@
 | 39         | [Block element & inline element](#block-element-&-inline-element)                                                                                           |
 | 40         | [pseudo class & pseudo element](#pseudo-class-&-pseudo-element)                                                                                             |
 | 41         | [Comparison Angular vs. React vs. Vue](#comparison-angular-vs-react-vs-vue)                                                                                 |
-| 42         | [?? vs                                                                                                                                                      |  | ](#??_vs_ |  | ) |
+| 42         | [Nullish coalescing operator & logical OR operator & unary plus](#Nullish_coalescing_operator_&_logical_OR_operator_&_unary_plus)                           |
+| 43         | [CSS Selector](#css_selector)                                                                                                                               |
+| 44         | [What is Restful API](#what_is_restful_api)                                                                                                                 |
+
+| 45 ｜[Why and what is Redux](#why_and_what_is_redux)｜
+| Bonus | [Difference between Methods and Functions](#difference_between_methods_and_functions) |
 
 1.  ### What is scope
 
-    The scope determines the accessibility of variables. There are two types of scope
+    The scope determines the accessibility of variables. There are two types of scope(變數在程式中可以被存取的範圍)
 
     - Local Scope: Variable is declared inside the function become Local to the function
-    - Block Scope: Varialbe declared in the if, switch conditions or for/ whole loops with Let or Const and is only visible in the corresponding block
-    - Functon Scope: Variables declared inside the function with Var and is only visible in the function
+
+      - Block Scope: Variables (let,const) declared within a block such as if condition, switch of for loop can only be access within it.
+
+      - Functon Scope: Variables declared inside the function with Var and is accessible inside that function but not outside of it
+
     - Global Scope: Variable is declared outside all of the function, it is accessible from any inner scope
-      **[⬆ Back to Top](#table-of-contents)**
+      > Scope Chain: If a variable does not exist in the current scope it look ups and searches for a variable in the outer scope and if does not exist again it looks up again until it reaches the global scope if the variable exists then we can use it if not it throws an error. It searches for the nearest variable and it stops searching or looking up once it finds it. This is called Scope Chain.
+          **[⬆ Back to Top](#table-of-contents)**
 
 2.  ### What is Closure Curry High order function
 
-    A closure is a feature in JavaScript where an inner function has access to the outer function’s variables — Closure has three scope chain.
+    - A closure is a feature in JavaScript where an inner function has access to the outer function’s variables — Closure has three scope chain. (閉包是由函式引用其周邊狀態(詞法環境)綁在一起形成的(封裝)組合結構。在 JavaScript 中，閉包在每個函式被建立時形成。實際上，由於閉包與它的詞法環境綁在一起，因此閉包讓我們能夠從一個函式內部訪問其外部函式的作用域。)
 
-    - Own Scope where variable defined between its curly brackets
-    - Outer Scope which could access to the outer function's variable
-    - Global Scope which could access to the global variable
+      - The scope manages the accessibility of variables. There can be a function or a block scope.
 
-    A curring function is the process of taking a function with multiple arguments and turning it into a sequence of functions which only with a single argument.
+      - The lexical scope allows a function scope to access statically the variables from the outer scopes.
+
+      - Finally, a closure is a function that captures variables from its lexical scope. In simple words, the closure remembers the variables from the place where it is defined, no matter where it is executed.
+
+    - A curring function is the process of taking a function with multiple arguments and turning it into a sequence of functions which only with a single argument.
 
     ```javascript
     const multiArgFunction = (a, b, c) => a + b + c;
     const curryUnaryFunction = (a) => (b) => (c) => a + b + c;
     ```
 
-    Higher order function is a function that take another function as an arguement and return it as variable
-    **[⬆ Back to Top](#table-of-contents)**
+    - Higher order function is a function that take another function as an arguement and return it as variable
+      **[⬆ Back to Top](#table-of-contents)**
 
 3.  ### What is Hoisting
 
-    It is a JS mechanism that variable and function declarations are moved to the top of their scope.
+    It is a JS mechanism that variable and function declarations are moved to the top of their scope and give them a default value of undefiend during compile time. To explain more, we need to know the Execution Context is the environment of code that is currently executing and it has two phases: Compilation and Execution.
+
+    1. Compilation: in this phase it gets all the function declaration and hoists them up to the top of their Scope and give them a default value of undefiend.
+    2. Execution: In this phase, it assigns the value to the variable which was hoisted earlier and executes the function
 
     - Function Declaration VS. Function expression
-      - function declarations hoist the function definitions
-      - Function expression define a fhinction insides an expression and are not hoisted. Ex. TypeError: ... is not a funciton
+
+      1. Function declarations:
+
+      - Hoist the function definitions
+      - Lifecycle: Cannot be removed once be declared
+
+      2. Function expression:
+
+      - Define a function(anonymous function) insides an expression and are not hoisted. Ex. TypeError: ... is not a funciton
+      - Closure
+      - IIFE(Immediately Invoked Function Expressions)
+        - A JavaScript immediately invoked function expression is a function defined as an expression and executed immediately after creation.
+        - The reasons use IIFE is "prevent the functions and variables from polluting the global object" because "Function and variable defined in IIFE cannot be accessed outside the IIFE block
+        - Helps us manage memory in an efficient manner
+          - A function Instance is created.
+          - Function is Executed.
+          - Function created is discarded.
+      - Pass as an arguement
+      - Lifecycle: Can be removed after be declared
+      - Does not pollute the global namespace
+
+      3. Conclusion
+         > use function declarations when you want to create a function on the global scope and make it available throughout your code. Use function expressions to limit where the function is available, keep your global scope light, and maintain clean syntax.
+
     - var, let, const - var declaration could be hoisted and initialized with undefined - let / const will not be initialized due to Temporal dead zone. let and const cannot be used before initializing! Ex. ReferenceError
       **[⬆ Back to Top](#table-of-contents)**
 
 4.  ### What is prototype
 
-    Prototypes are the mechanism by which JavaScript objects inherit features from one another. All JavaScript objects inherit properties and method from object propertype
+    Prototypes are the mechanism by which JavaScript objects inherit features from one another. All JavaScript objects inherit properties and method from object propertype(es5 vs es6 Inheritance)
 
     - Prototype chaining is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language.
     - HasOwnProperty: Returns a Boolean value indicating whether an object has a property with the specified name
@@ -97,22 +133,29 @@
 
 5.  ### What is this
 
-    Basically, this keyword refers to the object it belongs to. It has different values depending on where it is used. It has different values depending on where it is used:
+    Basically, Depends on how the function is called and this keyword refers to the object it belongs to. It has different values depending on where it is used. It has different values depending on where it is used:
 
     - The default this refers to the global object
     - In a function, this refers to the global object, whereas this is undefined in strict mode
-    - In a method, this refers to the owner object
+    - Within methods on objects, this refers to the owner object
+    - Within an object that has been constructed, this refers to the object that has been constructed
+    - Explicit Function Binding : A function invoked with .call, .apply, or bind, this can refer this to any object. However, call and apply immediately invoke function but bind return a function
     - In HTML event handlers, this refers to the HTML element that receive the event
-    - Explicit Function Binding : Using call(), apply(), or bind() to define the value of this for a function. However, call and apply immediately invoke function but bind return a function
       **[⬆ Back to Top](#table-of-contents)**
 
 6.  ### What is Event Loop
 
-    The event loop is a mechanism of JS to monitor the call stack and the callback queue. If call stack is empty, event loop take the first event from callback queue and push it into Call Stack
+    The event loop is a mechanism of JS to monitor the call stack and the event queue. Altough JS executes operations on a single thread, Event loop makes JS looks like multiple thread.
+    To explain more, I would like to explain how each part works in the event loop first.
 
-    - Call Stack: It is where js code gets pushed and executed one by one and gets poped out once execution is done
-    - Callback queue: It is where async code waits for the execution
-      **[⬆ Back to Top](#table-of-contents)**
+    - Call Stack: It is the place Operations are pushed in and executed one by one and once be finished, it will be poped out from the stack.
+    - Browser API: It is a container to store async action such as HTTP request or settimeout. The async actions will be added to the event queue once be trigger.
+    - Event queue: It is where async code waits for the execution
+
+    When executing the event, it will be pushed into call Stack, and if this event is async, it will be added to web API and enqueue to event queue once be triggered.If call stack is empty, event loop take the first event from callback queue and push it into Call Stack
+
+    > Priority: Tasks -> microtasks 如 promise -> queues 非同步事件如 click、setTimeout、ajax
+    > **[⬆ Back to Top](#table-of-contents)**
 
 7.  ### What is Object
 
@@ -178,18 +221,29 @@
 
 9.  ### What is Arrow Function
 
-              - Arrow vs General function
+            - Arrow vs General function
 
-        |             | Arrow                                     | General                                                       |
-        | ----------- | ----------------------------------------- | ------------------------------------------------------------- |
-        | arguement   | Don't have arguement binding              | arguement is array-like object                                |
-        | Constructor | Cannot be used as a constuctor            | Regular function could construct objects                      |
-        | this value  | Arrow function do not bind their own this | "This" is dynamic which depend on how the function is invoked |
+              |             | Arrow                                     | General                                                       |
+              | ----------- | ----------------------------------------- | ------------------------------------------------------------- |
+              | arguement   | Don't have arguement binding              | arguement is array-like object                                |
+              | Constructor | Cannot be used as a constuctor            | Regular function could construct objects                      |
+              | this value  | Arrow function do not bind their own this | "This" is dynamic which depend on how the function is invoked |
 
-        - Global object
-        - Object if in the method
-        - implicity object binding refers to the first arguement
-        - Constructor using new keyword this refers to the new created object|
+            > Arrow functions can be called with multiple arguments, but they don’t have their own arguments pseudo-parameter
+
+            ```javascript
+              let sum = () => {
+                console.log(arguments.length + " arguments");
+              }
+              sum(1,2,3); //arguments is not defined
+
+              // use rest parameter syntax
+              let sum = (...args) => {
+                console.log(args.length + " arguments");
+              }
+              sum(1,2,3); //3 arguments
+
+            ```
 
     **[⬆ Back to Top](#table-of-contents)**
 
@@ -217,20 +271,49 @@
     > A callback is a function passed into another function as an argument and will be executed after finish outer function. Ex. Fetching data from database, making API request.
 
 - callback in callback: When callback becomes more nested , the code will becomes more difficult. We call it callback hell.
-  **[⬆ Back to Top](#table-of-contents)**
+
+```javascript
+function func1(x) {
+  console.log(x);
+}
+var arr = [1, 2, 3, 4, 5];
+function func2(arr, callback) {
+  // do something to arr here
+  arr.push(100);
+  // then execute the callback function that was passed
+  callback(arr);
+}
+
+func2(arr, func1);
+```
+
+**[⬆ Back to Top](#table-of-contents)**
 
 13. ### What is Promise
-    > Promise was introduced in ES6 to resolve the callback hell issue and handle async operation. It is an object that will be available in the future.
+    > Promise was introduced in ES6 to resolve the callback hell issue and handle async operation. It is an object that will be available in the future.(Promise 物件代表一個即將完成、或失敗的非同步操作，以及它所產生的值)
 
 Promise has three different states: 1. Fulfilled 2. Rejected 3. Pending
 
 - FulFilled: operation was completed successfully
 - Rejected: operation failed
 - Pending: initial state
+
+We usually use .then, .catch, .finally promise method to implement promise chain
+
 - Print A,B,C in the order
 
 ```javascript
 // callback
+function printString(string, callback) {
+  setTimeout(
+    () => {
+      console.log(string);
+      callback();
+    },
+    1 * 1000 // 1s
+  );
+}
+
 function printAll() {
   printString("A", () => {
     printString("B", () => {
@@ -240,31 +323,25 @@ function printAll() {
 }
 
 //Promise
-function printString(string) {
+function add(para) {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      console.log(string);
-      resolve();
-    }, 1 * 1000);
+    resolve(para + para);
   });
 }
-function printAll() {
-  printString("A")
-    .then(() => {
-      return printString("B");
-    })
-    .then(() => {
-      return printString("C");
-    });
-}
+run(2)
+  .then((a) => run(a))
+  .then((b) => run(b));
 
-//async/await
-
-async function printAll() {
-  await printString("A");
-  await printString("B");
-  await printString("C");
+// Async&Await
+async function add(para) {
+  return para + para;
 }
+(async () => {
+  let a = await add(2);
+  let b = await add(a);
+  let c = await add(b);
+  return c;
+})();
 ```
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -364,14 +441,43 @@ async function printAll() {
   - Use fragment to hold temp changes
     **[⬆ Back to Top](#table-of-contents)**
 
-22. ### What is an event flow
-    Event flow is the process when event is invoked
+22. ### What is an Event Propagation
+    Event Propagation(事件傳遞機制) is the process when event is invoked
     There are three phase of event flow:
 
 - Event Capturing : Event goes down to the element from outer event handlers!
 - Target Phase : Target element! (End of the capturing and the beginning of the bubbling)
 - Event Bubbling : Event bubble up from the element! (When event was trigger, it first run the handler on the target, and then its parent and all the way up to the other ancestor.)
-  **[⬆ Back to Top](#table-of-contents)**
+
+- Event Delegation: Event delegation allows you to avoid adding event listeners to specific nodes; instead, the event listener is added to one parent. That event listener analyses bubbled events to find the specific child element.
+
+```javascript
+<ul id="list">
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+</ul>
+// Before using delegated event
+let elements = document.querySelectorAll('ul > li > a');
+for (let elem of elements) {
+    elem.addEventListener('click', function(e){
+       console.log(e.target)
+      // to something
+    })
+}
+
+// Attach a delegated event handler
+document.getElementById('list').addEventListener('click', function(e){
+    if (e.target.tagName == 'a'){
+      console.log(e.target)
+      // to something
+    }
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
 
 23. ### What is AJAX
     AJAX stands for Asynchronous JavaScript and XML. It allows web pages to be updated asynchronously. In other words, it sends and retrieves data without reloading the web page.
@@ -401,6 +507,8 @@ async function printAll() {
   |two way|One-way|One way|
   |No store|Multiple stores| Single store|
   |Controller handle logic|Store handles logic|Reducer handle all logic|
+
+- SPA
   **[⬆ Back to Top](#table-of-contents)**
 
 26. ### Way to improve performance
@@ -413,7 +521,11 @@ async function printAll() {
 - Reduce the times of reflows. Ex. Update element by changing classname except change style one by one
   **[⬆ Back to Top](#table-of-contents)**
 
-30. ### "attribute" and a "property"
+28. ### Falsy value
+
+    > !! is not an operator, it's just the ! operator twice(Converts Object to boolean)
+
+29. ### "attribute" and a "property"
 
 - The Attributes are defined by HTML whereas the properties are defined by the DOM.
 - The attribute’s main role is to initializes the DOM properties. So, once the DOM initialization complete, the attributes job is done.
@@ -429,6 +541,7 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
 34. ### What is CSS selector specificity?
     Specificity means decide which CSS property are the most relevant to the element and then applied (決定你的元素優先吃哪一個樣式)
 
+- !important
 - Inline Style
 - ID Selector
 - Class Selector
@@ -496,7 +609,19 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
 
         **[⬆ Back to Top](#table-of-contents)**
 
-42. ### ?? vs ||
-    > logical OR (||) operator, which returns the right-hand side operand if the left operand is any falsy value, not only null or undefined.
-    > The nullish coalescing operator (??) is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
-    > In other words, if you use || to provide some default value to another variable foo, you may encounter unexpected behaviors if you consider some falsy values as usable (e.g., '' or 0).
+42. ### Nullish coalescing operator & logical OR operator & unary plus
+
+    - logical OR (||) operator, which returns the right-hand side operand if the left operand is any falsy value, not only null or undefined.
+    - The nullish coalescing operator (??) is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+    - In other words, if you use || to provide some default value to another variable foo, you may encounter unexpected behaviors if you consider some falsy values as usable (e.g., '' or 0).
+    - The unary plus tries to convert an operand to a number. true is 1, and false is 0.
+
+43. ### CSS Selector
+44. ### What is Restful API
+
+# Bunus
+
+1. ### Difference between Methods and Functions
+
+- Method: JavaScript method is a property of an object that contains a function definition.
+- Function: A function is a block of code written to perform some specific set of tasks.

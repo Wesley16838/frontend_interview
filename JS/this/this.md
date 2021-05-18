@@ -41,16 +41,16 @@ let foo = {
   },
 };
 
-foo.getX(); // prints 90
+foo.getX(); // prints 90 because “this” refers to user object instead of global object
 
 let xGetter = foo.getX;
 
-xGetter(); // prints 10;
+xGetter(); // prints 10 because "this" method is invoked as a simple function
 ```
 
 ## The New Keyword
 
-> When the new keyword is used(a constructor), this is bound to the new object being created.
+> When the function is invoked as a constructor new keyword, "this" is bound to the new object being created.
 
 ```javascript
 function Car(make, model) {
@@ -73,3 +73,24 @@ add.apply(ten, [3, 4]);
 ```
 
 > Bind return a function
+
+## SetTimeOut
+
+> Invoked callback "function" in settimeout so it refers to outter scope which is global scope
+
+```javascript
+var message = "test";
+const object = {
+  message: "Hello, World!",
+
+  logMessage() {
+    console.log(this.message); // What is logged?
+  },
+  log: () => {
+    console.log(this.message);
+  },
+};
+object.logMessage();
+object.log();
+setTimeout(object.logMessage, 1000);
+```

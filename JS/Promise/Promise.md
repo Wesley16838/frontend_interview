@@ -2,9 +2,7 @@
 
 ## What is promise?
 
-> A promise represents an operation that hasn't completed yet; Or defined as a proxy for a value that will eventually become available. A Promise is in one of these states: pending: initial state, neither fulfilled nor rejected. fulfilled: meaning that the operation was completed successfully. rejected: meaning that the operation failed.
-
-> Promise is introduced in ES6 to resolve the callback hell issue and handle asynchronous operations
+> In conclusion, Promise is introduced in ES6 to resolve the callback hell issue and handle asynchronous operations. Explain more, a promise represents an operation that hasn't completed yet. A Promise is in one of these three states: pending: initial state, neither fulfilled nor rejected. fulfilled: meaning that the operation was completed successfully. rejected: meaning that the operation failed.
 
 ## Create a Promise
 

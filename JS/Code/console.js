@@ -1,3 +1,4 @@
+// Unary plus Convert
 console.log(1 + true);
 console.log(true + true);
 console.log("1" + true);
@@ -75,3 +76,18 @@ function mutate(obj) {
 console.log(obj1);
 mutate(obj1);
 console.log(obj1);
+
+let a = 3;
+let b = new Number(3); //object
+let c = 3;
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
+// true false false
+
+// postfix and prefix
+let number = 0;
+console.log(number++);
+console.log(++number);
+console.log(number);
