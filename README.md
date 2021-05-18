@@ -50,9 +50,8 @@
 | 42         | [Nullish coalescing operator & logical OR operator & unary plus](#Nullish_coalescing_operator_&_logical_OR_operator_&_unary_plus)                           |
 | 43         | [CSS Selector](#css_selector)                                                                                                                               |
 | 44         | [What is Restful API](#what_is_restful_api)                                                                                                                 |
-
-| 45 ｜[Why and what is Redux](#why_and_what_is_redux)｜
-| Bonus | [Difference between Methods and Functions](#difference_between_methods_and_functions) |
+| 45         | [Why and what is Redux](#why_and_what_is_redux)                                                                                                             |
+| Bonus      | [Difference between Methods and Functions](#difference_between_methods_and_functions)                                                                       |
 
 1.  ### What is scope
 
