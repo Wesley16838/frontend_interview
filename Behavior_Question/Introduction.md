@@ -10,6 +10,14 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since I have lots of experience in collaborating with various teams, I am capable of working well with people from different disciplines. In addition, I am highly knowledgeable in Frontend development with proven experience above. I believe that my experience and characteristics will make me a competitive candidate.
 
+## 中文字屆
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是翁尉瑄, 目前在華碩擔任前端工程師且擁有一年左右 react/ redux 的開發經驗, 兩年兩年以上的前端開發經驗. 在華碩期間, 我主要負責維護與開發擁有百萬用戶的 app 裡面的主要產品 - 電競鍵盤的前端功能. 我不只針對無線鍵盤開發新功能, 改善了整體 kb 架構來優化性能, 還使用 react hooks 重構各個元件並使之更響應化（responsive）
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我還擁有資料視覺化的經驗, 當我在研華的一個敏捷開發團隊中擔任一個前端開發的實習生, 並與來自北京的後端團隊合作, 利用 Grafana 視覺化平台搭配 Angular 和 svg.js 優化水處理管理儀表板的資料視覺化, 以改善使用者遠端監控, 管理和應用分析的來節省耗能並帶給污水處理廠最大得利益. 此外, 實習生也在工業自動化展中呈現作品給潛在客戶看. 並在實習結束後得了團隊優勝獎.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我就學期間, 我和同學合作開發了用於視覺化 產品價格比較的 網頁 以改善用戶比較產品價格的體驗. 我主要負責前端開發, 使用 react.js, apollo, d3.js, scss 實現視覺化即時性產品資料, 此外我還負責使用 python, selenium 從電商網站爬蟲像是 amazon 或 ebay 和 bestbuy.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此外, 我是一位積極主動並樂意學習得人, 我在就學期間主對參加了 covid-19 global hackathon 並且跟三人小組合作在短時間內開發了日常用品交易的網站以改善因為新冠肺炎流行病所造成物資缺乏以及避免群體感染的相關問題. 我主要負責使用 react hooks 和 context api 開發用戶友好介面和功能 讓使用者發布日常用品需求 並且在 google map 上顯示使用者周圍的其他的需求
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因為我有與許多不同類型團隊合作的經驗, 所以我能很快地適應任何團隊與環境. 再加上我有前後端開發的實戰經驗, 應此在與後端 api 做串接和與後台工程師溝通會比較有效率. 綜合上述, 我認為我的前端開發能力和個人經驗能協助貴公司的產品不管在用戶體驗或者性能上有所優化
+
 ## Education
 
 - Stevens Institute of Technology - master degree in CS

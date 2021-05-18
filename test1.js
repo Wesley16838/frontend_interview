@@ -10,6 +10,3 @@ const a = test();
 a();
 a();
 a();
-// test();
-// test();
-// test();

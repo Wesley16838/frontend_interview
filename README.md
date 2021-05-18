@@ -51,6 +51,7 @@
 | 43         | [CSS Selector](#css_selector)                                                                                                                               |
 | 44         | [What is Restful API](#what_is_restful_api)                                                                                                                 |
 | 45         | [Why and what is Redux](#why_and_what_is_redux)                                                                                                             |
+| 46         | [React LifeCycle](#react_lifecycle)                                                                                                                         |
 | Bonus      | [Difference between Methods and Functions](#difference_between_methods_and_functions)                                                                       |
 
 1.  ### What is scope
@@ -617,6 +618,51 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
 
 43. ### CSS Selector
 44. ### What is Restful API
+45. ### Why and what is Redux
+
+- Redux is a state management container. It can easily manage the states between the components. There are three building part of Redux below:
+  1. store: Store is the object which holds the state of the application (Basically using mapStateToProps, mapDispatchToProps and connect React component to Redux Store)
+  ```javascript
+  const mapDispatchToProps = (dispatch) => {
+    return {
+      // dispatching plain actions
+      increment: () => dispatch({ type: "INCREMENT" }),
+      decrement: () => dispatch({ type: "DECREMENT" }),
+      reset: () => dispatch({ type: "RESET" }),
+    };
+  };
+  ```
+  2. action: Action is an event object that contains action type and payload. Using Dispacth to call action anywhere in the app
+  3. reducer: Reducer takes current state and incoming action then return the new state to update the store
+  - createStore
+  - dispatch(action)
+  - getState
+  4. Middleware: Redux Thunk/ Debug
+
+46. ### React LifeCycle
+1. Mounting
+
+   - constructor
+   - getDerivedStateFromProps
+   - render
+   - componentDidMount
+
+1. Updating
+
+   - getDerivedStateFromProps
+   - shouldComonentUpdate
+   - Render
+   - getSnapshotBeforeUpdate
+   - ComponentDidUpdate
+
+1. unMounting
+
+   - componentWillUnmount
+
+1. ### How to optimize React
+1. Ckass component: shouldComponentUpdate, PureComponent(state shadow compare)
+1. Functional component: React.memo
+1. React Hooks: useMemo
 
 # Bunus
 
