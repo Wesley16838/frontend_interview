@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    .checkbox-list {
+      margin: 5px 0 0 20px;
+    }
+
+    .checkbox-container {
+      margin-top: 5px;
+    }
+  </style>
+  <body>
+    <div id="cb-root">
+      <div class="checkbox-container">
+        <label for="canada">Canada</label>
+        <input id="canada" type="checkbox" />
+        <div class="checkbox-list">
+          <div class="checkbox-container">
+            <label for="ontario">Ontario</label>
+            <input id="ontario" type="checkbox" />
+            <div class="checkbox-list">
+              <div class="checkbox-container">
+                <label for="ott">Ottawa</label>
+                <input id="ott" type="checkbox" />
+                <div class="checkbox-list"></div>
+              </div>
+
+              <div class="checkbox-container">
+                <label for="tor">Toronto</label>
+                <input id="tor" type="checkbox" />
+                <div class="checkbox-list"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="checkbox-container">
+            <label for="quebec">Quebec</label>
+            <input id="quebec" type="checkbox" />
+            <div class="checkbox-list">
+              <div class="checkbox-container">
+                <label for="mor">Montreal</label>
+                <input id="mor" type="checkbox" />
+                <div class="checkbox-list"></div>
+              </div>
+
+              <div class="checkbox-container">
+                <label for="qc">Quebec City</label>
+                <input id="qc" type="checkbox" />
+                <div class="checkbox-list"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

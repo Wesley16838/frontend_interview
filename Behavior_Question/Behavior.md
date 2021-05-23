@@ -30,6 +30,8 @@
 
 - [Why AWS QuickSight and position?](#Why-AWS-QuickSight-and-position)
 - [Why Front-End Developer?](#Why-Front-End-Developer)
+- [What are the characteristics of a good leader?](#What_are_the_characteristics_of_a_good_leader?)
+- [How to Choose the Right Technology Stack for learning?](#How_to_Choose_the_Right_Technology_Stack_for_learning?)
 - [How to Choose the Right Technology Stack for Your Project?](#How-to-Choose-the-Right-Technology-Stack-for-Your-Project)
 - [What did I do if there are not lots of document and resource to search?](#What-did-I-do-if-there-are-not-lots-of-document-and-resource-to-search)
 - [What is the most important characteristic for software engineer?](#What-is-the-most-important-characteristic-for-software-engineer)
@@ -69,8 +71,23 @@ There are several reasons why?
 - There are several reasons why I choose Front-End Developer.
 - First of all, I am a problem-solver and be willing to provide solution to improve any issues(solve the real world problem)! For example, I participated global hachathon and worked with 3 people to create a platform to deal with the shortage of daily supplies during Coronavirus Pandemic.
 - Secondly, I am eager to learn new technology and there are always lots of chances to learn new tech as a front-end developer. For example, I worked with a team to visualize real-time data using React.js and D3.js which are unfamiliar tech stack for me and which means it was a good opportunity for me to learn.
-- Last but not least, presenting the application makes me feel a sense of achievement and (encourage to engage)give me more energy for learning. For instantce, I present the dashboard to customer in Interntional exhibitoin when I was intern at Advantech and I was so proud of my team.
-  Thats why I choose Front-End Developer!
+- Last but not least, a sense of accomplishment. As a front-end developer, our job is not only just creating an innovative and interactive interface, but we visualizing the data correctly to help business maximize their productivity. For example, during the time at Advantech, my team was responsible for developing a water treatment management dashboard to save more equipment energy in order to save more money.
+  Thats why I choose Front-End Developer because I am willing to provide solution to solve problems and learning unfamiliar technologies and a sense of accomplishment!
+  **[⬆ Back to Top](#question)**
+
+### What are the characteristics of a good leader?
+
+- First of all, communication. A good communation skills are one of the leadership attributes that are absolutely crucial because a positive communication could inspire the team by their vision with enthusiasm and passion. After all, Employee engagement could drive employee productivity and business success. Ex. during my academic year, I collaborated with the 4-people team to build a website as a team leader. I am willing to encourage and inspire people base on the outcome even though they did not fulfill the requirement. One of my teammates was responsible for building a chart, but he did not properly apply the design to the end product. Thus, I encouraged him to go above and beyond the expection to make a better outcome. As a result, our team achieved high scores in the class and got positive feedback from the professor which was the best one he had ever seen.
+- Secondly, Think with different perspective. As a leader, I am not the learner anymore, instead, I am both learner and mentor. Therefore, as a mentor, learners are just like customers, I need to think like a customer and put myself into their shoes. Therefore, sometimes I need to analyze the root cause of mentor failure and then implement changes that prevent repeat occurrences to improve customer experience, rather than just mentoring without any changes.
+- In conclusion, Leaders have a direct impact on employee satisfaction, motivation and productivity. A good leadership communication could inspire and encourage the team in order to drive employee productivity and business success. And thinking with a different perspective could understand more what the team actually need and improve teamwork in the workplace.
+  **[⬆ Back to Top](#question)**
+
+### How to Choose the Right Technology Stack for learning?
+
+- Personal Requirements: I am used to knowing what my requirement and purpose are first before choosing the technologies. For example, during my academic year, I was usually responsible for front-end development includes web and mobile, so I needed to learn more about front end development first to improve my skills.
+- Conduct Market research: In this case, whenever I applied for position of front-end developer, I took time on reviewing job requirement to analyze what markets requirement needs is? For example, there are three popular frameworks which are Angular, React and Vue and most of the requirements contain those three frameworks, and the React has already been the top framework in the marget for a long time.
+- Practicality: I have experience in mobile development using natvie language which are JAVA and Swift! Thus, I knew it was quite hard to learn three of them at the same time. Thus, after learning ReactJS, I choose to learn React Native which is a cross platform technology because both React and React Native is based on JavaScript and their syntax and workflow are similar.
+  In conlcusion, I choose the technology stack based on the personal requirement, Conduct Market research, and Practicality.
   **[⬆ Back to Top](#question)**
 
 ### How to Choose the Right Technology Stack for Your Project?

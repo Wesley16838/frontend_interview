@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="parent">
+      <input type="text" name="foo.bat" />
+      <input type="text" name="foo.bar.baz" />
+      <input type="text" name="fizz" />
+    </form>
+  </body>
+  <script>
+    // time = wrap.length * (each.name.split().length)
+    function getValue(id) {
+      let element = document.querySelector(`#${id}`);
+      let wrap = element.querySelectorAll(`input`);
+      var obj = {};
+      const result = Array.from(wrap).reduce((prev, current) => {
+        console.log(prev, current);
+        const names = current.name.split(".");
+        let temp = prev;
+        names.forEach((name, index) => {
+          if (!temp[name]) {
+            temp[name] = {};
+          }
+          if (index == names.length - 1) {
+            temp[name] = current.value;
+          }
+          temp = temp[name];
+        });
+        return prev;
+      }, obj);
+      return result;
+    }
+
+    getValue("parent");
+  </script>
+</html>
