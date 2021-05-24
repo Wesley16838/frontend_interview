@@ -47,7 +47,7 @@
 | 39         | [Block element & inline element](#block-element-&-inline-element)                                                                                         |
 | 40         | [pseudo class & pseudo element](#pseudo-class-&-pseudo-element)                                                                                           |
 | 41         | [Comparison Angular vs. React vs. Vue](#comparison-angular-vs-react-vs-vue)                                                                               |
-| 42         | [Nullish coalescing operator & logical OR operator & unary plus](#Nullish_coalescing_operator_&_logical_OR_operator_&_unary_plus)                         |
+| 42         | [Nullish coalescing operator and logical OR operator and unary plus](#Nullish_coalescing_operator_and_logical_OR_operator_and_unary_plus)                 |
 | 43         | [CSS Selector](#css_selector)                                                                                                                             |
 | 44         | [What is Restful API](#what_is_restful_api)                                                                                                               |
 | 45         | [Why and what is Redux](#why_and_what_is_redux)                                                                                                           |
@@ -663,17 +663,21 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
     | Model     | MVC        | Virtial DOM         | Virtial DOM                  |
     | Data Flow | Two-Way    | One-Way             | Both                         |
 
-        **[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#table-of-contents)**
 
-42. ### Nullish coalescing operator & logical OR operator & unary plus
+42. ### Nullish coalescing operator and logical OR operator and unary plus
 
-    - logical OR (||) operator, which returns the right-hand side operand if the left operand is any falsy value, not only null or undefined.
-    - The nullish coalescing operator (??) is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
-    - In other words, if you use || to provide some default value to another variable foo, you may encounter unexpected behaviors if you consider some falsy values as usable (e.g., '' or 0).
-    - The unary plus tries to convert an operand to a number. true is 1, and false is 0.
+        - logical OR (||) operator, which returns the right-hand side operand if the left operand is any falsy value, not only null or undefined.
+        - The nullish coalescing operator (??) is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+        - In other words, if you use || to provide some default value to another variable foo, you may encounter unexpected behaviors if you consider some falsy values as usable (e.g., '' or 0).
+        - The unary plus tries to convert an operand to a number. true is 1, and false is 0.
+
+    **[⬆ Back to Top](#table-of-contents)**
 
 43. ### CSS Selector
+    **[⬆ Back to Top](#table-of-contents)**
 44. ### What is Restful API
+    **[⬆ Back to Top](#table-of-contents)**
 45. ### Why and what is Redux
     > Redux is a state management container. It can easily manage the states between the components. There are three building part of Redux below:
 
@@ -696,6 +700,7 @@ const mapDispatchToProps = (dispatch) => {
   - dispatch(action)
   - getState
 - Middleware: Redux Thunk/ Debug
+  **[⬆ Back to Top](#table-of-contents)**
 
 46. ### React LifeCycle
 
@@ -716,9 +721,11 @@ const mapDispatchToProps = (dispatch) => {
 
 - unMounting
 
-  - componentWillUnmount
+  - componentWillUnmoun
+    **[⬆ Back to Top](#table-of-contents)**
 
 47. ### Differences between functional and class-Components
+    **[⬆ Back to Top](#table-of-contents)**
 
 # Bunus
 
@@ -726,9 +733,11 @@ const mapDispatchToProps = (dispatch) => {
 
 - Method: JavaScript method is a property of an object that contains a function definition.
 - Function: A function is a block of code written to perform some specific set of tasks.
+  **[⬆ Back to Top](#table-of-contents)**
 
 2. ### How to optimize React
 
 - Class component: shouldComponentUpdate, PureComponent(state shadow compare)
 - Functional component: React.memo
 - React Hooks: useMemo
+  **[⬆ Back to Top](#table-of-contents)**
