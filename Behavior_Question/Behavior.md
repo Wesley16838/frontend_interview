@@ -46,7 +46,7 @@
 - [Tell me about a time when a team member didnt meet your expectations on a project](#Tell-me-about-a-time-when-a-team-member-didnt-meet-your-expectations-on-a-project)
 - [Tell me a time when you disagree your manager](#Tell-me-a-time-when-you-disagree-your-manager)
 - [Tell me about a time when you have to say no](#Tell-me-about-a-time-when-you-have-to-say-no)
-- [Think back on a project that you worked on, what steps did you take to make sure that it targets the needs of your customers?](#Think-back-on-a-project-that-you-worked-on,-what-steps-did-you-take-to-make-sure-that-it-targets-the-needs-of-your-customers?)
+- [Thin k back on a project that you worked on, what steps did you take to make sure that it targets the needs of your customers?](#Think-back-on-a-project-that-you-worked-on,-what-steps-did-you-take-to-make-sure-that-it-targets-the-needs-of-your-customers?)
 - [Tell me about your proudest professional achievement](#Tell-me-about-your-proudest-professional-achievement)
 - [Tell me about an example when you were able to deliver an important project under a tight deadline](#Tell-me-about-an-example-when-you-were-able-to-deliver-an-important-project-under-a-tight-deadline)
 - [Times You Missed A Deadline](#Times-You-Missed-A-Deadline)
@@ -71,7 +71,7 @@ There are several reasons why?
 - There are several reasons why I choose Front-End Developer.
 - First of all, I am a problem-solver and be willing to provide solution to improve any issues(solve the real world problem)! For example, I participated global hachathon and worked with 3 people to create a platform to deal with the shortage of daily supplies during Coronavirus Pandemic.
 - Secondly, I am eager to learn new technology and there are always lots of chances to learn new tech as a front-end developer. For example, I worked with a team to visualize real-time data using React.js and D3.js which are unfamiliar tech stack for me and which means it was a good opportunity for me to learn.
-- Last but not least, a sense of accomplishment. As a front-end developer, our job is not only just creating an innovative and interactive interface, but we visualizing the data correctly to help business maximize their productivity. For example, during the time at Advantech, my team was responsible for developing a water treatment management dashboard to save more equipment energy in order to save more money.
+- Last but not least, a sense of accomplishment. As a front-end developer, our job is not only just creating an innovative and interactive interface, but we visualizing the data correctly to help business maximize their productivity. For example, during the time at Advantech, my team was responsible for developing a water treatment management dashboard to make the equipment for energy-saving and economical.
   Thats why I choose Front-End Developer because I am willing to provide solution to solve problems and learning unfamiliar technologies and a sense of accomplishment!
   **[⬆ Back to Top](#question)**
 
@@ -116,7 +116,7 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ## Which thing is the most important to consider when I design/develop Interface?
 
-- Mobile first: According to the statistic , more and more people access the internet only from their smartphone in six years! Thus, small-screen friendly make digital product more readable on small screen and more helpful for people who is hard of seeing. For example, when I was interned at Creatop, I collaberated with an UI designer to re-designed and re-developed a webpage for furniture company. Since origin one is hard to read on small screen, we decided to make it more responsive and simple. After implementing mobile-first design, we successfully received positive feedback from customers and furniture company!
+- Mobile first and friendly: According to the statistic , more and more people access the internet only from their smartphone in six years! Also, small-screen friendly make digital product more readable on small screen and more helpful for people who is hard of seeing. For example, when I was interned at Creatop, I collaberated with an UI designer to re-designed and re-developed a webpage for furniture company. Since original one is hard to read on small screen, we decided to make it more responsive and simple. After implementing mobile-first design, we successfully received positive feedback from customers and furniture company!
   **[⬆ Back to Top](#question)**
 
 ### Tell me about your strength and weakness and why?
@@ -147,8 +147,8 @@ If I have already chose there tech stack, then I will do three things if I do no
 ### Tell me about a time when you had a group conflict and how did you overcome this conflict?
 
 - ASUS
-  - During the time at ASUS, I was responsible for gaming keyboard which is the main device in the product, so I have lots of chances to communicate with people from different disciplines. Since it is my first full-time job, I have less experience in collaberate with people who are also full-time. At first, I was not familiar with the project structure. If error show up, I need to clarify where the issue come from and if this issue is from sdk which is a bridge to connect with firmware, I need to tell my co-worker what issue is. However, since I was not familiar wih architecture when I just got into the company, he usually avoided dealing with the issuse because he thought I could figure it out. But some issues cannot be figured out by me because it didn't follow the data flow and make app slower. For example, when user plug in the usb, we need to get device information and restore previous setting but it seens firmware cannot store gamming mode, so he suggest that I need to save the parameter in local file and set gamming mode when restore settings. It meant I had to sent one more request to SERVER API after restoring setting and it is not a good solution. Thus, I took time on understanding more about the data flow and structure and discussed with him again for a better solution. As a result, he successfully fixed issue rather than send extra request to set gamingmode again.
-  - What I learn was how to discuss issues with co-work to clarify where issues come from. I need to understand more about the structure and clarify the issue to narrow the issues down and then provide some feasible solutions with advantages and disadvantages before decision.
+  - During the time at ASUS, I was responsible for gaming keyboard which is the main device in the app, so I have lots of chances to communicate with people from different departments. As a front end developer in ASUS, I am responsible for dealing with bugs first and clarify what causes bugs and where they come from once software has bugs. One of backend developers who was responsible for gaming keyboard like to avoid taking responsibility so he usually thought I could deal with the issue by front-end side, but sometimes it did not follow the data flow and make application slower. For example, when the page is loading for the first time, the gaming keyboard would be set up based on the setting. He said SDK couldn't store the parameter of gaming mode and asked me to send extra request to set gaming mode. This method did not follow the data flow and it would slow the performance down because of extra http requests. Therefore, I began to take more time on making myself acquainted with the structure of application, and collected more useful information to support my solution in order to express my idea clearly and convince him to follow the dataflow. Therefore, I explained why I disagree with this solution due to data flow and performance. As a result, he successfully fixed the issue on the backend side rather than send an extra request to set gaming mode again. After that, I started to understand that communication skill plays an important role to minimize our communication gap between us.
+  - What I learned from this experience was how to communicate and collaberate with the co-work who are not willing to take responsibility. I need to acquaint application structure more and clarify what causes the issue in order to narrow the issue down and then provide some feasible solutions with advantages and disadvantages before communication so I could convince them to do their tasks.
     **[⬆ Back to Top](#question)**
 
 ### The biggest mistake you made and what did you learn from it?
@@ -195,7 +195,7 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Think back on a project that you worked on, what steps did you take to make sure that it targets the needs of your customers?
 
-- During the time at Advantech as a front-end internship, we had a sprint review meeting with customers to present the demo to customer and other stakeholders to make sure we meets the requirements. After collecting feedbacks from customers, we would hold sprint retrospective meeting to discuss about how to improve the process of development based on the feedback from customers. As a result, since we had a meeting twice a week with customer to make sure we met their requirement, we successfully present the dashboard to customer in the international exhibition and got positive feedback from customer.
+- During the time at Advantech as a front-end internship in an Agile team, we were responsible for optimizing the water treatment management dashboard to improve customer experience on monitoring and analytic. To assure we had a sprint review meeting with customers to present the demo to customer and other stakeholders to make sure we meets the requirements. After collecting feedbacks from customers, we would hold sprint retrospective meeting to discuss about how to improve the process of development based on the feedback from customers. As a result, since we had a meeting twice a week with customer to make sure we met their requirement, we successfully present the dashboard to customer in the international exhibition and got positive feedback from customer.
   **[⬆ Back to Top](#question)**
 
 ### Tell me about your proudest professional achievement
@@ -240,7 +240,7 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Question and Answer
 
-1. What does a normal day in this position look like?
+1. Can you describe a typical day in this role?
 2. What challenges has the team faced recently?
 3. What other teams should I expect to work with in this role?
 4. What is the next step of the hiring process is and when should I expect to hear back from you?
