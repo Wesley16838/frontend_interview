@@ -47,13 +47,13 @@
 | 39         | [Block element & inline element](#block-element-&-inline-element)                                                                                         |
 | 40         | [pseudo class & pseudo element](#pseudo-class-&-pseudo-element)                                                                                           |
 | 41         | [Comparison Angular vs. React vs. Vue](#comparison-angular-vs-react-vs-vue)                                                                               |
-| 42         | [Nullish coalescing operator and logical OR operator and unary plus](#Nullish_coalescing_operator_and_logical_OR_operator_and_unary_plus)                 |
-| 43         | [CSS Selector](#css_selector)                                                                                                                             |
-| 44         | [What is Restful API](#what_is_restful_api)                                                                                                               |
-| 45         | [Why and what is Redux](#why_and_what_is_redux)                                                                                                           |
-| 46         | [React LifeCycle](#react_lifecycle)                                                                                                                       |
-| 47         | [Differences between functional and class-Components](#Differences_between_functional_and_class-Components)                                               |
-| Bonus      | [Difference between Methods and Functions](#difference_between_methods_and_functions)                                                                     |
+| 42         | [Nullish coalescing operator and logical OR operator and unary plus](#nullish-coalescing-operator-and-logical-or-operator-and-unary-plus)                 |
+| 43         | [CSS Selector](#css-selector)                                                                                                                             |
+| 44         | [What is Restful API](#what-is-restful-api)                                                                                                               |
+| 45         | [Why and what is Redux](#why-and-what-is-redux)                                                                                                           |
+| 46         | [React LifeCycle](#react-lifecycle)                                                                                                                       |
+| 47         | [Differences between functional and class-Components](#Differences-between-functional-and-class-Components)                                               |
+| Bonus      | [Difference between Methods and Functions](#difference-between-methods-and-functions)                                                                     |
 
 1.  ### What is scope
 
