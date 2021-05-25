@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script>
+    var data = {
+      main: [
+        {
+          key1: "val1",
+        },
+        {
+          key2: "val2",
+        },
+        {
+          key3: "val3",
+        },
+        {
+          key4: "val4",
+        },
+      ],
+    };
+    let root = document.getElementById("root");
+    let ullist = document.createDocumentFragment("ul");
+    for (const [key, val] of Object.entries(data)) {
+      let cell = document.createElement("li");
+      let outtercheckbox = document.createElement("input");
+      outtercheckbox.type = "checkbox";
+      outtercheckbox.id = key;
+      outtercheckbox.name = key;
+      outtercheckbox.onclick = function () {
+        let inners = document.getElementsByClassName("inner");
+        for (let k = 0; k < inners.length; k++) {
+          inners[k].checked = outtercheckbox.checked ? true : false;
+        }
+      };
+      var outterlabel = document.createElement("label");
+      outterlabel.htmlFor = key;
+      outterlabel.appendChild(document.createTextNode(key));
+      cell.appendChild(outtercheckbox);
+      cell.appendChild(outterlabel);
+      if (typeof val === "object") {
+        let list = document.createElement("ul");
+        for (let j = 0; j < val.length; j++) {
+          let text = Object.keys(val[j])[0];
+          let innercell = document.createElement("li");
+          var checkbox = document.createElement("input");
+          checkbox.type = "checkbox";
+          checkbox.id = text;
+          checkbox.name = text;
+          checkbox.className = "inner";
+          checkbox.onclick = function () {
+            let all = document.getElementsByClassName("inner");
+            let total = 0;
+            for (let k = 0; k < all.length; k++) {
+              if (all[k].checked) total++;
+            }
+            if (total < all.length && total > 0) {
+              outtercheckbox.indeterminate = true;
+            } else if (total === 0) {
+              outtercheckbox.indeterminate = false;
+              outtercheckbox.checked = false;
+            } else {
+              outtercheckbox.indeterminate = false;
+              outtercheckbox.checked = true;
+            }
+          };
+          var label = document.createElement("label");
+          label.htmlFor = text;
+          label.appendChild(document.createTextNode(text));
+          innercell.appendChild(checkbox);
+          innercell.appendChild(label);
+          list.appendChild(innercell);
+        }
+        cell.appendChild(list);
+      }
+      ullist.appendChild(cell);
+    }
+    root.appendChild(ullist);
+  </script>
+</html>

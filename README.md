@@ -2,58 +2,77 @@
 
 ### Table of Contents
 
-| No.        | Questions                                                                                                                                                 |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| No.        | Questions                                                                                                                                                                         |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | JavaScript |
-| 1          | [What is Scope](#what-is-scope)                                                                                                                           |
-| 2          | [What is Closure Curry High order function](#what-is-closure-curry-high-order-function)                                                                   |
-| 3          | [What is Hoisting](#what-is-hoisting)                                                                                                                     |
-| 4          | [What is Prototype](#what-is-prototype)                                                                                                                   |
-| 5          | [What is "this"](#what-is-this)                                                                                                                           |
-| 6          | [What is Event Loop](#what-is-event-loop)                                                                                                                 |
-| 7          | [What is Object](#what-is-object)                                                                                                                         |
-| 8          | [What is Array](#what-is-array)                                                                                                                           |
-| 9          | [What is Arrow Function](#what-is-arrow-function)                                                                                                         |
-| 10         | [What is the difference between let and var and const ](#what-is-the-different-between-let-and-var-const)                                                 |
-| 11         | [What are the differences between cookie, local storage and session storage ](#What-are-the-differences-between-cookie-local-storage-and-session-storage) |
-| 12         | [What is Callback Function](#what-is-callback-function)                                                                                                   |
-| 13         | [What is Promise](#what-is-promise)                                                                                                                       |
-| 14         | [What is Async/Await](#what-is-async-await)                                                                                                               |
-| 15         | [What is the difference between null and undefined](#what-is-the-difference-between-null-and-undefined)                                                   |
-| 16         | [What is the difference between window and document](#what-is-the-difference-between-window-and-document)                                                 |
-| 17         | [What is DOM](#what-is-dom)                                                                                                                               |
-| 18         | [What is difference between virtual DOM and real DOM](#what-is-difference-between-virtual-dom-and-real-dom)                                               |
-| 19         | [What is JSON](#what-is-json)                                                                                                                             |
-| 20         | [What are primitive/Non-primituve data types](#what-are-primitive-non-primitive--data-types)                                                              |
-| 21         | [What is the difference between reflow and repaint](#what-is-the-difference-between-reflow-and-repaint)                                                   |
-| 22         | [What is an Event Propagation](#what-is-event-propagation)                                                                                                |
-| 23         | [What is AJAX](#what-is-ajax)                                                                                                                             |
-| 24         | [What are Debouncing and Throttling](#what-are-Debouncing-and-throttling)                                                                                 |
-| 25         | [What is MVC](#what-is-mvc)                                                                                                                               |
-| 26         | [Way to improve performance](#way-to-improve-performance)                                                                                                 |
-| 27         | [== vs ===](#==-vs-===)                                                                                                                                   |
-| 28         | [Falsy value](#falsy-value)                                                                                                                               |
-| 29         | [Function expression vs function declaration](#function-expression-vs-function-declaration)                                                               |
-| 30         | ["attribute" and a "property"](#attribute-and-a-property)                                                                                                 |
-| 31         | [CORS](#cors)                                                                                                                                             |
-| 32         | [Describe the difference between script script async and script defer](#describe-the-difference-between-script-script-async-and-script-defer)             |
-| 33         | [What does a `doctype` do?](#what-does-a-doctype-do)                                                                                                      |
+| 1          | [What is Scope](#what-is-scope)                                                                                                                                                   |
+| 2          | [What is Closure Curry High order function](#what-is-closure-curry-high-order-function)                                                                                           |
+| 3          | [What is Hoisting](#what-is-hoisting)                                                                                                                                             |
+| 4          | [What is Prototype](#what-is-prototype)                                                                                                                                           |
+| 5          | [What is "this"](#what-is-this)                                                                                                                                                   |
+| 6          | [What is Event Loop](#what-is-event-loop)                                                                                                                                         |
+| 7          | [What is Object](#what-is-object)                                                                                                                                                 |
+| 8          | [What is Array](#what-is-array)                                                                                                                                                   |
+| 9          | [What is Arrow Function](#what-is-arrow-function)                                                                                                                                 |
+| 10         | [What is the difference between let and var and const ](#what-is-the-different-between-let-and-var-const)                                                                         |
+| 11         | [What are the differences between cookie, local storage and session storage ](#What-are-the-differences-between-cookie-local-storage-and-session-storage)                         |
+| 12         | [What is Callback Function](#what-is-callback-function)                                                                                                                           |
+| 13         | [What is Promise](#what-is-promise)                                                                                                                                               |
+| 14         | [What is Async/Await](#what-is-async-await)                                                                                                                                       |
+| 15         | [What is the difference between null and undefined](#what-is-the-difference-between-null-and-undefined)                                                                           |
+| 16         | [What is the difference between window and document](#what-is-the-difference-between-window-and-document)                                                                         |
+| 17         | [What is DOM](#what-is-dom)                                                                                                                                                       |
+| 18         | [What is difference between virtual DOM and real DOM](#what-is-difference-between-virtual-dom-and-real-dom)                                                                       |
+| 19         | [What is JSON](#what-is-json)                                                                                                                                                     |
+| 20         | [What are primitive/Non-primituve data types](#what-are-primitive-non-primitive--data-types)                                                                                      |
+| 21         | [What is the difference between reflow and repaint](#what-is-the-difference-between-reflow-and-repaint)                                                                           |
+| 22         | [What is an Event Propagation](#what-is-event-propagation)                                                                                                                        |
+| 23         | [What is AJAX](#what-is-ajax)                                                                                                                                                     |
+| 24         | [What are Debouncing and Throttling](#what-are-Debouncing-and-throttling)                                                                                                         |
+| 25         | [What is MVC](#what-is-mvc)                                                                                                                                                       |
+| 26         | [Way to improve performance](#way-to-improve-performance)                                                                                                                         |
+| 27         | [== vs ===](#==-vs-===)                                                                                                                                                           |
+| 28         | [Falsy value](#falsy-value)                                                                                                                                                       |
+| 29         | [Function expression vs function declaration](#function-expression-vs-function-declaration)                                                                                       |
+| 30         | ["attribute" and a "property"](#attribute-and-a-property)                                                                                                                         |
+| 31         | [CORS](#cors)                                                                                                                                                                     |
+| 32         | [Describe the difference between script script async and script defer](#describe-the-difference-between-script-script-async-and-script-defer)                                     |
+| 33         | [What does a `doctype` do?](#what-does-a-doctype-do)                                                                                                                              |
 | CSS        |
-| 34         | [What is CSS selector specificity?](#what-is-css-selector-specificity)                                                                                    |
-| 35         | [Describe Floats and Clear and how they work](#describe-floats-and-clear-and-how-they-work)                                                               |
-| 36         | [Describe z-index and position](#describe-z-index-and-position)                                                                                           |
-| 37         | [box model](#box-model)                                                                                                                                   |
-| 38         | [What is the CSS display property](#what-is-the-CSS-display-property)                                                                                     |
-| 39         | [Block element & inline element](#block-element-&-inline-element)                                                                                         |
-| 40         | [pseudo class & pseudo element](#pseudo-class-&-pseudo-element)                                                                                           |
-| 41         | [Comparison Angular vs. React vs. Vue](#comparison-angular-vs-react-vs-vue)                                                                               |
-| 42         | [Nullish coalescing operator and logical OR operator and unary plus](#nullish-coalescing-operator-and-logical-or-operator-and-unary-plus)                 |
-| 43         | [CSS Selector](#css-selector)                                                                                                                             |
-| 44         | [What is Restful API](#what-is-restful-api)                                                                                                               |
-| 45         | [Why and what is Redux](#why-and-what-is-redux)                                                                                                           |
-| 46         | [React LifeCycle](#react-lifecycle)                                                                                                                       |
-| 47         | [Differences between functional and class-Components](#Differences-between-functional-and-class-Components)                                               |
-| Bonus      | [Difference between Methods and Functions](#difference-between-methods-and-functions)                                                                     |
+| 34         | [What is CSS selector specificity?](#what-is-css-selector-specificity)                                                                                                            |
+| 35         | [Describe Floats and Clear and how they work](#describe-floats-and-clear-and-how-they-work)                                                                                       |
+| 36         | [Describe z-index and position](#describe-z-index-and-position)                                                                                                                   |
+| 37         | [box model](#box-model)                                                                                                                                                           |
+| 38         | [What is the CSS display property](#what-is-the-CSS-display-property)                                                                                                             |
+| 39         | [Block element & inline element](#block-element-&-inline-element)                                                                                                                 |
+| 40         | [pseudo class & pseudo element](#pseudo-class-&-pseudo-element)                                                                                                                   |
+| 41         | [Comparison Angular vs. React vs. Vue](#comparison-angular-vs-react-vs-vue)                                                                                                       |
+| 42         | [Nullish coalescing operator and logical OR operator and unary plus](#nullish-coalescing-operator-and-logical-or-operator-and-unary-plus)                                         |
+| 43         | [CSS Selector](#css-selector)                                                                                                                                                     |
+| 44         | [What is http](#what-is-http)                                                                                                                                                     |
+| 45         | [Why and what is Redux](#why-and-what-is-redux)                                                                                                                                   |
+| 46         | [React LifeCycle](#react-lifecycle)                                                                                                                                               |
+| 47         | [Differences between functional and class-Components](#Differences-between-functional-and-class-Components)                                                                       |
+| 48         | [Spread vs rest operators](#Spread-vs-rest-operators)                                                                                                                             |
+| 49         | [Class vs Function](#Class-vs-Function)                                                                                                                                           |
+| 50         | [useEffect](#useeffect)                                                                                                                                                           |
+| 51         | [What are Higher-Order components](#What-are-Higher-Order-components)                                                                                                             |
+| 52         | [What are refs used for in React](#What-are-refs-used-for-in-React)                                                                                                               |
+| 53         | [What is the difference between state and props](#What-is-the-difference-between-state-and-props)                                                                                 |
+| 54         | [What is the purpose of using super constructor with props argument](#What-is-the-purpose-of-using-super-constructor-with-props-argument)                                         |
+| 55         | [What is the difference between a Controlled component and an Uncontrolled one in React](#What-is-the-difference-between-a-Controlled-component-and-an-Uncontrolled-one-in-React) |
+| 56         | [Hooks vs React](#Hooks-vs-React)                                                                                                                                                 |
+| 57         | [Why use bind in React](#Why-use-bind-in-React)                                                                                                                                   |
+| 58         | [Presentational vs Container](#Presentational-vs-Container)                                                                                                                       |
+| Bonus      |
+| 1          | [Difference between Methods and Functions](#difference-between-methods-and-functions)                                                                                             |
+| 2          | [How to optimize React](#How-to-optimize-React)                                                                                                                                   |
+| 3          | [Fix 0.1 + 0.2 = 0.300000004 in JavaScript](#Fix-0.1-+-0.2-=-0.300000004-in-JavaScript)                                                                                           |
+| 4          | [Advantages of JavaScript ES6 over ES5](#Advantages-of-JavaScript-ES6-over-ES5)                                                                                                   |
+| 5          | [Difference Between Window onload and document ready](#Difference-Between-Window-onload-and-document-ready)                                                                       |
+| 6          | [Axios VS Fetch](#Axios-vs-fetch)                                                                                                                                                 |
+| 7          | [JSX](#JSX)                                                                                                                                                                       |
+| 8          | [Choose framework](#Choose-framework)                                                                                                                                             |
 
 1.  ### What is scope
 
@@ -142,7 +161,31 @@
     - Within an object that has been constructed, this refers to the object that has been constructed
     - Explicit Function Binding : A function invoked with .call, .apply, or bind, this can refer this to any object. However, call and apply immediately invoke function but bind return a function
     - In HTML event handlers, this refers to the HTML element that receive the event
-      **[⬆ Back to Top](#table-of-contents)**
+
+    ```javascript
+    var myObject = {
+      property: this,
+      regularFunction: function () {
+        return this;
+      },
+      arrowFunction: () => {
+        return this;
+      },
+      iife: (function () {
+        return this;
+      })(),
+    };
+    myObject.regularFunction(); // myObject
+    myObject["regularFunction"](); // my Object
+
+    myObject.property; // NOT myObject; lexical `this`
+    myObject.arrowFunction(); // NOT myObject; lexical `this`
+    myObject.iife; // NOT myObject; lexical `this`
+    const regularFunction = myObject.regularFunction;
+    regularFunction(); // NOT myObject; lexical `this`
+    ```
+
+    **[⬆ Back to Top](#table-of-contents)**
 
 6.  ### What is Event Loop
 
@@ -301,6 +344,9 @@ Promise has three different states: 1. Fulfilled 2. Rejected 3. Pending
 
 We usually use .then, .catch, .finally promise method to implement promise chain
 
+- Promise.all(): returns a single promise that resolves when all of the passed-in promises have resolved. It rejects if one of the promises is rejected.
+- Promise.race(): returns a promise that resolves or rejects as soon as one of the promises resolves or rejects.
+
 - Print A,B,C in the order
 
 ```javascript
@@ -321,6 +367,32 @@ function printAll() {
       printString("C", () => {});
     });
   });
+}
+
+// Promise
+function printString(string) {
+  let promise = new Promise((res, rej) => {
+    setTimeOut(() => {
+      console.log(string);
+      res();
+    }, 1000);
+  });
+  return promise;
+}
+
+function printString(string) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log(string);
+      resolve();
+    }, 1 * 1000);
+  });
+}
+
+function printAll() {
+  printString("A")
+    .then(() => printString("B"))
+    .then(() => printString("C"));
 }
 
 //Promise
@@ -350,7 +422,10 @@ async function add(para) {
 14. ### What is Async/Await
 
     > Basically, async and await make promises easier to write. async makes a function return a Promise. await makes a function wait for a Promise. We use try and catch to handle error
-    > **[⬆ Back to Top](#table-of-contents)**
+
+    - Synchronous means each operation must wait for the previous one to complete.
+    - Asynchronous means an operation can occur while another operation is still being processed.
+      **[⬆ Back to Top](#table-of-contents)**
 
 15. ### What is the difference between null and undefined
 
@@ -497,8 +572,8 @@ document.getElementById('list').addEventListener('click', function(e){
     MVC stands for Model-View-Controller. It is a design pattern which composed of three components.
 
 - Model: Managing the data for an application
-- View: Displays the model in the UI
-- Controller: Serves as an interface between view & model. It is responsible for updating the model when the user manipulates the view
+- View: View display model data to the user and also enables them to modify them
+- Controller: The controller handles the user request and updates the model and returns the appropriate view as a response
 
 - MVC vs FLUX vs REDUX
   ｜ MVC ｜ FLUX ｜ REDUX ｜
@@ -655,6 +730,23 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
 - A pseudo-class is used to define a special state of an element.
   **[⬆ Back to Top](#table-of-contents)**
 
+39. ### Block element & inline element
+    > HTML element has a default display value, depending on what type of element it is. There are two display values: block and inline.
+
+- Block Element: A block-level element always starts on a new line. Can add width, height, padding and margin
+  - Ex. <div>, <footer>, <form>, <h1>-<h6>, <header>, <hr>, <ul>&<li>&<ol>, <p>
+- Inline Element: An inline element does not start on a new line. You can add space to the left and right on an inline element, but you cannot add height/ line-height or padding or margin of an inline element.
+  - Ex. <Span>, <a>, <img>, <label>,
+- Inline-Block Element: Inline-block elements are similar to inline elements(not start on a new line), except they can have padding and margins added on all four sides.
+  - Ex. <input>, <button>, <select>, <textarea>
+    **[⬆ Back to Top](#table-of-contents)**
+
+40. ### pseudo class & pseudo element
+
+- A CSS pseudo-element is used to style specified parts of an element.
+- A pseudo-class is used to define a special state of an element.
+  **[⬆ Back to Top](#table-of-contents)**
+
 41. ### Comparison Angular vs. React vs. Vue
 
     |           | Angular    | React               | Vue                          |
@@ -675,9 +767,24 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
     **[⬆ Back to Top](#table-of-contents)**
 
 43. ### CSS Selector
-    **[⬆ Back to Top](#table-of-contents)**
-44. ### What is Restful API
-    **[⬆ Back to Top](#table-of-contents)**
+    - div, p: Selects all <div> elements and all <p> elements
+    - div p: Selects all <p> elements inside <div> elements
+    - div > p: Selects all <p> elements where the parent is a <div> element
+    - div + p: Selects the first <p> element that is placed immediately after <div> elements
+    - p.intro(.class1.class2): Selects all <p> elements with class="intro"(Selects all elements with both name1 and name2 set within the class attribute)
+    - div ~ p: Select element2 that are preceded by element1. Both elements must have the same parent, but element2 does not have to be immediately preceded by element1.
+      **[⬆ Back to Top](#table-of-contents)**
+44. ### What is http
+    > HTTP stands for Hyper Text Transfer Protocol. Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses
+
+- GET: Retrieves data from the server
+- POST: Sends data to the server for a new entity
+- PUT: Similar to POST, but used to replace an existing entity
+- PATCH: Similar to PUT, but used to update only certain fields within an existing entity
+- DELETE: Removes data from the server
+
+  **[⬆ Back to Top](#table-of-contents)**
+
 45. ### Why and what is Redux
     > Redux is a state management container. It can easily manage the states between the components. There are three building part of Redux below:
 
@@ -706,25 +813,140 @@ const mapDispatchToProps = (dispatch) => {
 
 - Mounting
 
-  - constructor
+  - constructor(initialize state and bind event handlers methods, call super(props) to get props from parent)
   - getDerivedStateFromProps
-  - render
-  - componentDidMount
+  - render: render elements to the DOM
+  - componentDidMount: After render is called, the component is mounted to the DOM
+    - Grab a DOM node from the component tree
+    - Set up subscription such as addeventlistener
+    - Fetch data
 
 - Updating
 
-  - getDerivedStateFromProps
-  - shouldComonentUpdate
+  - getDerivedStateFromProps(static function ,replace componentWillReceiveProps and update state or null based on the changes of props)
+  - shouldComonentUpdate: Return a boolean  —  true or false to control whether the component should be rerendered or not
+    - nextProps.value !== this.props.value
   - Render
-  - getSnapshotBeforeUpdate
-  - ComponentDidUpdate
+  - getSnapshotBeforeUpdate: The getSnapshotBeforeUpdatelifecycle method stores the previous values of the state after the DOM is updated
+
+  - ComponentDidUpdate: Receives the previous props and state
+    - call api
+    - set State
+    - Wrap in the condition such as this.props.name !== prevProps.name or it will cause an infinite loop
 
 - unMounting
 
-  - componentWillUnmoun
+  - componentWillUnmount: Clearing up timers, cancelling network requests, or cleaning up any subscriptions that were created in componentDidMount()
+
+- Order of lifecycle between parent and child
+  - Mounting: parent(from contructor to render) -> child(mounting) -> parent(componentDidMount)
+  - Updating: parent(from getDerived to render) -> child(from getDerived to getSnapshotBeforeUpdate) -> parent(getSnapshotBeforeUpdate) -> child(componentDidUpdate) -> parent(componentDidUpdate)
+  - unmounting: parent(componentWillUnmount) -> child(componentWillUnmount)
     **[⬆ Back to Top](#table-of-contents)**
 
 47. ### Differences between functional and class-Components
+
+- Syntax
+  - A functional component is just a plain JavaScript function which accepts props as an argument and returns a React element.
+  - A class component requires you to extend from React.Component and create a render function which returns a React element.
+- State
+  - cannot use setState() because functional component is a plain JavaScript function
+- Life Cycle
+  - All lifecycle are coming from the React.Component which you extend from in class components.
+- Size
+  - If compare them using ES5, the size of class component file will much bigger than stateless component file(functional)
+    **[⬆ Back to Top](#table-of-contents)**
+
+48. ### Spread vs rest operators
+
+- Rest parameter: collects all remaining elements into an array
+- Spread operator: allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements.
+  **[⬆ Back to Top](#table-of-contents)**
+
+49. ### Class vs Function
+
+- function
+
+  - hoisted
+  - can be redeclared
+  - hoisted to the global
+
+- class
+  - not hoisted
+  - cannot be redeclared
+  - block scope
+    **[⬆ Back to Top](#table-of-contents)**
+
+50. ### useEffect
+
+    > useEffect lets you implement side effects in function component includea fetching data, subscriptions. useEffect conbines three component lifecycle includes ComponentDidMount, ComponentDidUpdate, ComponentWillUnmout.
+
+    - Second arguement: React compares the current value of dependency and the value on previous render. If they are not the same, effect is invoked.(Dependecies are value defined outside useeffect but are being used inside useeffect) If you ignore it, effect will be executed after every render. If you want effect to be executed only on first render, you can pass an empty array.
+      > **[⬆ Back to Top](#table-of-contents)**
+
+51. ### What are Higher-Order components
+    > A higher-order component (HOC) is a function that takes a component and returns a new component which allow to reuse component logic.
+    - HOC called connect to map store state to props.
+      > **[⬆ Back to Top](#table-of-contents)**
+52. ### What are refs used for in React
+    > Allow you to get direct access to a DOM element
+    ```javascript
+    //hooks
+    const elementRef = useRef();
+    const divElement = elementRef.current;
+    return <div ref={elementRef}>I'm an element</div>;
+    //class
+    this.myRef = React.createRef();
+    const node = this.myRef.current;
+    render() {
+    return <div ref={this.myRef} />;
+    }
+    ```
+    **[⬆ Back to Top](#table-of-contents)**
+53. ### What is the difference between state and props
+
+- Props is an object get passed to the component from parent to child
+- State is the data managed within the component
+  **[⬆ Back to Top](#table-of-contents)**
+
+54. ### What is the purpose of using super constructor with props argument
+    > A child class constructor cannot make use of this reference until super() method has been called.And The main reason of passing props parameter to super() call is to access this.props in your child constructors
+    > **[⬆ Back to Top](#table-of-contents)**
+55. ### What is the difference between a Controlled component and an Uncontrolled one in React
+
+- Controlled component: The form data is handled by the state within the component
+- Uncontroller component: The data for each input element is stored in the DOM, not in the component.
+  **[⬆ Back to Top](#table-of-contents)**
+
+56. ### Hooks vs React
+
+- Advantages of using React Hooks
+  - Could control react state and life-cycle features inside function components
+  - Syntax easier
+  - No more method bindings
+  - No worry about “this”
+    - Binding ‘this’ to the class methods enables us to access props and state for the component with this.props and this.state.
+      **[⬆ Back to Top](#table-of-contents)**
+
+57. ### Why use bind in React
+    > It bases on how 'this' works in JavaScript. 'this' reference inside functions can be bound to different objects depending on where the function is called.
+    > If we don’t bind the method. the value inside the method will points to the global object or undefined becasue it is a plain function call without an owner object. Thus, we can explicitly hard bind the this value to a function by using the bind() method.
+
+- Why arrow not bind?
+
+  - The value of the this keyword inherited from the parent’s scope (this is called lexical scoping) which is class.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+58. ### Presentational vs Container
+
+- Presentational Component
+  - Concerned with how things look
+  - Receive data and callbacks using props
+- Container Component
+  - Concerned with how things work(Managing data )
+  - Call actions and provide these as callbacks to the presentational components.
+  - They often pass data to child components
     **[⬆ Back to Top](#table-of-contents)**
 
 # Bunus
@@ -741,3 +963,100 @@ const mapDispatchToProps = (dispatch) => {
 - Functional component: React.memo
 - React Hooks: useMemo
   **[⬆ Back to Top](#table-of-contents)**
+
+3. ### Fix "0.1 + 0.2 = 0.300000004" in JavaScript
+   > In short, due to computers working in Base 2 while decimal is Base 10.
+   > A simple solution to this problem is:
+
+```javascript
++(0.1 + 0.2).toFixed(1); // 0.3
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+4. ### Advantages of JavaScript ES6 over ES5
+
+- Arrow function
+- Classes
+- Block Scoping
+- Promise
+  **[⬆ Back to Top](#table-of-contents)**
+
+5. ### Difference Between Window onload and document ready
+   > In short, use window.onload when your script contains operations on the content. Otherwise, use \$(document).ready().
+
+- Window Onload
+  - The window load event is fired when the whole web page has completed loading. It waits for all the elements and the contents
+  ```javascript
+  window.addEventListener("load", (event) => {
+    // insert code here
+  });
+  window.onload = (event) => {
+    // insert code here
+  };
+  ```
+- Document Ready
+  - The ready event is fired when the DOM has completed loading. However, it does not wait for the contents such as images or videos
+  ```javascript
+  $(document).ready(function () {
+    //insert code here
+  });
+  ```
+  **[⬆ Back to Top](#table-of-contents)**
+
+6. ### Axios VS Fetch
+
+- Axios vs Fetch
+
+  - Synctax
+    - Axios uses the data property, and Fetch uses the body property.
+    - Axios data contains the object, and Fetch’s body has to be stringified.
+    - Axios Automatically converts a response to JSON but Fetch not
+    - Axios supports much more browser.
+    - Axios has url in request object, Fetch has no url in request object.
+    - Axios could set Response timeout
+    - Axios has HTTP interceptors
+
+  ```javascript
+  // axios
+  axios({
+    method: "post",
+    url: "/login",
+    data: {
+      firstName: "shedrack",
+      lastName: "akintayo",
+    },
+  });
+  axios.get(apiUrl).then((repos) => {
+    const allRepos = repos.data;
+    setAppState({ loading: false, repos: allRepos });
+  });
+
+  // fetch
+  fetch("https://api.github.com/gists", {
+    method: "post",
+    body: JSON.stringify(opts),
+  }).then(function (response) {
+    return response.json();
+  });
+  ```
+
+  **[⬆ Back to Top](#table-of-contents)**
+
+7. ### JSX
+   > it is a syntax extension to JavaScript And allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods.
+   > **[⬆ Back to Top](#table-of-contents)**
+8. ### Choose framework
+
+- Choose Angular when:
+  - You are about to develop a very large and complex project becasue it has a complete development environment(Built-in module system)
+  - You need easy and reliable scalability
+  - You can afford some time for learning TypeScript before the project starts
+- Choose React when:
+  - Your project can accept reusable components
+  - Your project’s front-end is not too complex
+- Choose Vue.js when:
+  - Your project scope is on the small side
+  - You need high performance
+  - You do not have much time to learn a new technology
+    **[⬆ Back to Top](#table-of-contents)**
