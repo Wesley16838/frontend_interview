@@ -4,7 +4,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I also gain experience in Data Visualization when I interned at Advantech as a Front-End Developer in an Agile team that I collaborated with the Backend team from Beijing to create user-friendly Data visualization dashboards for real-time monitoring, data analysis, alarm, and reporting to save more equipment energy in order to help business maximize their productivity. Besides, my team presented the dashboard to potential customer in the international exhibition and also won the summer intern award at the end of the internship.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During my academic years, I collaborated with my classmates to build a price comparison visualization website to provide a solution to save time for online shopping. I was responsible for visualizing real-time products data using React.js and d3.js and mining data from Amazon, Bestbuy and eBay using Python.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During my academic years, I collaborated with my classmates to build a price comparison visualization website to provide a solution for saving time on online shopping. I was responsible for visualizing real-time products data using React.js and d3.js and mining data from Amazon, Bestbuy and eBay using Python.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Most important of all, I am a highly-proactive person and willing to learn unfamiliar technologies. I took the initiative to participate in Global Hackathon which encourages participants to provide solutions to improve issues related to Covid-19. Therefore, I worked with a 3-people team to build a daily supplies exchange website to deal with the shortage of supplies and cluster infection.
 
