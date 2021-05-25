@@ -54,6 +54,15 @@
 - [Tell me about a time when you mentor other engineers](#Tell-me-about-a-time-when-you-mentor-other-engineers)
 - [think differently](#think-differently)
 - [make decision without enough data](#make-decision-without-enough-data)
+- [Tell me about a time when you gave a simple solution to a complex problem](#Tell-me-about-a-time-when-you-gave-a-simple-solution-to-a-complex-problem)
+- [Tell me about a time when you went way beyond the scope of the project and delivered](#Tell-me-about-a-time-when-you-went-way-beyond-the-scope-of-the-project-and-delivered)
+- [Tell me about a time when you had to make a quick decision that was going to have a significant impact on the organization](#Tell-me-about-a-time-when-you-had-to-make-a-quick-decision-that-was-going-to-have-a-significant-impact-on-the-organization)
+- [Tell me about a time when you had to take a calculated risk at work](#Tell-me-about-a-time-when-you-had-to-take-a-calculated-risk-at-work)
+- [When have you had to overcome a challenging situation at work](#When-have-you-had-to-overcome-a-challenging-situation-at-work)
+- [Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it](#Describe-a-time-when-you-saw-some-problem-and-took-the-initiative-to-correct-it-rather-than-waiting-for-someone-else-to-do-it)
+- [Tell me about an unpopular decision of yours](#Tell-me-about-an-unpopular-decision-of-yours)
+- [What is the most difficult situation you have ever faced in your life](#What-is-the-most-difficult-situation-you-have-ever-faced-in-your-life)
+- [Can you tell me about a time when you were more than halfway through a project and had to pivot quickly due to an unexpected change](#Can-you-tell-me-about-a-time-when-you-were-more-than-halfway-through-a-project-and-had-to-pivot-quickly-due-to-an-unexpected-change)
 - [Question and Answer](#Question-and-Answer)
 
 ### Why AWS QuickSight and position?
@@ -237,6 +246,51 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 - During my academic year, I took the iniative to participate global hackathon which encourate people to prove solution to improve issue related to covid-19. Decision about topic is always the most diffcult part in the hackathon because we do not have enough data about customer! Thus, to save time on making decision what topic we should choose, we conducted a market survey to understand more about what customers actually need by conducting a user interview. As a result, rather than choose Data Visualization, we choose to create daily supplies exchanging platform to deal with the shortage of supplies because we found that lots of people did not have enough daily supplies such as face mask during coronavirus pandemic. Although we did not win the award, I still learned a lesson about how to make decisions without enough data. We did not have enough data initially, but we still find the data by conducting a user interview! After all, taking action is better than doing nothing!
   **[⬆ Back to Top](#question)**
+
+### Tell me about a time when you gave a simple solution to a complex problem
+
+compatibility of different language keyboard to set default button to initial the keyboard button
+**[⬆ Back to Top](#question)**
+
+### Tell me about a time when you went way beyond the scope of the project and delivered
+
+Make project more responsive and smooth during creatop
+**[⬆ Back to Top](#question)**
+
+### Tell me about a time when you had to make a quick decision that was going to have a significant impact on the organization
+
+keyboard button page not list but show original kb image
+**[⬆ Back to Top](#question)**
+
+### Tell me about a time when you had to take a calculated risk at work
+
+Responsible for kb which is the main and complicated product in the application
+**[⬆ Back to Top](#question)**
+
+### When have you had to overcome a challenging situation at work
+
+asus fixed bug and create new feature
+**[⬆ Back to Top](#question)**
+
+### Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it
+
+Asus RWD
+**[⬆ Back to Top](#question)**
+
+### Tell me about an unpopular decision of yours
+
+During the Global Hackathon, I raised an idea which visualizes the data
+**[⬆ Back to Top](#question)**
+
+### What is the most difficult situation you have ever faced in your life
+
+Choose company TSMC which is one of top semiconductor company in the world and Advantech which is Industrial Automation company
+**[⬆ Back to Top](#question)**
+
+### Can you tell me about a time when you were more than halfway through a project and had to pivot quickly due to an unexpected change
+
+asus power
+**[⬆ Back to Top](#question)**
 
 ### Question and Answer
 
