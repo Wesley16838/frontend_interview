@@ -472,10 +472,10 @@ async function add(para) {
 **[⬆ Back to Top](#table-of-contents)**
 
 18. ### What is difference between virtual DOM and real DOM
-    | Real                                                                                                                                                                                          | Virtual                        |
-    | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-    | Directly update ALL DOM                                                                                                                                                                       | Cannot directly update all dom |
-    | Update slow because repaint and reflow the UI ｜ Using diffing algo to compare current and prev dom and virtual DOM calculates the best possible method to make these changes to the real DOM |
+    | Real                                          | Virtual                                                                                                                                      |
+    | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+    | Directly update ALL DOM                       | Cannot directly update all dom                                                                                                               |
+    | Update slow because repaint and reflow the UI | Using diffing algo to compare current and prev dom and virtual DOM calculates the best possible method to make these changes to the real DOM |
 
 > Shallow vs Virtual
 > Virtual DOM is creating a copy of the whole DOM object, and Shadow DOM creates small pieces of the DOM object which has their own, isolated scope for the element they represent.
