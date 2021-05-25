@@ -154,7 +154,7 @@
 
 5.  ### What is this
 
-    Basically, Depends on how the function is called and this keyword refers to the object it belongs to. It has different values depending on where it is used. It has different values depending on where it is used:
+    Basically, this keyword refers to the object it belongs to and It has different values depending on where it is used:
 
     - The default this refers to the global object
     - In a function, this refers to the global object, whereas this is undefined in strict mode
