@@ -604,7 +604,7 @@ document.getElementById('list').addEventListener('click', function(e){
     > **[⬆ Back to Top](#table-of-contents)**
 28. ### Falsy value
 
-    > !! is not an operator, it's just the ! operator twice(Converts Object to boolean)
+    > Falsy value is a value that is considered false when encountered in a Boolean context. !! is not an operator, it's just the ! operator twice(Converts Object to boolean)
 
 29. ### Function expression vs function declaration
 
@@ -694,7 +694,7 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
 - Static: Elements are positioned static by default which means not affected by the top, bottom, left, and right properties.
 - relative: means be positioned relative to its normal position
 - fixed: is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.
-- absolute: Be positioned relative to the nearest element's parent. If it has no positioned ancestors, it will be positioned relative to the document body \
+- absolute: Be positioned relative to the nearest positioned element's parent. If it has no positioned ancestors, it will be positioned relative to the document body
 - sticky: Toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place.
 
   **[⬆ Back to Top](#table-of-contents)**
@@ -735,12 +735,22 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
     > HTML element has a default display value, depending on what type of element it is. There are two display values: block and inline.
 
 - Block Element: A block-level element always starts on a new line. Can add width, height, padding and margin
-  - Ex. <div>, <footer>, <form>, <h1>-<h6>, <header>, <hr>, <ul>&<li>&<ol>, <p>
+
+```javascript
+ <div>, <footer>, <form>, <h1>-<h6>, <header>, <hr>, <ul>,<li>,<ol>, <p>
+```
+
 - Inline Element: An inline element does not start on a new line. You can add space to the left and right on an inline element, but you cannot add height/ line-height or padding or margin of an inline element.
-  - Ex. <Span>, <a>, <img>, <label>,
+
+```javascript
+  <span>, <a>, <img>, <label>
+```
+
 - Inline-Block Element: Inline-block elements are similar to inline elements(not start on a new line), except they can have padding and margins added on all four sides.
-  - Ex. <input>, <button>, <select>, <textarea>
-    **[⬆ Back to Top](#table-of-contents)**
+  ```javascript
+    <input>, <button>, <select>, <textarea>
+  ```
+  **[⬆ Back to Top](#table-of-contents)**
 
 40. ### pseudo class & pseudo element
 
