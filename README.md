@@ -159,8 +159,8 @@
     - The default this refers to the global object
     - In a function, this refers to the global object, whereas this is undefined in strict mode
     - Within methods on objects, this refers to the owner object
-    - Within an object that has been constructed, this refers to the object that has been constructed
-    - Explicit Function Binding : A function invoked with .call, .apply, or bind, this can refer this to any object. However, call and apply immediately invoke function but bind return a function
+    - If using the new operator, this inside the constructor function refers to the newly created object
+    - Explicit Function Binding : A function invoked with .call, .apply, or bind, this refers to the object the function bind to. However, call and apply immediately invoke function but bind return a function
     - In HTML event handlers, this refers to the HTML element that receive the event
 
     ```javascript
