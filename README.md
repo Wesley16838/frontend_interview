@@ -778,11 +778,11 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
     **[⬆ Back to Top](#table-of-contents)**
 
 43. ### CSS Selector
-    - div, p: Selects all <div> elements and all <p> elements
-    - div p: Selects all <p> elements inside <div> elements
-    - div > p: Selects all <p> elements where the parent is a <div> element
-    - div + p: Selects the first <p> element that is placed immediately after <div> elements
-    - p.intro(.class1.class2): Selects all <p> elements with class="intro"(Selects all elements with both name1 and name2 set within the class attribute)
+    - div, p: Selects all div elements and all p elements
+    - div p: Selects all p elements inside div elements
+    - div > p: Selects all p elements where the parent is a div element
+    - div + p: Selects the first p element that is placed immediately after div elements
+    - p.intro(.class1.class2): Selects all p elements with class="intro"(Selects all elements with both name1 and name2 set within the class attribute)
     - div ~ p: Select element2 that are preceded by element1. Both elements must have the same parent, but element2 does not have to be immediately preceded by element1.
       **[⬆ Back to Top](#table-of-contents)**
 44. ### What is http
