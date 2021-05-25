@@ -101,7 +101,7 @@ There are several reasons why?
 
 ### How to Choose the Right Technology Stack for Your Project?
 
-In my last role, when I collaberated with 3-people team in Global Hackathon and needed to create a website in three 3 days, I knew that choosing the right technology stack plays an important role because we didn't have lots of time on it. Therefore, there are 4 things to consider when I choose a tech stack!
+In my last role, when I collaberated with 3-people team in Global Hackathon and needed to create a website in three 3 days, I knew that choosing the right technology stack plays an important role because we didn't have lots of time on it. Therefore, there are 3 things to consider when I choose a tech stack!
 
 - First of all, project requirements and feature: We built a features list and prioritize features base on the purpose of the website, daily supply exchanging. After making sure the Scope of Project, Node.js and React.js can be perfect for small project.
 - Secondly, experience, resource and time: Although I have experience in AngularJS and Vue.js, I am more familiar with React.js, Redux and it's ecosystem. Besides, we needed to complete it in three days becasue it was a Hackathon. Moreover, there are lots of resouce I could search on Google and Using React could save time in completing it.
@@ -119,8 +119,9 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### What is the most important characteristic for software engineer?
 
-- Collaboration skills: As a Software Engineer, I not only just sit in front of the desk but also need to communicate with co-work from different disciplines includes firmware, Backend, and UI. For example, I am responsible for developing gaming Keyboard Interface and front-end features. I need to discussed and defined the request body stucture with the backend developer and talk more about behavior of the elements with UI designer to clarity all the controversial parts. To minimize the gap between of them and make sure we speak same language, I always take time on analyzing the structure of server API and learning UI/UX concept to improve efficiency of communication. After all,A good collaboration could maximize the benefit for company
-- Curiosity and eagerness: As a Software Engineer, if I stop learning, I stop growing. As technology advanced, there are new tools to choose from and we should keep updating knowledge in our brain. The skills we used may not suitable for the new app. For example, I learned JavaScript before and use plain JavaScript to develop the whole UI page. However, I would like to optimize the performance of the app and improve the process of development, after I read latest technical article, I found that using React could not only break UI into reusable components, but the Virtual DOM which is a programming concept could also avoid unnecessary reflowing and repainting! Curiosity and eagerness play important role to make me a better software engineer!
+- Collaboration skills: As a Software Engineer, I not only just sit in front of the desk but also need to communicate with co-work from different disciplines includes firmware, Backend, and UI. For example, I am responsible for developing gaming Keyboard Interface and front-end features. I need to discussed with the backend developer and UI designer. To minimize the gap between of them and make sure we speak same language, I always take time on analyzing the structure of server API and learning UI/UX concept to improve efficiency of communication. After all,A good collaboration could maximize the benefit for company
+- Curiosity and eagerness: As a Software Engineer, if I stop learning, I stop growing. There are more and more tools show up and we should keep updating knowledge in our brain. The skills we used may not suitable for the new app. For example, I learned JavaScript before and use plain JavaScript to develop the whole UI page. However, after I read latest technical article, I found that using React could not only break UI into reusable components, but the Virtual DOM could also avoid unnecessary reflowing and repainting! That's why I started to learn React.js
+- Collaboration skills & Curiosity and eagerness
   **[⬆ Back to Top](#question)**
 
 ## Which thing is the most important to consider when I design/develop Interface?
@@ -130,8 +131,9 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Tell me about your strength and weakness and why?
 
-- Somethimes soft skill is more important thant technical skill, I am very collaberateive and willing to work with people from other dicsplines. During the time at ASUS, I am responsible for develop Interface gaming keyboard, so I need to communicate with UI Designer for understanding components behavior and discuss http request body structure with Backend developer. Before communicating, I am used to researching related info to improve the efficiency of communication and that was what learned during the time at ASUS.
-- Lacking experience in solving issue, as a junior developer, I do not have lots of experience in Front-End development if compare with senior. However, I am a highly-proactive person who is willing to learn! During the time at ASUS, the most important thing I learn is how to solve the issue with the correct method. I need to understand data flow and architecture first, so I could know where the issue from easier. In the past, I usually took lots of time on just how to fix functions rather than understood the data flow first.
+- Somethimes soft skill is more important thant technical skill, I am very collaberative and willing to work with people from other dicsplines. During the time at ASUS, I am responsible for develop Interface gaming keyboard, so I need to communicate with UI Designer for understanding components behavior and discuss http request body structure with Backend developer. I am used to researching the concept about UI design and sercer API in advance to improve the efficiency of communication.
+
+- Lacking experience in solving issue, as a junior developer, I do not have lots of experience in Front-End development if compare with senior. However, I am a highly-proactive person who is willing to learn! During the time at ASUS, the most important thing I learn is how to solve the issue with the correct method. I need to understand data flow and architecture first, and then narrow the issue down. In the past, I usually took lots of time on fixing the function directly rather than understood the data flow first.
   **[⬆ Back to Top](#question)**
 
 ### Challenge Project
@@ -139,57 +141,58 @@ If I have already chose there tech stack, then I will do three things if I do no
 - HeartTrade
 
   - I took the initiative to participate online Global Hackathon which encourage people to provide solutions to improve issue related to the COVID-19. Thus, after communicating with my team, we decided to create a daily supplies exchange platform to deal with the shortage of supplies DURING coronavirus pandemic. I was responsible for whole front-end side includes Posting, accepting and showing request on Google Map using React Hooks and Context API. Although we didn't win the award, we still learned lot such as how to work with people who are in different time zone.
-  - The most difficult part was how to collaberate with a remote team to create a platfotm in three days! Since everyone worked from home, it was not effective to talk with teammate who were at different time zone. Communication gap was a biggest issue for us and it was quite hard to track what each teammate hah already done so far! Thus, the first thing we decided to do is using Trello to manage the team and arrange the schedule based on the time zone so each team member could stay On Track of Project Progress. Secondly, we use Slack to keep in touch with team to have a effective communication. Last, I encourage them whenever they finished one task to give them more energy. As a result, we successfully upload and deploy the project to Heroku by the deadline because we minimized the communication gap by using collaberation tool includes Trello and Slack to stay On Track of Project Progress and keep in touch with team!
+  - The most difficult part was how to collaberate with a remote team to create a platfotm in three days! Since everyone worked from home, it was not effective to talk with teammate who were at different time zone. Communication gap was a biggest issue for us and it was quite hard to track what each teammate has already done so far! Thus, the first thing we decided to do is using Trello to manage the team and arrange the schedule based on the time zone so each team member could stay On Track of Project Progress. Secondly, we use Slack to keep in touch with team to have a effective communication. Last, I encouraged them whenever they finished one task to give them more energy. As a result, we successfully upload and deploy the project to Heroku by the deadline because we minimized the communication gap by using collaberation tool includes Trello and Slack to stay On Track of Project Progress and keep in touch with team!
   - follow up: ASUS work from home! - During the tiem at ASUS, I worked from home from Feb to March and since I have experience in collaberating with a remote team. I know how to minimize the communication gap with teammate using Trello and Teams and lists high priority tasks first that must be finish during the time work at home. As a result, during the time work at home, I successfully introduced a new feature Power Page which could monitor the status of power and change power setting for the new wireless gaming keyboard.
     **[⬆ Back to Top](#question)**
 
 ### Proud Project
 
 - Advantech
-  - When I interned at Advantech, my team was in charge of developing water treatment management dashboard. Therefore, interns collaborated with the Front-End Team to optimize the dashboard to improve data analysis for better user experience and maximize the benefit for sewage treatment plants! I was responsible for creating new panels for specific wastewater equipments using AngularJS and Svg. As an agile team, we had sprint planning meeting once two weeks to create sprint task backlog and also had Review and 'Retrospect meeting with Backend team from Beijing once two weeks to review what we had already accomplished and discuss how to improve development process. During the time at Advantech, Intern had opportunity to present the dashboard to potential customer in the international exhibition and collected the feedback from them. At the end of the internship, my team won the intern award for excellence in teamwork.
+
+  - When I interned at Advantech, my team was in charge of developing water treatment management dashboard. Therefore, interns collaborated with the Front-End Team to optimize the dashboard to improve data analysis for better user experience and maximize the benefit for sewage treatment plants! I was responsible for creating new panels for specific wastewater equipments using AngularJS and Svg. As an agile team, we had sprint planning meeting once two weeks to create sprint task backlog and also had Review and Retrospective meeting with Backend team from Beijing once two weeks to review what we had already accomplished and discuss how to improve development process. During the time at Advantech, Intern had opportunity to present the dashboard to potential customer in the international exhibition and collected the feedback from them. At the end of the internship, my team won the intern award for excellence in teamwork.
   - I felt a sense of achievement during the intern at Advantech because we had chance to show we have already done to real customer in the international exhibition and get the positive feedback from customer! I am really proud of this project becasue it not only improve my technical skill but also soft skill!
-  - The difficult part is communicate with customer. Since it is my first to directly communicate with customer face to face. It was a good opportunity to improve my soft skill. It's almost impossible to
-    satisfy all customer needs. Therefore, I try to listen their feedback and undersand what customer's needs to build a good relationship with them. After all, I always put the customer first!
+
+  - The difficult part is communicate with customer. Since it is my first to directly communicate with customer face to face. It was a good opportunity to improve my soft skill. It's almost impossible tosatisfy all customer needs. Therefore, I try to listen their feedback and undersand what customer's needs to build a good relationship with them. After all, I always put the customer first!
     One of feedback was customer would like to see all panels at the same time when page finish loading. However, we show panels asynchronously rather than synchronously because different types of equipments need different time to load data. Thus, to gain customer trust, I explained what the side effect is if we show all panel together at the same time and also provide feasible solution which is showing panel with higher priority first!
     **[⬆ Back to Top](#question)**
 
 ### Tell me about a time when you had a group conflict and how did you overcome this conflict?
 
 - ASUS
-  - During the time at ASUS, I was responsible for gaming keyboard which is the main device in the app, so I have lots of chances to communicate with people from different departments. As a front end developer in ASUS, I am responsible for dealing with bugs first and clarify what causes bugs and where they come from once software has bugs. One of backend developers who was responsible for gaming keyboard like to avoid taking responsibility so he usually thought I could deal with the issue by front-end side, but sometimes it did not follow the data flow and make application slower. For example, when the page is loading for the first time, the gaming keyboard would be set up based on the setting. He said SDK couldn't store the parameter of gaming mode and asked me to send extra request to set gaming mode. This method did not follow the data flow and it would slow the performance down because of extra http requests. Therefore, I began to take more time on making myself acquainted with the structure of application, and collected more useful information to support my solution in order to express my idea clearly and convince him to follow the dataflow. Therefore, I explained why I disagree with this solution due to data flow and performance. As a result, he successfully fixed the issue on the backend side rather than send an extra request to set gaming mode again. After that, I started to understand that communication skill plays an important role to minimize our communication gap between us.
-  - What I learned from this experience was how to communicate and collaberate with the co-work who are not willing to take responsibility. I need to acquaint application structure more and clarify what causes the issue in order to narrow the issue down and then provide some feasible solutions with advantages and disadvantages before communication so I could convince them to do their tasks.
+  - During the time at ASUS, I was responsible for gaming keyboard which is the main device in the app, so I have lots of chances to communicate with people from different departments. As a front end developer in ASUS, I am responsible for dealing with bugs first and clarify what causes bugs and where they come from. One of backend developers who was responsible for gaming keyboard like to avoid taking responsibility and he usually thought I could deal with the issue by front-end side, but sometimes it did not follow the data flow and make application slower. For example, when the page is on initial load, the gaming keyboard would be set up based on the setting. He said SDK couldn't store the parameter of gaming mode and asked me to send extra request to set gaming mode. This method did not follow the data flow and it would slow the performance down because of extra http requests. Therefore, I began to take more time on researching the structure of application, and collected more useful information to support my solution in order to express my idea clearly and convince him to follow the dataflow. As a result, I explained why I disagree with this solution due to data flow and performance and he agreed with that and successfully fixed the issue on the backend side rather than send an extra request again. After that, I started to understand that communication skill plays an important role to overcome this conflict.
+  - What I learned from this experience was how to communicate and collaberate with the co-work who are not willing to take responsibility. I need to know more about application structure and clarify what causes the issue in order to narrow the issue down and then provide some feasible solutions with advantages and disadvantages before communication so I could convince them to do their tasks.
     **[⬆ Back to Top](#question)**
 
 ### The biggest mistake you made and what did you learn from it?
 
-- During the time at Advantech, my team have chance to present the visualization dashboard to customer in the international exhibition. The day before exhibition, one of panels did not work suddenly and I immediately admitted my mistake and did my best to clarify the issue as soon as possible! I checked CSS and found that display grid did not support IE browser. Since we did not have time to modify the code, so the solution we used was openning the panel on the Chrome and made a video for the panel and pasted it on the dashboard as an image! As a result, we successfully presented the dashboard to the customer
-- What I learn is admitting the mistake first when I make a mistake and try to provide some feasible solution to minimize the cost of mistake rather than make excuses for someone, so we could earn the trust from customer again.
+- During the time at Advantech, my team have chance to present the visualization dashboard to customer in the international exhibition. The day before exhibition, one of panels did not work and I immediately admitted my mistake and did my best to clarify the issue as soon as possible! I checked CSS and found that display grid did not support IE browser. Since we did not have time to modify the code, so the solution we used was openning the panel on the Chrome and made a video for the panel and pasted it on the dashboard as an image! As a result, we successfully presented the dashboard to the customer without any issue!
+- What I learn is admitting the mistake first when I make a mistake and try to provide some feasible solution to minimize the cost of mistake rather than make excuses for someone, so we could earn the trust from manager or customer again.
   **[⬆ Back to Top](#question)**
 
 ### Give me an example of something you tried to accomplish but failed
 
-- During the time at Advantech, I was responsibe for developing mobile app on both front-end and back-end. There was one time that manager asked us to present demo to customer in two days and it was not in our original plan. Thus, I immediately hold a meeting with teammate and customer to tell cusonter why we could finish all features by the deadline but we could prioritize the features and make sure which features are more important for customer. As a result, we successfully presented demo to customer in two days but only high priority features. What I learn is keeping customer trust is important than anything even I fail on something. If I couldn’t finish task before deadline, I will admit my fault first and do my best to minimize the cost of this mistake by communicating with customers for possible solution to earn trust back from customer.
+- During the time at Brilltek, I was responsibe for developing mobile app on both front-end and back-end. There was one time that manager asked us to present demo to customer in two days and it was not in our original plan. Thus, I immediately hold a meeting with teammate and customer to tell cusonter why we could not finish all features by the deadline but we could prioritize the features and make sure which features are more important for customer. As a result, we successfully presented demo to customer in two days but only high priority features. What I learn is keeping customer trust is important than anything even I fail on something. If I couldn’t finish task before deadline, I will admit my fault first and do my best to minimize the cost of this mistake by communicating with customers for possible solution to earn trust back from customer.
   **[⬆ Back to Top](#question)**
 
 ### What is the impact of a front-end engineer
 
 - Frontend Developer plays a crucial role in the team for two reasons.
-- First of all, front-end developer understand enough about design concepts, so a frontend developer could work with UI/UX team more efficiently to make the interface work properly and smoothly.
-- Secondly, front-end developer know project's architecture and how data flow works between frontend and backend, so Frontend developer could also work with backend-developer more efficiently to save time on interacting between View and Database.
-  In conclusion, frontend developer is a bridge between UI designer and Backend Developer. A good Front-end with a good Design make website easy to use and a good front-end with a good back-end could improve website performance!
+- First of all, front-end developer understand enough about design concepts, so a frontend developer could work with UI/UX team more efficience to make the interface works properly and smoothly.
+- Secondly, front-end developer know project's architecture and how data flow works between frontend and backend, so Frontend developer could also work with backend-developer more efficience to save time on interacting between View and Database.
+  In conclusion, frontend developer is a bridge between UI designer and Backend Developer. A good Front-end could minimize the communication gap between UI and backend to improve productivity!
   - Follow-up : Work with UI Designer
     **[⬆ Back to Top](#question)**
 
 ### Tell me about a time when you innovated on something and it went wrong
 
-- Fail: During the time at ASUS, I am responsible for developing interface for gaming keyboard. Currently, since we only design US keyboard layout which mean we only allow users to assign U.S key function to each key, I needed to solve the issue related to the compatibility of multiple languages keyboard. Thus, I came up with an idea that other engineer never try it before. I created multiple JSON files to store different language data and it was an feasible solution but my manager disagree with my idea becasue the whole file size would too big. Therefore, after discussing with manager about other possible solutions, we decided to use webpack to filter the folders of actions and components that keyboard does not use to make installation file more lightweight. I am still working on developing this feature and have already added more than 5 languages so far. Although my original idea went wrong but I immediately provide other solutions to improve the issue!(We did not implement this feature before because it was not in the original plan but there was a customer from spain said the key function he assigned did not match spanish layout!)
+- Fail: During the time at ASUS, I am responsible for developing interface for gaming keyboard. Currently, since we only design US keyboard layout which mean we only allow users to assign U.S key function to each key, I needed to solve the issue related to the compatibility of multiple languages keyboard. Thus, I came up with an idea that other engineer never try it before. I created multiple JSON files to store different language data but my manager disagree with my idea becasue the whole file size would too big. Therefore, after discussing with manager about other possible solutions, we decided to use webpack to filter the folders which are not nessacary in order to make installation file more lightweight.
 
-- Succeed: During my academic year, I worked with my classmated to build a website for final project. Professor asked us couldn't build a bookstore or social media which are common topic. Since I usually took lots of time on comparing the product's price between different websites, I came up with an idea that building a price comparison visualization website to save time on finding the best price on an item becasue our brain process images much faster than text! After conducting a market survey, we decided to mine real-time data from Amazon, Bestbuy and Ebay which are top e-commerce websites in the America. As a result, we successsfult deploy it to the cloud and got positive feedback from professor!
+- Succeed: During my academic year, I worked with my classmated to build a website for final project. Professor asked us couldn't build a bookstore or social media which are common topic. Since I usually took lots of time on comparing the product's price between different websites, I came up with an idea that building a price comparison visualization website to save time on finding the best price on an item becasue our brain process images much faster than text! After conducting a market survey, we decided to mine real-time data from Amazon, Bestbuy and Ebay which are top e-commerce websites in the America. As a result, we successsfully deploy it to the cloud and got positive feedback from professor!
   **[⬆ Back to Top](#question)**
 
 ### Tell me about a time when a team member didnt meet your expectations on a project
 
-- During my academic year, I collaberated with my classmates to build a price comparison visualization website. Since I had more experience on web development, I was responsible for assigning tasks to my teammate. However, one of my teammates didn't meet the requirement of RWD which was one of bonus Criteria for final project. Therefore, I took the iniative to mentor teammate how to implement responsive web design using SCSS becasue I would like to make project more responsive and could be present on small size screen. As a result, my team got A+ and positive feedback which was perfect UI Design from professor! Ownership and Insist on the Highest Standards play important roles in making a good outcome because both of them could make project better!
+- During my academic year, I collaberated with my classmates to build a price comparison visualization website. Since I had more experience on web development, I was responsible for assigning tasks to my teammate. However, one of my teammates didn't meet the requirement of RWD which was one of bonus Criteria for final project. Therefore, I took the iniative to mentor teammate how to implement responsive web design using SCSS becasue I would like to make project more responsive and could be present on small size screen. As a result, my team got A+ and positive feedback from professor! Ownership and Insist on the Highest Standards play important roles in making a good outcome because both of them could make project better!
   **[⬆ Back to Top](#question)**
 
 ### Tell me a time when you disagree your manager
@@ -204,7 +207,7 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Think back on a project that you worked on what steps did you take to make sure that it targets the needs of your customers?
 
-- During the time at Advantech as a front-end internship in an Agile team, we were responsible for optimizing the water treatment management dashboard to improve customer experience on monitoring and analytic. To assure we had a sprint review meeting with customers to present the demo to customer and other stakeholders to make sure we meets the requirements. After collecting feedbacks from customers, we would hold sprint retrospective meeting to discuss about how to improve the process of development based on the feedback from customers. As a result, since we had a meeting twice a week with customer to make sure we met their requirement, we successfully present the dashboard to customer in the international exhibition and got positive feedback from customer.
+- During the time at Advantech as a front-end internship in an Agile team, we were responsible for optimizing the water treatment management dashboard to improve customer experience on monitoring and analytic. We had a sprint review meeting with customers to present the demo to customer and other stakeholders to make sure we meets the requirements. After collecting feedbacks from customers, we would hold sprint retrospective meeting to discuss about how to improve the process of development based on the feedback from customers. As a result, since we had a meeting twice a week with customer to keep making sure we meet their requirement, we successfully present the dashboard to customer in the international exhibition and got positive feedback from customer.
   **[⬆ Back to Top](#question)**
 
 ### Tell me about your proudest professional achievement
@@ -216,7 +219,7 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Tell me about an example when you were able to deliver an important project under a tight deadline
 
-- In my current position, I am responsible for developing the interface of gaming keyboard. At the end of the 2020, I was working on developing the new architecture for wireless gaming keyboard and the old version was no longer maintained. However, the Department Chief requested us to release new verson at the end of the December because there were too many existing issues in the old version! Therefore, I immediately held a meeting with project manager and backend developer to reschedule our plan. After communicating with project manager, I decided to focus on developing high priority features, the Power page which allows user to minitor the status of power and change power setting for keyboard and at least make sure to aviod app crush! I always like to deliver a high quality user experience to customer, so I took the initiative to work overtime to fix the bugs and made the page more responsive! As a result, my team successully presented wireless gaming keyboard to custoemr in the Press Conference by the deadline.
+- In my current position, I am responsible for developing the interface of gaming keyboard. At the end of the 2020, the Department Chief requested us to release new wireless gaming Keyboard at the end of the December! Therefore, I immediately held a meeting with project manager and backend developer to reschedule our plan. After communicating with project manager, I decided to focus on developing high priority features, the Power page which allows user to minitor the status of power and change power setting for keyboard and at least make sure to aviod app crush! I always like to deliver a high quality user experience to customer, so I took the initiative to work overtime to create new feature and made the page more responsive! As a result, my team successully release new keyboard by the deadline.
 - What I learn is ownership and customer obsession play important roles in a good outcome! Since ASUS always provides the best quality product to the customer to earn customer's trust. I did not want to make customer disappoint, so I keep in a positive attitude and communicate with the team for a feasible solution, and then list higher priority features
   **[⬆ Back to Top](#question)**
 
@@ -234,12 +237,12 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Tell me about a time when you mentor other engineers
 
-- During the time at ASUS, there was a new graduate student just joined my team recently and I was assigned to teach him to understand the architecture of the application and the data flow. I remembered that when I joined the team last year, there were only two people in the team includes me and there was no documentation about application. Therefore, I took lots of time on reading the code, understanding the app architecture and data flow. To improve the efficiency of development and save time on learning, I created documentation about the app and wrote the content related to the process of development down. As a result, I saved lot of time on mentoring the new engineer on understanding the architecture of applicatoin and try to mentored him from his perspective so that he could absord information more efficient!
+- During the time at ASUS, there was a new graduate student just joined my team recently and I was assigned to teach him to understand the architecture of the application and the data flow. I remembered that when I joined the team last year, there were only two people in the team includes me and there was no documentation about application. Therefore, I took lots of time on reading the code, understanding the app architecture and data flow. To improve the efficiency of development and save time on learning, I created documentation about the app. As a result, I saved lot of time on mentoring the new engineer on understanding the architecture of applicatoin and try to mentored him from his perspective so that he could absord information more efficient!
   **[⬆ Back to Top](#question)**
 
 ### think differently
 
-- During the time at Advantech, I was responsible for collaberating with UI designer to develop the panel interface. At first, I took lots of time on learning how to operate the panel becasue the interface was to complicated and made me confused sometime. Thus, I told to the designer what I thought and she said we should think like a customer not like a developer. In other words, we should understand who the target audience is and what their needs are. To develop a panel, I should think ok I am a Factory manager and how would I feel while operating the panel and how would I think when I monitor data by a panel! After all, if we care for people, people would care for our product! As a result, I try to implement design thinking to think big! understand more about the user ! and put myself in my customer's shoes! As a result, we successfully deliver high quality of dashboard to customer in the international exhibition and most of customers said it was easy to use and understand! (understand users, challenge assumptions, redefine problems and create innovative solutions to prototype and test.)
+- During the time at Advantech, I was responsible for collaberating with UI designer to develop the panel interface. At first, I took lots of time on learning how to operate the panel becasue the interface was to complicated and made me confused sometime. Thus, I told to the designer what I thought and she said we should think like a customer not like a developer. In other words, we should understand who the target audience is and what their needs are. To develop a panel, I should think ok I am a Factory manager and how would I feel while operating the panel! After all, if we care for people, people would care for our product! Thus, I try to implement design thinking to think big! understand more about the user ! and put myself in my customer's shoes! As a result, we successfully deliver high quality of dashboard to customer in the international exhibition and most of customers said it was easy to use and understand! (understand users, challenge assumptions, redefine problems and create innovative solutions to prototype and test.)
   **[⬆ Back to Top](#question)**
 
 ### make decision without enough data
@@ -249,27 +252,33 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Tell me about a time when you gave a simple solution to a complex problem
 
-compatibility of different language keyboard to set default button to initial the keyboard button
+issue of compatibility of different language keyboard which was report by Quality Assurance
+I provide a simple solution which was setting default button to initialize the keyboard button if users have two same kb but diff language and change another kb with diff lang to use
+
 **[⬆ Back to Top](#question)**
 
 ### Tell me about a time when you went way beyond the scope of the project and delivered
 
-Make project more responsive and smooth during creatop
+During the time at ASUS, I found that my teammate paid more attention on how it works but paid less attention on how it looks. I took the iniative to modify the responsive web design on every pages to Make project more responsive and smooth during creatop. As a result, I got positive feedback from manager due to responsiveness and smoothness!
+
 **[⬆ Back to Top](#question)**
 
 ### Tell me about a time when you had to make a quick decision that was going to have a significant impact on the organization
 
-keyboard button page not list but show original kb image
+During the time at asus, I was responsible for gaming keyboard and I raised an quick idea that to show keyboard image in the small size screen rather that show key list because it made user experience worse in small size screen. After making page more responsive, our product got lots of positive feedback from customer and I think it is a significant impact on the organization because we always focus on customer experience.
+
 **[⬆ Back to Top](#question)**
 
 ### Tell me about a time when you had to take a calculated risk at work
 
 Responsible for kb which is the main and complicated product in the application
+
 **[⬆ Back to Top](#question)**
 
 ### When have you had to overcome a challenging situation at work
 
-asus fixed bug and create new feature
+asus fixed lots of bug and create new feature
+
 **[⬆ Back to Top](#question)**
 
 ### Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it
@@ -279,7 +288,8 @@ Asus RWD
 
 ### Tell me about an unpopular decision of yours
 
-During the Global Hackathon, I raised an idea which visualizes the data
+During the Global Hackathon, I raised an idea which visualizes the data but there were too many similar topics, so my teammates disagree with my idea! Thus, we took time on conducting market research to make sure what people need and the challenge they faced.
+
 **[⬆ Back to Top](#question)**
 
 ### What is the most difficult situation you have ever faced in your life
@@ -289,7 +299,8 @@ Choose company TSMC which is one of top semiconductor company in the world and A
 
 ### Can you tell me about a time when you were more than halfway through a project and had to pivot quickly due to an unexpected change
 
-asus power
+In the original plan, Power setting is global which means it did not change if I switch profile. However, Project manager suddenly asked me to modify the code and make Power setting change by profile! Thus, I immediately clarify how the data flow work from front-end to back-end when switching the profiles and re-design the structure for the power. As a result, I successfully update the power setting from global to by profile.
+
 **[⬆ Back to Top](#question)**
 
 ### Question and Answer
