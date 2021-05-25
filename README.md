@@ -73,6 +73,7 @@
 | 6          | [Axios VS Fetch](#Axios-vs-fetch)                                                                                                                                                 |
 | 7          | [JSX](#JSX)                                                                                                                                                                       |
 | 8          | [Choose framework](#Choose-framework)                                                                                                                                             |
+| 9          | [SSR VS CSR](#SSR-VS-CSR)                                                                                                                                                         |
 
 1.  ### What is scope
 
@@ -576,7 +577,7 @@ document.getElementById('list').addEventListener('click', function(e){
 - Controller: The controller handles the user request and updates the model and returns the appropriate view as a response
 
 - MVC vs FLUX vs REDUX
-  ｜ MVC ｜ FLUX ｜ REDUX ｜
+  ｜ MVC ｜ FLUX(Flux is an application architecture) ｜ REDUX ｜
   |-----|-----|-----|
   |Three layer architecture: Model/ Controller/ View | Store/ Action/ View/ Dispatcher| Action/ Reducer/ Store|
   ||view creates actions -> send it to the dispatcher -> dispatches the action result to the store -> update to the view.||
@@ -1060,3 +1061,9 @@ const mapDispatchToProps = (dispatch) => {
   - You need high performance
   - You do not have much time to learn a new technology
     **[⬆ Back to Top](#table-of-contents)**
+
+9. ### SSR VS CSR
+   > The main difference between CSR and SSR is where the page is rendered
+
+- SEO!!!
+  **[⬆ Back to Top](#table-of-contents)**
