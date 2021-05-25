@@ -508,7 +508,7 @@ async function add(para) {
 - Build CSS tree
 - Combine to rendertree
 - reflow: compute the layout for each visible element
-- repaint: paint the renfertree to the screen
+- repaint: paint the rendertree to the screen
 
   > A repaint occurs when changes are made which affect the visibility of an element. For examples , visibility, or background color.
   > Reflow means re-calculating the positions of elements in the document. The Reflow happens when changes affect the layout of the partial or whole page
@@ -565,9 +565,9 @@ document.getElementById('list').addEventListener('click', function(e){
 
 24. ### What are Debouncing and Throttling
 
-    Throttling: is a technique that no matter how many times the user fires the event, the attached function will be executed only once in a given time interval.
-    Debouncing: it a technique that no matter how many times the user fires the event, the attached function will be executed only after the specified time once the user stops firing the event
-    **[⬆ Back to Top](#table-of-contents)**
+    - Throttling: is a technique that no matter how many times the user fires the event, the attached function will be executed only once in a given time interval.
+    - Debouncing: it a technique that no matter how many times the user fires the event, the attached function will be executed only after the specified time once the user stops firing the event
+      **[⬆ Back to Top](#table-of-contents)**
 
 25. ### What is MVC
     MVC stands for Model-View-Controller. It is a design pattern which composed of three components.
@@ -577,7 +577,7 @@ document.getElementById('list').addEventListener('click', function(e){
 - Controller: The controller handles the user request and updates the model and returns the appropriate view as a response
 
 - MVC vs FLUX vs REDUX
-  ｜ MVC ｜ FLUX(Flux is an application architecture) ｜ REDUX ｜
+  | MVC | FLUX(Flux is an application architecture) | REDUX |
   |-----|-----|-----|
   |Three layer architecture: Model/ Controller/ View | Store/ Action/ View/ Dispatcher| Action/ Reducer/ Store|
   ||view creates actions -> send it to the dispatcher -> dispatches the action result to the store -> update to the view.||
