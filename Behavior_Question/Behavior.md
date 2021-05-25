@@ -30,8 +30,8 @@
 
 - [Why AWS QuickSight and position?](#Why-AWS-QuickSight-and-position)
 - [Why Front-End Developer?](#Why-Front-End-Developer)
-- [What are the characteristics of a good leader?](#What_are_the_characteristics_of_a_good_leader?)
-- [How to Choose the Right Technology Stack for learning?](#How_to_Choose_the_Right_Technology_Stack_for_learning?)
+- [What are the characteristics of a good leader?](#What-are-the-characteristics-of-a-good-leader?)
+- [How to Choose the Right Technology Stack for learning?](#How-to-Choose-the-Right-Technology-Stack-for-learning?)
 - [How to Choose the Right Technology Stack for Your Project?](#How-to-Choose-the-Right-Technology-Stack-for-Your-Project)
 - [What did I do if there are not lots of document and resource to search?](#What-did-I-do-if-there-are-not-lots-of-document-and-resource-to-search)
 - [What is the most important characteristic for software engineer?](#What-is-the-most-important-characteristic-for-software-engineer)
@@ -46,7 +46,7 @@
 - [Tell me about a time when a team member didnt meet your expectations on a project](#Tell-me-about-a-time-when-a-team-member-didnt-meet-your-expectations-on-a-project)
 - [Tell me a time when you disagree your manager](#Tell-me-a-time-when-you-disagree-your-manager)
 - [Tell me about a time when you have to say no](#Tell-me-about-a-time-when-you-have-to-say-no)
-- [Thin k back on a project that you worked on, what steps did you take to make sure that it targets the needs of your customers?](#Think-back-on-a-project-that-you-worked-on,-what-steps-did-you-take-to-make-sure-that-it-targets-the-needs-of-your-customers?)
+- [Think back on a project that you worked on what steps did you take to make sure that it targets the needs of your customers?](#Think-back-on-a-project-that-you-worked-on-what-steps-did-you-take-to-make-sure-that-it-targets-the-needs-of-your-customers?)
 - [Tell me about your proudest professional achievement](#Tell-me-about-your-proudest-professional-achievement)
 - [Tell me about an example when you were able to deliver an important project under a tight deadline](#Tell-me-about-an-example-when-you-were-able-to-deliver-an-important-project-under-a-tight-deadline)
 - [Times You Missed A Deadline](#Times-You-Missed-A-Deadline)
@@ -202,7 +202,7 @@ If I have already chose there tech stack, then I will do three things if I do no
 - During the time at Brilltek as a full stack developer, I led a front-end team to developer mobile app using Flutter. We had a meeting once a week with manager and client. There was one time that customer suddenly asked us add anime to the mobile app to make it more smooth. After considering the time, I declined the request and explain why we could not finish the feature in the first stage for two reasons. The first one was we shall focus on developing high priority features first to make sure the app could work at least and then move on to optimize performance. Secondly, the performance might not as good as you expected because we did not have enough time to optimize it and we would like to give users the best user experience. As a result, we told the customer that our team will do the best to optimize anime and other performance in the Stage two and he thought proposal was acceptable. Although I decline the request from customer, I still did my best to earn trust back and dont make them disappoint.
   **[⬆ Back to Top](#question)**
 
-### Think back on a project that you worked on, what steps did you take to make sure that it targets the needs of your customers?
+### Think back on a project that you worked on what steps did you take to make sure that it targets the needs of your customers?
 
 - During the time at Advantech as a front-end internship in an Agile team, we were responsible for optimizing the water treatment management dashboard to improve customer experience on monitoring and analytic. To assure we had a sprint review meeting with customers to present the demo to customer and other stakeholders to make sure we meets the requirements. After collecting feedbacks from customers, we would hold sprint retrospective meeting to discuss about how to improve the process of development based on the feedback from customers. As a result, since we had a meeting twice a week with customer to make sure we met their requirement, we successfully present the dashboard to customer in the international exhibition and got positive feedback from customer.
   **[⬆ Back to Top](#question)**
