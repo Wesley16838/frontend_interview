@@ -12,7 +12,7 @@
 
 # Why?
 
-> TechStyle Fashion Group is the company that focuses on creating the world's most innovative and admired fashion business! There are two reasons why this position caught my eyes.
+> TechStyle Fashion Group is the company that combine technology and data science such as FashionOS to create the most innovative and admired fashion business! There are two reasons why this position caught my eyes.
 
 > First, I am passionate with provide customers a better customer experience b In this role, I am going to develop and maintain user-facing features which means I could help business to bring in new customers by my personal passion.
 
