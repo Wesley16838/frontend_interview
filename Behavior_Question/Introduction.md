@@ -10,6 +10,16 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since I have lots of experience in collaborating with various teams, I am capable of working well with people from different disciplines. In addition, I am highly knowledgeable in Frontend development with proven experience above. I believe that my experience and characteristics will make me a competitive candidate.
 
+# Why?
+
+> TechStyle Fashion Group is the company that focuses on creating the world's most innovative and admired fashion business! There are two reasons why this position caught my eyes.
+
+> First, I am passionate with provide customers a better experience by thinking from the customers' perspective and puts myself in my customer's shoes to make sure what they actually need. In this role, I am going to develop and maintain user-facing features which means I could help business to bring in new customers by my personal passion.
+
+> Secondly, I am also a collaborative person and like to work together to reach a common goal. I always believe that Teamwork makes dreamwork. In this role, I have lots of opportunities to collaborate with people from different teams such as Product team and marketing to take the company to next level.
+
+> This is why I appled for this position because I am passion for give customer a better experience and have more chances to collaborate with people from different discipline.
+
 ## 中文字屆
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是翁尉瑄, 目前在華碩擔任前端工程師且擁有一年左右 react/ redux 的開發經驗, 兩年兩年以上的前端開發經驗. 在華碩期間, 我主要負責維護與開發擁有百萬用戶的 app 裡面的主要產品 - 電競鍵盤的前端功能. 我不只針對無線鍵盤開發新功能, 改善了整體 kb 架構來優化性能, 還使用 react hooks 重構各個元件並使之更響應化（responsive）
