@@ -1,12 +1,12 @@
 # Introduce yourself
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Wei-Hsuan Wong! I am currently a Junior Frontend Developer at ASUS with over one year of professional experience in React, Redux and over three years of experience in Frontend development. During my time at ASUS, I am responsible for maintaining and creating new features such as power monitoring for wireless gaming keyboard which is main product in a million-user application. Moreover, I not only fixed issues related to the compatibility of multiple language keyboard but also re-develop each component using React Hooks.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Wei-Hsuan Wong! I am currently a Junior Frontend Developer at ASUS with over one year of professional experience in React, Redux and over three years of experience in Frontend development. During my time at ASUS, my team is in charge of developing a million-user application and I am responsible for developing the features of the main product - gaming keyboards such as customizing lighting effect and power manipulating/ monitoring. Moreover, I not only fixed issues related to the compatibility of multiple language keyboard but also re-develop each component using React Hooks.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I also have experience in Data Visualization when I interned at Advantech as a Front-End Developer in an Agile team that I collaborated with the Backend team from Beijing to create user-friendly Data visualization dashboards for real-time monitoring, data analysis to save more equipment energy in order to help business maximize their productivity. Besides, my team presented the dashboard to potential customer in the Global exhibition and also won the summer intern award at the end of the internship.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I also have experience in Data Visualization when I interned at Advantech as a Front-End Developer in an Agile team. During my time at Advantech, I collaborated with the Backend team from Beijing to create user-friendly Data visualization dashboards for real-time monitoring, data analysis to save more equipment energy in order to help business maximize their productivity. Besides, my team presented the dashboard to potential customer in the Global exhibition and also won the summer intern award at the end of the internship.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During my academic years, I collaborated with my classmates to build a price comparison visualization website to provide a solution for saving time on online shopping. I was responsible for visualizing real-time products data using React.js and d3.js and mining data from Amazon, Bestbuy and eBay using Python.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Most important of all, I am a highly-proactive person and willing to learn unfamiliar technologies. I took the initiative to participate in Global Hackathon which encourages participants to provide solutions to improve issues related to Covid-19. Therefore, I worked with a 3-people team to build a daily supplies exchange website to deal with the shortage of supplies and cluster infection.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Most important of all, I am a highly proactive person and willing to solve real-world issues. I took the initiative to participate in Global Hackathon which encourages participants to provide solutions to improve issues related to Covid-19. Therefore, I worked with a 3-people team to build a daily supplies exchange website to deal with the shortage of daily supplies and cluster infection using React Hooks and Context API.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since I have lots of experience in collaborating with various teams, I am capable of working well with people from different disciplines. In addition, I am highly knowledgeable in Frontend development with proven experience above. I believe that my experience and characteristics will make a competitive candidate.
 
@@ -14,33 +14,17 @@
 
 > 98point6 is the company that combine technology and physicians to provide a new approach to make primary care more accessible and affordable! Primary care is the day-to-day healthcare given by a health care provider and plays an important role in improve the quality of life not only for individualsa but the whole world! It means as a front end developer in the 98point6, I have an opportunity to "provide a solution" to improve the real world issue and improve people's quality of life! That's why I would like to join 98point6
 
-## Education
-
-- Stevens Institute of Technology - master degree in CS
-- Normal Kaohsiung National University - bachelor degree in Math
-
 ## Work Experience
 
-- ASUS - Frontend developer
-  - Developed a million-users application which allows users to customize RGB Lighting and effect for compatable gaming product
-  - Responsable for main gaming product - keyboard
-  - Collaberate with UI Designer and backend engineer
-  - What I learned ?
-    - How to solving issue with efficient way!
-    - How to work with people who are not good at teamwork!
-- Advantech - Frontend Intern
-  - Optimized water treatment management dashboard to improve data visualization and analysis
-  - Collaberated with Backend team and UI design team to create user-friendly panel
-  - Present project in the internation automation industial exhibtion
-  - Led team to Win Summer Intern award and show our project in international industrial automation exhibition
-  - What I learned ?
-    - How to collaberate with full-time engineer as an intern
-    - How to comminicate with potential customer
-- Creatop - Frontend Intern
-  - Partnered with a UI designer and Backend Developer to re-develop RWD website for a furniture company
-  - What I learn/
-    - Basic RWD information and how to contribute my skills to a real project
-    - How to minimize the gap between designers such as learning UI knowledge
+1. ASUS
+   - Feature
+     - Power Monitoring and manipulation
+     - Customize lighting effect
+     - Assign the function to the keyboard’s key and Touch Bar
+     - Detachable numpad
+     - Re-develop each component using Hooks
+   - Bug
+     - Compatibility of multiple language keyboards
 
 ## Project
 

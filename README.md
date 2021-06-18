@@ -64,6 +64,9 @@
 | 56         | [Hooks vs React](#Hooks-vs-React)                                                                                                                                                 |
 | 57         | [Why use bind in React](#Why-use-bind-in-React)                                                                                                                                   |
 | 58         | [Presentational vs Container](#Presentational-vs-Container)                                                                                                                       |
+| 59         | [foreach vs map](#foreach-vs-map)                                                                                                                                                 |
+| 60         | [What are the advantages of using React](#What-are-the-advantages-of-using-React)                                                                                                 |
+| 61         | [Pure Component](#Pure-Component)                                                                                                                                                 |
 | Bonus      |
 | 1          | [Difference between Methods and Functions](#difference-between-methods-and-functions)                                                                                             |
 | 2          | [How to optimize React](#How-to-optimize-React)                                                                                                                                   |
@@ -74,14 +77,17 @@
 | 7          | [JSX](#JSX)                                                                                                                                                                       |
 | 8          | [Choose framework](#Choose-framework)                                                                                                                                             |
 | 9          | [SSR VS CSR](#SSR-VS-CSR)                                                                                                                                                         |
+| 10         | [CI/CD](#CI/CD)                                                                                                                                                                   |
+| 11         | [Observable object](#Observable_object)                                                                                                                                           |
+| 12         | [relational vs non relationcal](#relational-vs-non-relationcal)                                                                                                                   |
 
 1.  ### What is scope
 
-    The scope determines the accessibility of variables. There are two types of scope(變數在程式中可以被存取的範圍)
+    The scope determines the accessibility of variables. There are two types of scope
 
     - Local Scope: Variable is declared inside the function become Local to the function
 
-      - Block Scope: Variables (let,const) declared within a block such as if condition, switch of for loop can only be access within it.
+      - Block Scope: Variables declared inside a { } block with let or const cannot be accessed from outside the block
 
       - Functon Scope: Variables declared inside the function with Var and is accessible inside that function but not outside of it
 
@@ -297,7 +303,7 @@
         | Var                                             | Let                         | Const                              |
         | ----------------------------------------------- | --------------------------- | ---------------------------------- |
         | Function Scope                                  | Block Scope                 | Block Scope                        |
-        | Declaration hoisted and initialize as undefined | Hoisted but not initialized | oisted but not initialized         |
+        | Declaration hoisted and initialize as undefined | Hoisted but not initialized | Hoisted but not initialized         |
         | updated and re-declared                         | updated but not re-declared | neither be updated nor re-declared |
 
     **[⬆ Back to Top](#table-of-contents)**
@@ -441,7 +447,7 @@ async function add(para) {
 
 17. ### What is DOM
 
-    > It is short for Document object Model and be created When a web page is loaded. It is constructed as a tree of object! JavaScript ccould access and change all HTML elements and attribute via DOM.
+    > It is short for Document object Model and be created When a web page is loaded. It is constructed as a tree of object! JavaScript could access and change all HTML elements and attribute via DOM.
 
     ```javascript
     // traverse parent node
@@ -760,11 +766,12 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
 
 41. ### Comparison Angular vs. React vs. Vue
 
-    |           | Angular    | React               | Vue                          |
-    | --------- | ---------- | ------------------- | ---------------------------- |
-    | Language  | TypeScript | JavaScript XML(JSX) | HTML template and JavaScript |
-    | Model     | MVC        | Virtial DOM         | Virtial DOM                  |
-    | Data Flow | Two-Way    | One-Way             | Both                         |
+    |              | Angular       | React                | Vue                          |
+    | ------------ | ------------- | -------------------- | ---------------------------- |
+    | Architecture | Completed MVC | Only the view of MVC | MVVC                         |
+    | Language     | TypeScript    | JavaScript XML(JSX)  | HTML template and JavaScript |
+    | DOM          | Real DOM      | Virtial DOM          | Virtial DOM                  |
+    | Data Flow    | Two-Way       | One-Way              | Both                         |
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -897,8 +904,7 @@ const mapDispatchToProps = (dispatch) => {
 
 51. ### What are Higher-Order components
     > A higher-order component (HOC) is a function that takes a component and returns a new component which allow to reuse component logic.
-    - HOC called connect to map store state to props.
-      > **[⬆ Back to Top](#table-of-contents)**
+    > **[⬆ Back to Top](#table-of-contents)**
 52. ### What are refs used for in React
     > Allow you to get direct access to a DOM element
     ```javascript
@@ -918,6 +924,9 @@ const mapDispatchToProps = (dispatch) => {
 
 - Props is an object get passed to the component from parent to child
 - State is the data managed within the component
+- Both pros and state could receive value from parent component
+- The state can be initialized by props
+- Props are read-only. State changes can be asynchronous.
   **[⬆ Back to Top](#table-of-contents)**
 
 54. ### What is the purpose of using super constructor with props argument
@@ -960,6 +969,29 @@ const mapDispatchToProps = (dispatch) => {
   - They often pass data to child components
     **[⬆ Back to Top](#table-of-contents)**
 
+59. ### foreach vs map
+        Foreach and map are two common method used for iteration the array.
+    > The first thing different is returning value.
+
+- forEach returns undefined and map return new array
+  > Which is better?
+- forEach nay be preferable when you are not try to change data in original array, but instead want to do something with it such as printing it out
+- map might be preoferable when changing data because it is faster and it returns a new Array, you can use map to iterate array and return element as HTML Element to build a table
+  **[⬆ Back to Top](#table-of-contents)**
+
+60. ### What are the advantages of using React
+
+- Use of Virtual DOM to improve efficiency
+  - React uses virtual DOM to render the view, virtual DOM is a virtual representation of the real DOM. It re-renders to new virtual DOM when there is trigger of change in the UI. The difference from the old virtual DOM and the new one will be recalculated to see what has changed. The browser is updated from the virtual DOM with what has changed
+- Reusable components
+  - component-based
+    **[⬆ Back to Top](#table-of-contents)**
+
+61. ### Pure Component
+
+- Prevents re-rendering of Component if props or state is the same because React implements the shouldComponentUpdate() method for them with a shallow comparison for props and state.
+  **[⬆ Back to Top](#table-of-contents)**
+
 # Bunus
 
 1. ### Difference between Methods and Functions
@@ -987,8 +1019,8 @@ const mapDispatchToProps = (dispatch) => {
 
 4. ### Advantages of JavaScript ES6 over ES5
 
-- Arrow function
-- Classes
+- Arrow function vs general function
+- Classes vs function
 - Block Scoping
 - Promise
   **[⬆ Back to Top](#table-of-contents)**
@@ -1077,3 +1109,25 @@ const mapDispatchToProps = (dispatch) => {
 
 - SEO!!!
   **[⬆ Back to Top](#table-of-contents)**
+
+10. ### CI/CD
+
+    > During developement phase, there are lots of code changes which need to be commited to the main branch. CI/CD helps us to check these changes do not break anything and impact other developers who work on the same branch.
+    > CI shorts for Continuous Integrate. CD shorts for continuous Delivery and deploy
+
+    > **[⬆ Back to Top](#table-of-contents)**
+
+11. ### Observable object
+    > Observables are also like callbacks and promises - that are responsible for handling async requests. However, unlike promise, Observables do not start emitting data until an observer has subscribed. We use Observable for handling a stream of data over time such as user event like click
+
+```javascript
+// For example, we use Observable for API such as DOM Addeventlistener
+// We create a function ClickHandler first
+// and use addeventlistenr to subscribe this click function, whenever user click, then ClickHandler will be executed. That is how we call Observable pattern design
+```
+
+12. ### relational vs non relationcal
+
+- A relational database is structured, meaning the data is organized in tables. Connect table using primary keys or foreign keys
+- A non relational database is not structure but flexible which can handle unstructured data
+  > **[⬆ Back to Top](#table-of-contents)**
