@@ -97,7 +97,7 @@
 
 2.  ### What is Closure Curry High order function
 
-    - A closure is a feature in JavaScript where an inner function has access to the outer function’s variables. (閉包是由函式引用其周邊狀態(詞法環境)綁在一起形成的(封裝)組合結構。在 JavaScript 中，閉包在每個函式被建立時形成。實際上，由於閉包與它的詞法環境綁在一起，因此閉包讓我們能夠從一個函式內部訪問其外部函式的作用域。)
+    - A closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time. (閉包是由函式引用其周邊狀態(詞法環境)綁在一起形成的(封裝)組合結構。在 JavaScript 中，閉包在每個函式被建立時形成。實際上，由於閉包與它的詞法環境綁在一起，因此閉包讓我們能夠從一個函式內部訪問其外部函式的作用域。) Ex. Curried functions are constructed by chaining closures by defining and immediately returning their inner functions simultaneously.
 
       - The scope manages the accessibility of variables. There can be a function or a block scope.
 
