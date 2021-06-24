@@ -67,6 +67,12 @@
 | 59         | [foreach vs map](#foreach-vs-map)                                                                                                                                                 |
 | 60         | [What are the advantages of using React](#What-are-the-advantages-of-using-React)                                                                                                 |
 | 61         | [Pure Component](#Pure-Component)                                                                                                                                                 |
+| 62         | [usecallback](#usecallback)                                                                                                                                                       |
+| 63         | [useref](#useref)                                                                                                                                                                 |
+| 64         | [useMemo and react memo](#useMemo-and-react-memo)                                                                                                                                 |
+| 65         | [useLayouteffect](#useLayouteffect)                                                                                                                                               |
+| 66         | [useReducer](#useReducer)                                                                                                                                                         |
+| 67         | [optimize react performace](#optimize-react-performace)                                                                                                                           |
 | Bonus      |
 | 1          | [Difference between Methods and Functions](#difference-between-methods-and-functions)                                                                                             |
 | 2          | [How to optimize React](#How-to-optimize-React)                                                                                                                                   |
@@ -992,6 +998,45 @@ const mapDispatchToProps = (dispatch) => {
 - Prevents re-rendering of Component if props or state is the same because React implements the shouldComponentUpdate() method for them with a shallow comparison for props and state.
   **[⬆ Back to Top](#table-of-contents)**
 
+62. ### usecallback
+
+    > Any time the component is updated, all the functions are re-created again.
+    > The useCallback hook receives a function as a parameter, and also an array of dependencies. useCallback will return a memoized version of the callback that only changes if one of the dependencies has changed
+
+    1. The purpose of useCallback()
+
+    - A functional component wrapped inside React.memo() accepts a function object prop
+    - When the function object is a dependency to other hooks, e.g. useEffect(..., [callback])
+      > **[⬆ Back to Top](#table-of-contents)**
+    2. Every line of code which is executed comes with a cost
+63. ### useref
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+64. ### useMemo and react memo
+    > React.memo is a higher order component. If your component renders the same result given the same props, you can wrap it in a call to React.memo. React will skip rendering the component, and reuse the last rendered result. It will only shallowly compare, if props is object, it will keep rendering due to pass by reference.
+
+- Pass compare function to second arguement => JSON.stringify(prevProps) === JSON.stringify(nextProps);
+  > useMemo can help the performance of an application by “remembering” expensive functions and preventing a re-render every time there is a change in the application. useMemo is similiar to useCallback,but it calls function first and return a memoized value , while useCallback returns a memoized function.
+  > use shallow compare
+  > **[⬆ Back to Top](#table-of-contents)**
+
+65. ### useLayouteffect
+
+    1. Interact with DOM(clientHeight、clientWidth)
+    2. No data fetching、event handler binding
+       **[⬆ Back to Top](#table-of-contents)**
+
+66. ### useReducer
+
+67. ### useselector and usedispatch
+    > Before, we had to import connect() from react-redux and wrap our components with it in order to map state to props and map dispatch to props so that we could communicate with store.
+
+- Useselector: takes in a function argument that returns the part of the state that you want.
+  - It could return any type of variable, but mapStateToProps must return an object
+  - It will compare with previous state to update component if they are different
+  - It use ===, mapStateToProps use ==
+
 # Bunus
 
 1. ### Difference between Methods and Functions
@@ -1004,7 +1049,7 @@ const mapDispatchToProps = (dispatch) => {
 
 - Class component: shouldComponentUpdate, PureComponent(state shadow compare)
 - Functional component: React.memo
-- React Hooks: useMemo
+- React Hooks: useMemo, usecallback, useReducer
   **[⬆ Back to Top](#table-of-contents)**
 
 3. ### Fix "0.1 + 0.2 = 0.300000004" in JavaScript

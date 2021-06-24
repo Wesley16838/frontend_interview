@@ -1,31 +1,5 @@
 # Behavior Question
 
-> Think of experience to meet the scenario
-> The STAR format stands for Situation, Task, Action, Result:
-
-- Situation: An event, project, or challenge faced
-- Task: Your responsibilities and assignments for the situation
-- Action: Steps or procedure taken to relieve or rectify situation
-- Result: Results of actions taken.
-
-> 14 Leadership Principles
-
-- Customer Obsession：Customer Feedback
-
-- Ownership：ASUS Product
-- Invent and Simplify
-- Are Right, A Lot
-- Learn and Be Curious: React Native & AWS
-- Hire and Develop the Best
-- Insist on the Highest Standards
-- Think Big
-- Bias for Action
-- Frugality
-- Earn Trust
-- Dive Deep
-- Have Backbone; Disagree and Commit
-- Deliver Results
-
 ### question
 
 - [Why AWS QuickSight and position?](#Why-AWS-QuickSight-and-position)
@@ -63,6 +37,8 @@
 - [Tell me about an unpopular decision of yours](#Tell-me-about-an-unpopular-decision-of-yours)
 - [What is the most difficult situation you have ever faced in your life](#What-is-the-most-difficult-situation-you-have-ever-faced-in-your-life)
 - [Can you tell me about a time when you were more than halfway through a project and had to pivot quickly due to an unexpected change](#Can-you-tell-me-about-a-time-when-you-were-more-than-halfway-through-a-project-and-had-to-pivot-quickly-due-to-an-unexpected-change)
+- [What Are Your Career Goals](#What-Are-Your-Career-Goals)
+- [Why do you want to leave your job](#Why-do-you-want-to-leave-your-job)
 - [Question and Answer](#Question-and-Answer)
 
 ### Why AWS QuickSight and position?
@@ -86,8 +62,10 @@ There are several reasons why?
 
 ### What are the characteristics of a good leader?
 
-- First of all, communication. A good communation skills are one of the leadership attributes that are absolutely crucial because a positive communication could inspire the team and make a good outcome. Ex. during my academic year, I collaborated with the 4-people team to build a website as a team leader. I am willing to encourage and inspire people even though they did not fulfill the requirement. One of my teammates was responsible for building a chart, but he did not properly apply the design to the end product. Thus, I encouraged him to go above and beyond expectation to make a better outcome. As a result, our team achieved high scores in the class and got positive feedback from the professor which was the best one he had ever seen.
-- Secondly, Think with different perspective. As a leader, I am not the learner anymore, instead, I am both learner and mentor. Therefore, as a mentor, learners are just like customers, I need to think like a customer and put myself into their shoes which means user experience is more important for learner during mentoring
+- First of all, communication. A good communation skills are one of the leadership attributes that are absolutely crucial because a positive communication could inspire the team and drive the team to success. Ex. during my time at Advantch, my team was responsible for developing water treatment management dashboard. We had an opportunity to show our dashboard to customer and communicated with them face to face in the international industrial automation exhibition. Since it was our first time to interact with real-world customer, our leader encouraged us to show all yourselves and should be proud of this project because it was a good chance to tell the world we are problem-solver, we could improve real-world issue. This short speech inspired us to succeed in the exhibition.
+
+- Secondly, Think with different perspective. As a leader, I am not the learner anymore, instead, I am both learner and mentor. Therefore, as a mentor, learners are just like customers, I need to think like a customer and put myself into their shoes. When I am teaching someone, I should think from someone's perpective so make sure we are speaking same language and to earn trust from teammate!
+
 - In conclusion, good leadership communication could inspire and encourage the team in order to drive the team success. And thinking with a different perspective could understand more what the team actually needs and help them more efficient.
   **[⬆ Back to Top](#question)**
 
@@ -146,44 +124,43 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Tell me about your strength and weakness and why?
 
-- Somethimes soft skill is more important than technical skill, I am very collaberative and willing to work with people to achieve the goal. During the time at ASUS as a frontend developer, I am a bridge between UI Designer and Backend Developer becasue I took the initiative to learn UI concept such as HOW TO USE COLOR IN IO DESIGN and also learn backend technique to understand more about RESTFUL API in order to make sure we speak the same language and could clearly express ideas to improve the efficiency of communication.
+- Sometimes soft skill is more important than technical skill, I am very collaberative and willing to work with people to achieve the goal. During the time at ASUS as a frontend developer, to minimize the communication gap between UI design and backend developer, I took the initiative to learn UI concept such as HOW TO USE COLOR IN DESIGN and also learn backend technique to understand more about RESTFUL API in order to make sure we speak the same language and could clearly express ideas to improve the efficiency of communication.
 
-- Lacking experience in solving issue, as a junior developer, I do not have lots of experience in Front-End development if compare with senior. However, I am a highly-proactive person who is willing to learn! During the time at ASUS, the most important thing I learn is how to solve the issue with the correct method. I need to understand data flow and architecture first, and then narrow the issue down(How and Ex?). In the past, I usually took lots of time on fixing the function directly rather than understood the data flow first.
+- Lacking experience in solving issue, as a junior developer, I do not have lots of experience in Front-End development if compare with senior. However, I am a highly-proactive person who is willing to learn! During the time at ASUS, the most important thing I learn is how to solve the issue with the correct method. I need to understand data flow and architecture first, and then narrow the issue down(How and Ex?). after understanding how dataflow work, I could clarify where the issue comes from. For example, when the user from Japanese report that the keyboard button would reset to default setting whenever restart the computer. I immediately knew whats going on because I was familiar with dataflow and knew where the bug was. According to the user behavior, I knew the issue was the condition of resetting default setting when switch keyboard's language.
   **[⬆ Back to Top](#question)**
 
 ### Challenge Project
 
 - HeartTrade
 
-  - I took the initiative to participate online Global Hackathon which encourage people to provide solutions to improve issue related to the COVID-19. The most difficult part was how to collaberate with a remote team to create a platfotm in three days! Since everyone worked from home, it was not effective to talk with teammate who were at different time zone. "Communication gap" was a biggest challenge for us and it was quite hard to track what each teammate has already done so far! Thus, the first thing we decided to do is using Trello to manage the team and arrange the schedule based on the time zone so each team member could stay on tracking the Project Progress. Secondly, we use Slack to keep in touch with teammates to have a effective communication. As a result, we successfully upload and deploy the project to Heroku by the deadline because we minimized the communication gap by using collaberation tool includes Trello and Slack to stay On tracking of Project Progress and keep in touch with eachother!
+  - I took the initiative to participate online Global Hackathon which encourage people to provide solutions to improve issue related to the COVID-19. The most difficult part was how to collaberate with a remote team to create a platfotm in three days! Since everyone worked from home, it was not effective to talk with teammate who were at different time zone. "Communication gap" was a biggest challenge for us! Thus, the first thing we decided to do is using Trello to manage the team and arrange the schedule based on the time zone so each team member could stay on tracking the Project Progress. Secondly, we use Slack to keep in touch with teammates to have an effective communication. As a result, we successfully upload and deploy the project to Heroku by the deadline because we minimized the communication gap by using collaberation tool includes Trello and Slack to stay On tracking of Project Progress and keep in touch with eachother!
     **[⬆ Back to Top](#question)**
 
 ### Proud Project
 
 - Advantech
 
-  - When I interned at Advantech, my team was responsible for developing water treatment management dashboard. Therefore, interns collaborated with the Front-End Team to optimize the dashboard to improve data analysis for better user experience and maximize the business benefit! I was responsible for creating new panels using AngularJS and Svg. As an agile team, we had sprint planning meeting once two weeks to create sprint task backlog for next sprint and also had Review and Retrospective meeting with Backend team from Beijing once two weeks to review what we had already accomplished and discuss how to improve development process. Most important at all, Intern had opportunity to present the dashboard to potential customer in the international exhibition and collected the feedback from them. At the end of the internship, my team won the intern award for excellence in teamwork.
-  - I felt a sense of achievement during the intern at Advantech because we had chance to show we have already done to real customer in the international exhibition and get the positive feedback from customer! I am really proud of this project becasue it not only improve my technical skill but also soft skill!
+  - When I interned at Advantech, my team was responsible for developing water treatment management dashboard. Therefore, interns collaborated with the Front-End Team to optimize the dashboard to improve data analysis for better user experience and maximize the business productivity! I was responsible for creating new panels using AngularJS and Svg. As an agile team, we had sprint planning meeting once two weeks to create sprint tasks for next sprint and also had Review and Retrospective meeting with Backend team from Beijing once two weeks to review what we had already accomplished and discuss how to improve development process. Most important at all, Intern had opportunity to present the dashboard to potential customer in the international exhibition and collected the feedback from them. At the end of the internship, my team won the intern award for excellence in teamwork.
+  - I felt a sense of achievement during the intern at Advantech because we had chance to show we have already done to real customer in the international exhibition and get the positive feedback from customer! I am really proud of this project becasue I not only show what we did the real-world customer but also won intern award.
 
-  - The difficult part is communicate with customer. Since it is my first to directly communicate with customer face to face. It was a good opportunity to improve my soft skill. It's almost impossible to satisfy all customer needs. Therefore, I try to listen their feedback and undersand what customer's needs to build a good relationship with them. One of feedback was customer would like to see all panels at the same time when page finish first time loading. However, we show panels asynchronously rather than synchronously because different types of equipments need different time to load data. Thus, to gain customer trust, I explained what the side effect is if we show all panel together at the same time and also provide feasible solution which is showing panel one by one base on priority.
     **[⬆ Back to Top](#question)**
 
 ### Tell me about a time when you had a group conflict and how did you overcome this conflict?
 
 - ASUS
-  - During the time at ASUS, I was responsible for gaming keyboard which is the main device in the app, so I have lots of chances to communicate with people from different departments. One of backend developers who was responsible for gaming keyboard like to avoid taking responsibility and he usually thought I could sovle the issue by front-end side, but sometimes it did not follow the data flow and make application slower. For example, he asked me to ask two http request to get all keyboard informtion. However, if I could only send one http request to get all infomation during intial loading, why do we need to send another request to get information again. This method did not follow the data flow and it would slow the performance down because of extra http requests. Therefore, I began to take more time on researching the structure of application, and collected more useful information to support my solution in order to express my idea clearly and convince him to follow the dataflow. As a result, I explained why I disagree with this solution due to data flow and performance and he agreed with that and successfully fixed the issue on the backend side.
+  - During my time at ASUS, I was responsible for gaming keyboard which is the main device in the app, so I have lots of chances to communicate with people from different departments. One of backend developers who was responsible for gaming keyboard like to avoid taking responsibility and he usually thought I could sovle the issue by front-end side, but sometimes it did not follow the data flow and make application slower. But I am not really familiar with structure of the app, I usually couldn't express my idea clearly at first. For example, he asked me to save gaming mode in the local file rather than in the device becuase he didn't know how to save it. In the first time loading, I need to send anothter reqeuest to set gaming mode and it could make app slower due to unnecessary request. Therefore, I began to take more time on researching the structure of application in order to express my idea clearly and convince him to follow the dataflow. As a result, I explained why I disagree with this solution due to the performance and he agreed with that and successfully fixed the issue on the backend side.
   - What I learned from this experience was how to communicate and collaberate with the co-work who are not willing to take responsibility. I need to learn more about application structure so that I could express my idea clearly and provide some feasible solutions with advantages and disadvantages before communication so I could convince them to do their tasks.
     **[⬆ Back to Top](#question)**
 
 ### The biggest mistake you made and what did you learn from it?
 
-- During the time at Advantech, my team have chance to present the visualization dashboard to customer in the international exhibition. The day before exhibition, one of panels did not work and I immediately admitted my mistake and did my best to clarify the issue as soon as possible! I checked CSS and found that display grid did not support IE browser. Since we did not have time to modify the code, so the solution we used was openning the panel on the Chrome and made a video for the panel and pasted it on the dashboard as an image! As a result, we successfully presented the dashboard to the customer without any issue!
-- What I learn is admitting the mistake first when I make a mistake and try to provide some feasible solution to minimize the cost of mistake rather than make excuses for someone, so we could earn the trust from manager or customer again.
+- During the time at Advantech, my team have chance to present the visualization dashboard to customer in the international exhibition. The day before exhibition, one of panels did not work and I immediately admitted my mistake and did my best to identify the cause of the problem as soon as possible! I checked CSS and found that display grid did not support IE browser because I forgot to add prefix -ms- in display property. Since we did not have time to modify the code, so the solution we used was openning the panel on the Chrome and made a video for the panel and pasted it on the dashboard as an image! As a result, we successfully presented the dashboard to the customer without any issue!
+- What I learn is admitting the mistake first when I make a mistake and try to provide some feasible solution to minimize the cost of mistake rather than making excuse, so we could earn the trust from manager or customer again.
   **[⬆ Back to Top](#question)**
 
 ### Give me an example of something you tried to accomplish but failed
 
-- During the time at Brilltek, I was responsibe for developing mobile app on both front-end and back-end. There was one time that manager asked us to present demo to customer in two days and it was not in our original plan. Thus, I immediately hold a meeting with teammate and customer to tell cusonter why we could not finish all features by the deadline but we could prioritize the features and make sure which features are more important for customer. As a result, we successfully presented demo to customer in two days but only high priority features. What I learn is keeping customer trust is important than anything even I fail on something. If I couldn’t finish task before deadline, I will admit my fault first and do my best to minimize the cost of this mistake by communicating with customers for possible solution to earn trust back from customer.
+- During the time at Brilltek, I was responsibe for developing mobile app on both front-end and back-end. There was one time that manager asked us to present demo to customer in two days and it was not in our original plan. Thus, I immediately hold a meeting with teammate and customer to tell customer why we could not finish all features by the deadline but we could prioritize the features and make sure which features are more important for customer. As a result, we successfully presented demo to customer in two days but only show features with high priority. What I learn is keeping customer trust is important than anything even I fail on something. If I couldn’t finish task before deadline, I will admit my fault first and do my best to minimize the cost of this mistake by communicating with customers for possible solution to earn trust back from customer.
   **[⬆ Back to Top](#question)**
 
 ### What is the impact of a front-end engineer
@@ -314,6 +291,22 @@ Choose company TSMC which is one of top semiconductor company in the world and A
 In the original plan, Power setting is global which means it did not change if I switch profile. However, Project manager suddenly asked me to modify the code and make Power setting change by profile! Thus, I immediately clarify how the data flow work from front-end to back-end when switching the profiles and re-design the structure for the power. As a result, I successfully update the power setting from global to by profile.
 
 **[⬆ Back to Top](#question)**
+
+### What Are Your Career Goals
+
+1. Short Term
+
+   - In the short term, since I am a junior develop, I would like to improve my technical skills first such as how to optimzie the performance of React App and also improve my soft skill such as communication skill because it will has lots of opportunity to collaberate with UX designer, software engineer and project manager.
+
+2. Long Term
+
+   - In the long term, I would like to manage a team as a team leader. I will take course about leadership on Udemy and proactively take on leadership positions in team projects. Secondly, I would like to become a full-stack developer in the future not only app development but also backend development!
+     **[⬆ Back to Top](#question)**
+
+### Why do you want to leave your job
+
+    1. I am looking for new challenges at work and improve both techncal skill and soft skill.
+    2. I will return to Amercia for green card and apply for citizenship
 
 ### Question and Answer
 
