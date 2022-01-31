@@ -2,7 +2,7 @@
 
 ### question
 
-- [Why Apple and position?](#Why-AWS-QuickSight-and-position)
+- [Why Apple?](#Why-Apple)
 - [Why Front-End Developer?](#Why-Front-End-Developer)
 - [What are the characteristics of a good leader?](#What-are-the-characteristics-of-a-good-leader)
 - [How to Choose the Right Technology Stack for learning?](#How-to-Choose-the-Right-Technology-Stack-for-learning)
