@@ -2,7 +2,7 @@
 
 ### question
 
-- [Why AWS QuickSight and position?](#Why-AWS-QuickSight-and-position)
+- [Why Apple and position?](#Why-AWS-QuickSight-and-position)
 - [Why Front-End Developer?](#Why-Front-End-Developer)
 - [What are the characteristics of a good leader?](#What-are-the-characteristics-of-a-good-leader)
 - [How to Choose the Right Technology Stack for learning?](#How-to-Choose-the-Right-Technology-Stack-for-learning)
@@ -41,28 +41,23 @@
 - [Why do you want to leave your job](#Why-do-you-want-to-leave-your-job)
 - [Question and Answer](#Question-and-Answer)
 
-### Why AWS QuickSight and position?
+### Why Apple?
 
-There are several reasons why?
-
-- I highly resonate with the value of the product
-  Amazon QuickSignt provides visualization tool to help business improve their productivity It not only uses machine learning to predict outcomes such as forecasting without prior data, but also embed analytics into application, empowering users to get deeper insights into the application’s data.
-- I am passionate about analyzing and visualizing data based on users' requirements to help business easily analyze data and make decisions based on the data! For example, I have experience in Data Visualization when I interned at Advantech. I was responsible for creating world-class water treatment management dashboard for the wastewater treatment plant. During the time at Advantech, my team had a chance to present the dashboard to customer in International exhibition and interacted with them directly. I felt a sense of achievement not only because present our project to the customer but we also actually provided a solution to business for improving decision making.
-  This is why I choose Amazon QuickSignt and this position because I am passionate about improving the user experience for customers by visualizing data based on their requirements.
+> I have used Apple products for years, and whenever they updated their User Interface design for websites and products, their innovation and development never fail to amaze me. Although their UI Design is insanely creative in style, Apple still always put the user first which mean Products is always easy to use no matter how innovative it looks. I am the person who like to think outside the box and provide meaningful and relevant experiences to client, that's why I like Apple because, at Apple, imagination has no limits, and our ideas maybe have a way of becoming products and providing a better user experience to the client.
   **[⬆ Back to Top](#question)**
 
 ### Why Front-End Developer?
 
 - There are several reasons why I choose Front-End Developer.
 - First of all, I am passionate about providing a solution to solve the real world problem! For example, I took the initiative to participate global hachathon and worked with 3 people to create a platform to deal with the shortage of daily supplies during Coronavirus Pandemic.
-- Secondly, I am eager to learn new technology and there are always lots of chances to learn new tech as a front-end developer because technology is constantly changing and never stops. For example, during my academic year, I worked with a team to visualize real-time data using D3.js which is one of popular visualization tool in job market.
-- Last but not least, a sense of accomplishment. As a front-end developer, our job is not only just creating an interface, but we could also visualize the data to help business maximize their productivity. For example, during the time at Advantech, my team was responsible for developing a water treatment management dashboard to make the equipment energy-saving and economical.
-- Thats why I choose Front-End Developer because I am passionate about providing a solution to solve the real world problem/ I am eager to learn new technology/ a sense of accomplishment
+- Secondly, I am eager to learn new technology and there are always lots of chances to learn new tech as a front-end developer because technology is constantly changing and never stops. For example, during my time in VISA, I worked on multiple projects using different technical stacks which I am not really familiar with such as Next.js, Angular, Kotlin, and Flutter.
+- Last but not least, the feeling of accomplishment. I like the moment when I present the app to customers and get positive feedback from them. It literally gives me lots of energy to create a better product. For example, during my time at Advantech, we had opportunity to present our product to customer in the Global Exhibition. Our product was presented near the entrance which means all of the people could see what we did directly when they went into building! I felt a sense of accomplishment when all people could see what product we created.
+- Thats why I choose Front-End Developer because I am passionate about providing a solution to solve the real world problem/ eager to learn new technology/ a sense of accomplishment.
   **[⬆ Back to Top](#question)**
 
 ### What are the characteristics of a good leader?
 
-- First of all, communication. A good communation skills are one of the leadership attributes that are absolutely crucial because a positive communication could inspire the team and drive the team to success. Ex. during my time at Advantch, my team was responsible for developing water treatment management dashboard. We had an opportunity to show our dashboard to customer and communicated with them face to face in the international industrial automation exhibition. Since it was our first time to interact with real-world customer, our leader encouraged us to show all yourselves and should be proud of this project because it was a good chance to tell the world we are problem-solver, we could improve real-world issue. This short speech inspired us to succeed in the exhibition.
+- First of all, communication plays an important role in becoming a better developer. As front-end developers, our job is not only just coding, there are lots of chances to communicate with designer/ backend. We are the bridge between them to make sure we speak the same language and are in the same boat. A better communication could raise productivity. 
 
 - Secondly, Think with different perspective. As a leader, I am not the learner anymore, instead, I am both learner and mentor. Therefore, as a mentor, learners are just like customers, I need to think like a customer and put myself into their shoes. When I am teaching someone, I should think from someone's perpective so make sure we are speaking same language and to earn trust from teammate!
 
@@ -71,44 +66,44 @@ There are several reasons why?
 
 ### How to Choose the Right Technology Stack for learning?
 
-- Personal Requirements: I am used to knowing what my requirement and purpose are first before choosing the technologies. For example, during my academic year, I was usually responsible for front-end development includes web and mobile, so I needed to learn more about front end development first to improve my skills.
+- Requirements: I am used to knowing what my requirement and purpose are first before choosing the technologies. For example, during my academic year, I was usually responsible for front-end development includes web and mobile, so I needed to learn more about front end development first to improve my skills.
 - Conduct Market research: In this case, whenever I applied for position of front-end developer, I took time on reviewing job requirement to understand what job market requirements for this role. For example, there are three popular frameworks which are Angular, React and Vue, and the React has already been the top framework in the market for a long time.
-- Cross-platform: I have experience in mobile development using natvie language which are JAVA and Swift! Thus, I knew it took lots of time on learning two different language. I choose to learn React Native which is a cross platform technology it save lots of time on application development.
+- Cross-platform: I have experience in mobile development using natvie language which are JAVA and Swift! Thus, I knew it took lots of time on learning two different languages. I choose to learn React Native/ Flutter which is a cross platform technology it save lots of time on application development.
 
   **[⬆ Back to Top](#question)**
 
 ### How to Choose the Right Technology Stack for Your Project?
 
-In my last role, when I collaberated with 3-people team in Global Hackathon and needed to create a website in three 3 days, I knew that choosing the right technology stack plays an important role because we didn't have lots of time on it. Therefore, there are 3 things to consider when I choose a tech stack!
+I participated in Hackathon and needed to create three websites in three weeks, I knew that choosing the right technology stack plays an important role because we didn't have lots of time on it. Therefore, there are 3 things to consider when I choose a tech stack!
 
 1. First of all, project requirements:
 
-- We built a features list and prioritize features base on the purpose of the website, daily supply exchanging. After making sure the Scope of Project, Node.js and React.js can be perfect for small project.
+- We built a features list and prioritize features base on the purpose of the websites which are the Guide of Tourist, bus tracker and cycling route in Taiwan. Besides, we only need to focus on Front-end side because the organizer provided api to us.After  making sure the Scope of Project, Next.js can be perfect for these projects cuz Next.js does not need to add page component to the router 
 
 2. Secondly, experience:
 
-- I have more experience in React.js, Redux and it's ecosystem. Thus, using React could save time on development because I am more familiar with React.js.
+- I have more experience in React.js, Redux and it's ecosystem. So I think using React could save lots of time on development because I am more familiar with React.js.
 
 3. Last, follow trends:
 
-- I am willing to learn unfamiliar technologies but I will research its ecosystem to make sure whether its popular or not in the job market. I conduted maerket survey and found that React Hooks was popular at that time, so my final choices are Hooks.
+- I am willing to learn unfamiliar technologies but I will research its ecosystem to make sure whether its popular or not in the job market. I reviewed market survey and found that React Hooks was popular at that time, so my final choices are Hooks.
   **[⬆ Back to Top](#question)**
 
 ### What did I do if there are not lots of document and resource to search?
 
-If I have already chose there tech stack, then I will do three things if I do not have lots of time!
+I will do three things if I do not have lots of time!
 
-1.  First of all, read Document and technical article.
+1.  First of all, read official Documentation and technical article.
 
 - Document and technical article are always the best partner for me. I would take time on reading document first and choose the right article based on the feature I am going to develop.
 
-2. Secondly, Search:
+2. Secondly, Search by google:
 
 - Stack Overflow which is a question and answer platform that could be a perfect partner for me. I could find a little useful information and then complete the jigsaw puzzle eventually!
 
 3. Last, ask:
 
-- If I still could not solve some specific problems, do not be shy to ask! Like what I mention above, I will post a question on Stack Overflow to ask for help. Not only i could improve my soft skills by communicating with other people, but I could also enhence my technical skills by getting advices from expert.
+- If I still could not solve some specific problems, do not be shy to ask! Like what I mention above, I will post a question on Stack Overflow to ask for help. Not only i could improve my soft skills by communicating with other people, but I could also enhence my technical skills by getting expertise from expert.
   **[⬆ Back to Top](#question)**
 
 ### What is the most important characteristic for software engineer?
@@ -131,9 +126,14 @@ If I have already chose there tech stack, then I will do three things if I do no
 
 ### Challenge Project
 
-- HeartTrade
+- Flutter App
+  - Since I am new to this project and project owner in my team, I have to face most of the challenges which are not related to coding by myself such as communication and presentation. The first challenge is communication, before joining VISA, I was only responsible for coding and communicating with designers but not communicating with higher-level people such as senior directors or staff which means I was not the person who assign tasks to teammate or schedule weekly plan for team. 
+  - so overcome the challenge, I usually take initiative to sync up with project manager to organize notes before/after every weekly meetings to make sure we are always on the same page. Besides, I proactively discuss the detail of user flow with designers before creating new features or modifying existing features so I could prevent assigning tasks that I am not familiar with to teammates and I could also answer all questions they ask. 
 
-  - I took the initiative to participate online Global Hackathon which encourage people to provide solutions to improve issue related to the COVID-19. The most difficult part was how to collaberate with a remote team to create a platfotm in three days! Since everyone worked from home, it was not effective to talk with teammate who were at different time zone. "Communication gap" was a biggest challenge for us! Thus, the first thing we decided to do is using Trello to manage the team and arrange the schedule based on the time zone so each team member could stay on tracking the Project Progress. Secondly, we use Slack to keep in touch with teammates to have an effective communication. As a result, we successfully upload and deploy the project to Heroku by the deadline because we minimized the communication gap by using collaberation tool includes Trello and Slack to stay On tracking of Project Progress and keep in touch with eachother!
+  - The second challenge is presentation, it is the first time for me to be the owner of one project as a developer which means I need to demo the project to stakeholders, meanwhile doing my best to answer all questions about development. 
+  - Therefore, I prefer preparing slides and taking time on practicing and reviewing todolist before the presentation so that I could present the product to stakeholders much better!
+
+  - Honestly, I am still working on looking for every missing jigsaw puzzle and trying my best to put them together. I felt frustrated and confused at first, but I found that despite I am the only developer who is responsible for this project, it doesn't mean I am the only person who tries to put all pieces of jigsaw puzzle together. We can keep communicating and help with each other. After all, team-work makes dream work
     **[⬆ Back to Top](#question)**
 
 ### Proud Project
